@@ -1,0 +1,47 @@
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 100%;
+        margin: 100px 0 40px;
+    }
+
+    .slick-slide {
+      margin: 0px 40px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: 1;
+    }
+    
+    .slick-active {
+      opacity: 1;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+    .slick-prev, .slick-next {
+    height: 15px;
+    width: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    /* to position the arrows left and right at the bottom of slider */
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+}

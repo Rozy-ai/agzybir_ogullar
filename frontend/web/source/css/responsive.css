@@ -1,0 +1,56 @@
+@media (max-width:1400px){
+
+}
+@media (max-width:1366px){
+
+}
+@media (max-width:1250px){
+
+}
+@media (max-width: 1199px){
+
+}
+
+@media (max-width:1024px){
+
+}
+
+@media (max-width:991px){
+
+.service_hr{
+	display: none;
+}
+.btn_service{
+    padding: 2px 10px;
+}
+.service_item p{
+    padding-bottom: 20px;
+}
+.contact_inner h1{
+margin-top: 0!important;
+}
+}
+@media (max-width:767px){
+
+}
+
+@media (max-width:650px){
+
+}
+
+@media (max-width:600px){
+
+}
+
+@media (max-width:576px){
+
+}
+
+@media (max-width:480px){
+
+}
+
+
+@media (max-width:380px){
+
+}

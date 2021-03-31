@@ -1,0 +1,830 @@
+2017-05-17 14:19:25 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "mugrate/up".' in D:\xampp\htdocs\maro\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('mugrate/up', Array)
+#1 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('mugrate/up', Array)
+#2 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 D:\xampp\htdocs\maro\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "mugrate/up".' in D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('mugrate/up', Array)
+#1 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\xampp\htdocs\maro\yii(27): yii\base\Application->run()
+#3 {main}
+2017-05-17 14:19:25 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANT_HOME' => 'C:\\dev\\apache-ant-1.9.7'
+    'APPDATA' => 'C:\\Users\\Fujitsu\\AppData\\Roaming'
+    'APR_ICONV1_PATH' => 'C:\\Program Files (x86)\\WANdisco\\uberSVN\\bin\\iconv'
+    'APR_ICONV_PATH' => 'C:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'FUJITSU-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DOCKER_TOOLBOX_INSTALL_PATH' => 'C:\\Program Files\\Docker Toolbox'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GYP_MSVS_VERSION' => '2015'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Fujitsu'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_72'
+    'LOCALAPPDATA' => 'C:\\Users\\Fujitsu\\AppData\\Local'
+    'LOGONSERVER' => '\\\\FUJITSU-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'C:\\Program Files\\PostgreSQL\\psqlODBC\\etc\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\WANdisco\\uberSVN\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;JAVA_HOME%\\bin;C:\\dev\\apache-ant-1.9.7\\bin;D:\\setups\\grails\\grails-3.1.11\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Users\\Fujitsu\\bin\\Sencha\\Cmd;C:\\Users\\Fujitsu\\bin\\Sencha\\Cmd\\6.1.3.42/..;C:\\Source\\SenchaCmd\\bin;C:\\Ruby200-x64\\bin;C:\\Users\\Fujitsu\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Docker Toolbox;C:\\Users\\Fujitsu\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Fujitsu\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Fujitsu\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Fujitsu-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'Fujitsu-PC'
+    'USERNAME' => 'Fujitsu'
+    'USERPROFILE' => 'C:\\Users\\Fujitsu'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'VS140COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'PHP_SELF' => 'D:\\xampp\\htdocs\\maro\\yii'
+    'SCRIPT_NAME' => 'D:\\xampp\\htdocs\\maro\\yii'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\maro\\yii'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\maro\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1495023565.1425
+    'REQUEST_TIME' => 1495023565
+    'argv' => [
+        0 => 'D:\\xampp\\htdocs\\maro\\yii'
+        1 => 'mugrate/up'
+    ]
+    'argc' => 2
+]
+2017-05-17 14:19:40 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists' in D:\xampp\htdocs\maro\vendor\yiisoft\yii2\db\Command.php:846
+Stack trace:
+#0 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\db\Command.php(846): PDOStatement->execute()
+#1 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\db\Migration.php(274): yii\db\Command->execute()
+#2 D:\xampp\htdocs\maro\console\migrations\m130524_201442_init.php(26): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(654): m130524_201442_init->up()
+#4 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 D:\xampp\htdocs\maro\yii(27): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists
+The SQL being executed was: CREATE TABLE `user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` varchar(255) NOT NULL UNIQUE,
+	`auth_key` varchar(32) NOT NULL,
+	`password_hash` varchar(255) NOT NULL,
+	`password_reset_token` varchar(255) UNIQUE,
+	`email` varchar(255) NOT NULL UNIQUE,
+	`status` smallint(6) NOT NULL DEFAULT 10,
+	`created_at` int(11) NOT NULL,
+	`updated_at` int(11) NOT NULL
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB' in D:\xampp\htdocs\maro\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\db\Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `u...')
+#1 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\db\Migration.php(274): yii\db\Command->execute()
+#2 D:\xampp\htdocs\maro\console\migrations\m130524_201442_init.php(26): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(654): m130524_201442_init->up()
+#4 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 D:\xampp\htdocs\maro\yii(27): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'user' already exists
+)
+
+2017-05-17 14:19:34 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANT_HOME' => 'C:\\dev\\apache-ant-1.9.7'
+    'APPDATA' => 'C:\\Users\\Fujitsu\\AppData\\Roaming'
+    'APR_ICONV1_PATH' => 'C:\\Program Files (x86)\\WANdisco\\uberSVN\\bin\\iconv'
+    'APR_ICONV_PATH' => 'C:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'FUJITSU-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DOCKER_TOOLBOX_INSTALL_PATH' => 'C:\\Program Files\\Docker Toolbox'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GYP_MSVS_VERSION' => '2015'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Fujitsu'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_72'
+    'LOCALAPPDATA' => 'C:\\Users\\Fujitsu\\AppData\\Local'
+    'LOGONSERVER' => '\\\\FUJITSU-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'C:\\Program Files\\PostgreSQL\\psqlODBC\\etc\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\WANdisco\\uberSVN\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;JAVA_HOME%\\bin;C:\\dev\\apache-ant-1.9.7\\bin;D:\\setups\\grails\\grails-3.1.11\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Users\\Fujitsu\\bin\\Sencha\\Cmd;C:\\Users\\Fujitsu\\bin\\Sencha\\Cmd\\6.1.3.42/..;C:\\Source\\SenchaCmd\\bin;C:\\Ruby200-x64\\bin;C:\\Users\\Fujitsu\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Docker Toolbox;C:\\Users\\Fujitsu\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Fujitsu\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Fujitsu\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Fujitsu-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'Fujitsu-PC'
+    'USERNAME' => 'Fujitsu'
+    'USERPROFILE' => 'C:\\Users\\Fujitsu'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'VS140COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'PHP_SELF' => 'D:\\xampp\\htdocs\\maro\\yii'
+    'SCRIPT_NAME' => 'D:\\xampp\\htdocs\\maro\\yii'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\maro\\yii'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\maro\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1495023574.9701
+    'REQUEST_TIME' => 1495023574
+    'argv' => [
+        0 => 'D:\\xampp\\htdocs\\maro\\yii'
+        1 => 'migrate/up'
+    ]
+    'argc' => 2
+]
+2017-05-17 14:20:00 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists' in D:\xampp\htdocs\maro\vendor\yiisoft\yii2\db\Command.php:846
+Stack trace:
+#0 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\db\Command.php(846): PDOStatement->execute()
+#1 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\db\Migration.php(274): yii\db\Command->execute()
+#2 D:\xampp\htdocs\maro\console\migrations\m130524_201442_init.php(26): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(654): m130524_201442_init->up()
+#4 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('m160929_103127_...')
+#6 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 D:\xampp\htdocs\maro\yii(27): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists
+The SQL being executed was: CREATE TABLE `user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` varchar(255) NOT NULL UNIQUE,
+	`auth_key` varchar(32) NOT NULL,
+	`password_hash` varchar(255) NOT NULL,
+	`password_reset_token` varchar(255) UNIQUE,
+	`email` varchar(255) NOT NULL UNIQUE,
+	`status` smallint(6) NOT NULL DEFAULT 10,
+	`created_at` int(11) NOT NULL,
+	`updated_at` int(11) NOT NULL
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB' in D:\xampp\htdocs\maro\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\db\Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `u...')
+#1 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\db\Migration.php(274): yii\db\Command->execute()
+#2 D:\xampp\htdocs\maro\console\migrations\m130524_201442_init.php(26): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(654): m130524_201442_init->up()
+#4 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('m160929_103127_...')
+#6 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('up', Array)
+#9 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('up', Array)
+#10 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 D:\xampp\htdocs\maro\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 D:\xampp\htdocs\maro\yii(27): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'user' already exists
+)
+
+2017-05-17 14:19:58 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANT_HOME' => 'C:\\dev\\apache-ant-1.9.7'
+    'APPDATA' => 'C:\\Users\\Fujitsu\\AppData\\Roaming'
+    'APR_ICONV1_PATH' => 'C:\\Program Files (x86)\\WANdisco\\uberSVN\\bin\\iconv'
+    'APR_ICONV_PATH' => 'C:\\Program Files (x86)\\Subversion\\iconv'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'FUJITSU-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DOCKER_TOOLBOX_INSTALL_PATH' => 'C:\\Program Files\\Docker Toolbox'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GYP_MSVS_VERSION' => '2015'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Fujitsu'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_72'
+    'LOCALAPPDATA' => 'C:\\Users\\Fujitsu\\AppData\\Local'
+    'LOGONSERVER' => '\\\\FUJITSU-PC'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'C:\\Program Files\\PostgreSQL\\psqlODBC\\etc\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files (x86)\\WANdisco\\uberSVN\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;JAVA_HOME%\\bin;C:\\dev\\apache-ant-1.9.7\\bin;D:\\setups\\grails\\grails-3.1.11\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Subversion\\bin;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Users\\Fujitsu\\bin\\Sencha\\Cmd;C:\\Users\\Fujitsu\\bin\\Sencha\\Cmd\\6.1.3.42/..;C:\\Source\\SenchaCmd\\bin;C:\\Ruby200-x64\\bin;C:\\Users\\Fujitsu\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Docker Toolbox;C:\\Users\\Fujitsu\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Fujitsu\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Fujitsu\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Fujitsu-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'Fujitsu-PC'
+    'USERNAME' => 'Fujitsu'
+    'USERPROFILE' => 'C:\\Users\\Fujitsu'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'VS140COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'PHP_SELF' => 'D:\\xampp\\htdocs\\maro\\yii'
+    'SCRIPT_NAME' => 'D:\\xampp\\htdocs\\maro\\yii'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\maro\\yii'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\maro\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1495023598.2119
+    'REQUEST_TIME' => 1495023598
+    'argv' => [
+        0 => 'D:\\xampp\\htdocs\\maro\\yii'
+        1 => 'migrate/up'
+        2 => 'm160929_103127_add_last_login_at_to_user_table.php'
+    ]
+    'argc' => 3
+]
+2021-02-05 18:48:37 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists in C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('CREATE TABLE `u...')
+#2 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 C:\OSPanel\domains\takykceshme\console\migrations\m130524_201442_init.php(26): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#4 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#5 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#10 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 C:\OSPanel\domains\takykceshme\yii(27): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists
+The SQL being executed was: CREATE TABLE `user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` varchar(255) NOT NULL UNIQUE,
+	`auth_key` varchar(32) NOT NULL,
+	`password_hash` varchar(255) NOT NULL,
+	`password_reset_token` varchar(255) UNIQUE,
+	`email` varchar(255) NOT NULL UNIQUE,
+	`status` smallint(6) NOT NULL DEFAULT 10,
+	`created_at` int(11) NOT NULL,
+	`updated_at` int(11) NOT NULL
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB in C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `u...')
+#1 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('CREATE TABLE `u...')
+#2 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 C:\OSPanel\domains\takykceshme\console\migrations\m130524_201442_init.php(26): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#4 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#5 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#10 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 C:\OSPanel\domains\takykceshme\yii(27): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'user' already exists
+)
+
+2021-02-05 18:48:33 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '84x1000 (84x38)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'USER-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x00150482'
+    'ConEmuBaseDir' => 'C:\\ospanel\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '161206'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'C:\\ospanel\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x000C03B6'
+    'ConEmuDrive' => 'C:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x000D03C2'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '3696'
+    'ConEmuServerPID' => '5472'
+    'ConEmuWorkDir' => 'c:\\ospanel'
+    'ConEmuWorkDrive' => 'c:'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GoLand' => 'C:\\Program Files\\JetBrains\\GoLand 2020.3\\bin;'
+    'GOPATH' => 'C:\\Users\\User\\go'
+    'HOME' => 'c:\\ospanel'
+    'HOMEDRIVE' => 'c:'
+    'HOMEPATH' => '\\ospanel'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'LOGONSERVER' => '\\\\USER-PC'
+    'MAGICK_CODER_FILTER_PATH' => 'c:\\ospanel\\modules\\imagemagick\\modules\\filters'
+    'MAGICK_CODER_MODULE_PATH' => 'c:\\ospanel\\modules\\imagemagick\\modules\\coders'
+    'MAGICK_CONFIGURE_PATH' => 'c:\\ospanel\\modules\\imagemagick'
+    'MAGICK_HOME' => 'c:\\ospanel\\modules\\imagemagick'
+    'MAGICK_TEMPORARY_PATH' => 'c:\\ospanel\\userdata\\temp'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Tracker Software\\PDF Viewer\\Win32\\'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OPENSSL_CONF' => 'c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ospanel\\modules\\conemu\\ConEmu\\Scripts;C:\\ospanel\\modules\\conemu;C:\\ospanel\\modules\\conemu\\ConEmu;c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.exe'
+    'PHPDIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\'
+    'PHPRC' => 'c:\\ospanel\\modules\\php\\PHP-7.2'
+    'PHP_BIN' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.exe'
+    'PHP_BINARY' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.exe'
+    'PHP_BINDIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\'
+    'PHP_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\'
+    'PHP_INI' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 20 Model 2 Stepping 0, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '20'
+    'PROCESSOR_REVISION' => '0200'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'c:\\ospanel\\userdata\\temp'
+    'TMP' => 'c:\\ospanel\\userdata\\temp'
+    'USERDOMAIN' => 'User-PC'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1612532913.9335
+    'REQUEST_TIME' => 1612532913
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+        2 => 'admin'
+    ]
+    'argc' => 3
+]
+2021-02-05 19:17:01 [-][-][-][error][Error] Error: Class 'User' not found in C:\OSPanel\domains\takykceshme\console\migrations\m130524_201442_init.php:11
+Stack trace:
+#0 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#1 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#2 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#3 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#6 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#7 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#8 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#9 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 C:\OSPanel\domains\takykceshme\yii(27): yii\base\Application->run()
+#11 {main}
+2021-02-05 19:16:55 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '84x1000 (84x38)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'USER-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x00150482'
+    'ConEmuBaseDir' => 'C:\\ospanel\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '161206'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'C:\\ospanel\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x000C03B6'
+    'ConEmuDrive' => 'C:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x000D03C2'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '3696'
+    'ConEmuServerPID' => '5472'
+    'ConEmuWorkDir' => 'c:\\ospanel'
+    'ConEmuWorkDrive' => 'c:'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GoLand' => 'C:\\Program Files\\JetBrains\\GoLand 2020.3\\bin;'
+    'GOPATH' => 'C:\\Users\\User\\go'
+    'HOME' => 'c:\\ospanel'
+    'HOMEDRIVE' => 'c:'
+    'HOMEPATH' => '\\ospanel'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'LOGONSERVER' => '\\\\USER-PC'
+    'MAGICK_CODER_FILTER_PATH' => 'c:\\ospanel\\modules\\imagemagick\\modules\\filters'
+    'MAGICK_CODER_MODULE_PATH' => 'c:\\ospanel\\modules\\imagemagick\\modules\\coders'
+    'MAGICK_CONFIGURE_PATH' => 'c:\\ospanel\\modules\\imagemagick'
+    'MAGICK_HOME' => 'c:\\ospanel\\modules\\imagemagick'
+    'MAGICK_TEMPORARY_PATH' => 'c:\\ospanel\\userdata\\temp'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Tracker Software\\PDF Viewer\\Win32\\'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OPENSSL_CONF' => 'c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ospanel\\modules\\conemu\\ConEmu\\Scripts;C:\\ospanel\\modules\\conemu;C:\\ospanel\\modules\\conemu\\ConEmu;c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.exe'
+    'PHPDIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\'
+    'PHPRC' => 'c:\\ospanel\\modules\\php\\PHP-7.2'
+    'PHP_BIN' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.exe'
+    'PHP_BINARY' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.exe'
+    'PHP_BINDIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\'
+    'PHP_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\'
+    'PHP_INI' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 20 Model 2 Stepping 0, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '20'
+    'PROCESSOR_REVISION' => '0200'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'c:\\ospanel\\userdata\\temp'
+    'TMP' => 'c:\\ospanel\\userdata\\temp'
+    'USERDOMAIN' => 'User-PC'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1612534615.4208
+    'REQUEST_TIME' => 1612534615
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2021-02-05 19:17:54 [-][-][-][error][Error] Error: Class 'coommon\models\user\User' not found in C:\OSPanel\domains\takykceshme\console\migrations\m130524_201442_init.php:12
+Stack trace:
+#0 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#1 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#2 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#3 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#6 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#7 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#8 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#9 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 C:\OSPanel\domains\takykceshme\yii(27): yii\base\Application->run()
+#11 {main}
+2021-02-05 19:17:49 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '84x1000 (84x38)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'USER-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x00150482'
+    'ConEmuBaseDir' => 'C:\\ospanel\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '161206'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'C:\\ospanel\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x000C03B6'
+    'ConEmuDrive' => 'C:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x000D03C2'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '3696'
+    'ConEmuServerPID' => '5472'
+    'ConEmuWorkDir' => 'c:\\ospanel'
+    'ConEmuWorkDrive' => 'c:'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GoLand' => 'C:\\Program Files\\JetBrains\\GoLand 2020.3\\bin;'
+    'GOPATH' => 'C:\\Users\\User\\go'
+    'HOME' => 'c:\\ospanel'
+    'HOMEDRIVE' => 'c:'
+    'HOMEPATH' => '\\ospanel'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'LOGONSERVER' => '\\\\USER-PC'
+    'MAGICK_CODER_FILTER_PATH' => 'c:\\ospanel\\modules\\imagemagick\\modules\\filters'
+    'MAGICK_CODER_MODULE_PATH' => 'c:\\ospanel\\modules\\imagemagick\\modules\\coders'
+    'MAGICK_CONFIGURE_PATH' => 'c:\\ospanel\\modules\\imagemagick'
+    'MAGICK_HOME' => 'c:\\ospanel\\modules\\imagemagick'
+    'MAGICK_TEMPORARY_PATH' => 'c:\\ospanel\\userdata\\temp'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Tracker Software\\PDF Viewer\\Win32\\'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OPENSSL_CONF' => 'c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ospanel\\modules\\conemu\\ConEmu\\Scripts;C:\\ospanel\\modules\\conemu;C:\\ospanel\\modules\\conemu\\ConEmu;c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.exe'
+    'PHPDIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\'
+    'PHPRC' => 'c:\\ospanel\\modules\\php\\PHP-7.2'
+    'PHP_BIN' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.exe'
+    'PHP_BINARY' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.exe'
+    'PHP_BINDIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\'
+    'PHP_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\'
+    'PHP_INI' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 20 Model 2 Stepping 0, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '20'
+    'PROCESSOR_REVISION' => '0200'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'c:\\ospanel\\userdata\\temp'
+    'TMP' => 'c:\\ospanel\\userdata\\temp'
+    'USERDOMAIN' => 'User-PC'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1612534669.1829
+    'REQUEST_TIME' => 1612534669
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2021-02-05 19:18:15 [-][-][-][error][Error] Error: Class 'coommon\models\User' not found in C:\OSPanel\domains\takykceshme\console\migrations\m130524_201442_init.php:12
+Stack trace:
+#0 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#1 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#2 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#3 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#6 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#7 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#8 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#9 C:\OSPanel\domains\takykceshme\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 C:\OSPanel\domains\takykceshme\yii(27): yii\base\Application->run()
+#11 {main}
+2021-02-05 19:18:13 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '84x1000 (84x38)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\User\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'USER-PC'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x00150482'
+    'ConEmuBaseDir' => 'C:\\ospanel\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '161206'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'C:\\ospanel\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x000C03B6'
+    'ConEmuDrive' => 'C:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x000D03C2'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '3696'
+    'ConEmuServerPID' => '5472'
+    'ConEmuWorkDir' => 'c:\\ospanel'
+    'ConEmuWorkDrive' => 'c:'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GoLand' => 'C:\\Program Files\\JetBrains\\GoLand 2020.3\\bin;'
+    'GOPATH' => 'C:\\Users\\User\\go'
+    'HOME' => 'c:\\ospanel'
+    'HOMEDRIVE' => 'c:'
+    'HOMEPATH' => '\\ospanel'
+    'LOCALAPPDATA' => 'C:\\Users\\User\\AppData\\Local'
+    'LOGONSERVER' => '\\\\USER-PC'
+    'MAGICK_CODER_FILTER_PATH' => 'c:\\ospanel\\modules\\imagemagick\\modules\\filters'
+    'MAGICK_CODER_MODULE_PATH' => 'c:\\ospanel\\modules\\imagemagick\\modules\\coders'
+    'MAGICK_CONFIGURE_PATH' => 'c:\\ospanel\\modules\\imagemagick'
+    'MAGICK_HOME' => 'c:\\ospanel\\modules\\imagemagick'
+    'MAGICK_TEMPORARY_PATH' => 'c:\\ospanel\\userdata\\temp'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Tracker Software\\PDF Viewer\\Win32\\'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OPENSSL_CONF' => 'c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ospanel\\modules\\conemu\\ConEmu\\Scripts;C:\\ospanel\\modules\\conemu;C:\\ospanel\\modules\\conemu\\ConEmu;c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.exe'
+    'PHPDIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\'
+    'PHPRC' => 'c:\\ospanel\\modules\\php\\PHP-7.2'
+    'PHP_BIN' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.exe'
+    'PHP_BINARY' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.exe'
+    'PHP_BINDIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\'
+    'PHP_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\'
+    'PHP_INI' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 20 Model 2 Stepping 0, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '20'
+    'PROCESSOR_REVISION' => '0200'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'c:\\ospanel\\userdata\\temp'
+    'TMP' => 'c:\\ospanel\\userdata\\temp'
+    'USERDOMAIN' => 'User-PC'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Users\\User'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1612534693.4823
+    'REQUEST_TIME' => 1612534693
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]

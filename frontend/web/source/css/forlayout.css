@@ -1,0 +1,115 @@
+body {
+  display:flex;
+  align-items:center;
+  height: 100vh;
+}
+.login{
+	font-family: 'Montserrat', sans-serif;
+	background: rgb(123,85,201);
+	background: linear-gradient(90deg, rgba(123,85,201,1) 0%, rgba(181,82,195,1) 100%);
+}
+.login .container{
+	background-color: #fff;
+}
+.login h1{
+	font-weight: bold;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.login a{
+	text-transform: uppercase;
+}
+.login img{
+	margin-top: 30%;
+}
+#login-form-login{
+	margin-top: 20%;
+	padding: 20px 40px;
+	border-radius: 20px;
+	background-color: #E6E6E6;
+}
+#login-form-password{
+	padding: 20px 40px;
+	border-radius: 20px;
+	background-color: #E6E6E6;
+}
+.btn-block{
+	margin-top: 30px;
+	padding: 10px 0;
+	border-radius: 20px;
+}
+.logo img{
+	margin-top: 40%;
+}
+.input{
+	position: relative;
+}
+.input i{
+	position: absolute;
+	left: 17px;
+	top: 12px;
+}
+.password{
+	position: relative;
+}
+.password i{
+	position: absolute;
+	left: 17px;
+	top: 12px;
+}
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.login h1{
+	font-size: 24px;
+}
+#login-form-login{
+	font-size: 14px!important;
+}
+#login-form-password{
+	font-size: 14px!important;
+}
+.btn-block{
+	font-size: 14px!important;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.login{
+	background: none;
+}
+.login h1{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.login a{
+	font-size: 14px;
+}
+.login img{
+	margin-top: 5%;
+}
+.logo img{
+	width: 60%;
+	margin-left: 20%;
+}
+#login-form-login{
+	margin-top: 5%;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
