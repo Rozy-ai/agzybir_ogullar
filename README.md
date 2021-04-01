@@ -1,3 +1,3 @@
-# Takyk cheshme
+# Agzybir ogullar
 
-Takyk Cheshme
+Agzybir ogullar
