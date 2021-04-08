@@ -14,6 +14,17 @@ $services = \common\models\wrappers\ItemWrapper::find()->where(['category_id' =>
 $works = \common\models\wrappers\ItemWrapper::find()->where(['parent_category_id' => $catIdsecond, 'status' => '1'])->orderBy('Rand()')->all();
 ?>
 <header class="header_area p_absoulte m_p sticky_nav navbar_fixed">
+ <div class="container">
+      <div class="row header_top">
+        <p class="header_info"> <i class="fa fa-phone"></i> (+99312) 958662 </p>
+        <p class="header_info"> <i class="fa fa-envelope"> test@gmail.com</i> </p>
+        <p class="header_info"> <i class="fa fa-clock-o"> Du-Sb/ 9:00-8:00 </i> </p>
+        <div class="lang_img">
+          <img src="img/flag/russia.png" alt="russian">
+          <img src="img/flag/turkmenistan.png" alt="turkmen">
+        </div>
+      </div>
+    </div>
     <nav class="navbar" id="header">
         <div class="container-fluid">
             <div class="logo_info">

@@ -24,6 +24,7 @@ class AppAsset extends AssetBundle
         // 'source/css/main.css',
 //        'source/plugins/nonid/style.css',
         'source/css/site.css?v=1.0.1',
+        'source/css/for_agzybir.css',
         'source/css/index_responsive.css?v=1.0.1',
         'source/css/responsive.css',
     ];
