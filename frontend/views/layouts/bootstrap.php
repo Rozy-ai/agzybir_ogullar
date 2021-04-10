@@ -35,7 +35,25 @@ AppAsset::register($this);
     </head>
 
 
-    <body class="corporate">
+    <body>
+<!--           <header>
+    <div class="container">
+      <div class="row header_top">
+        <div class="col-sm-0 col-md-8">
+          <p class="header_info"> <i class="fa fa-phone"></i> (+99312) 958662 </p>
+          <p class="header_info"> <i class="fa fa-envelope"> test@gmail.com</i> </p>
+          <p class="header_info"> <i class="fa fa-clock-o"> Du-Sb/ 9:00-8:00 </i> </p>
+        </div>
+        <div class="lang_img col-sm-12 col-md-4 d-flex justify-content-end">
+          <img src="img/flag/russia.png" class="float-end" alt="russian">
+          <img src="img/flag/turkmenistan.png" class="float-end" alt="turkmen">
+          <img src="img/flag/turkmenistan.png" class="float-end" alt="turkmen">
+        </div>
+      </div>
+    </div>
+
+  </header> -->
+
 
     <?php
 
@@ -53,7 +71,9 @@ AppAsset::register($this);
     $menuCategories = \common\models\wrappers\CategoryWrapper::find()->where(['top' => 1, 'status' => 1])->andWhere(['OR', 'parent_id is null', 'parent_id=0'])->orderBy('sort_order')->all();
     foreach ($menuCategories as $categoryModel) {
         if (isset($categoryModel->name) && strlen(trim($categoryModel->name)) > 0) {
-            $tempItem = array('label' => $categoryModel->name, 'url' => $categoryModel->getUrl());
+            $tempItem = array('label' => $categoryModel->name,
+             'url' => $categoryModel->getUrl());
+
 
             //submenu start
             $subItems = [];
@@ -61,7 +81,8 @@ AppAsset::register($this);
             if (isset($categoryItems) && count($categoryItems) > 0) {
                 foreach ($categoryItems as $item) {
                     if (isset($item->name) && strlen(trim($item->name)) > 0)
-                        $subItems[] = array('label' => $item->name, 'url' => $item->getUrl());
+                        $subItems[] = array('label' => $item->name,
+                         'url' => $item->getUrl());
                 }
             }
 
@@ -74,6 +95,7 @@ AppAsset::register($this);
             }
 
             if (count($subItems) > 0) {
+                $tempItem['template'] = "<a href='{url}' class='nav-link dropdown-toggle' role='button' data-bs-toggle='dropdown'  aria-expanded='false'>{label}</a>";
                 $tempItem['items'] = $subItems;
             }
             //submenu end
@@ -81,9 +103,9 @@ AppAsset::register($this);
             $catNavItems[] = $tempItem;
         }
     }
-    $menuItems = [
-        ['label' => Yii::t('app', 'Home'), 'url' => \yii\helpers\Url::base(true)],
-    ];
+    // $menuItems = [
+    //     ['label' => Yii::t('app', 'Home'), 'url' => \yii\helpers\Url::base(true)],
+    // ];
 //    $menuItems[] =  ['label' => Yii::t('app', 'About Us'), 'url' => ['/site/about']];
 
 

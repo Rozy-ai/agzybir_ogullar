@@ -62,7 +62,7 @@ class LanguageSwitcherDropdownWidget extends \yii\base\Widget {
                 $image = Html::img($image_path, ['alt' => $code, 'class' => 'flag']);
 
                 if (isset($item['active']) && $item['active'] == true) {
-                    $selected_link = Html::a($image . '<span class="caret"></span>' . '<label>' . $item['label'] . '</label>', $item['url'], ['data-toggle' => 'dropdown', 'class' => 'btn btn-link dropdown-toggle']);
+                    $selected_link = Html::a($image . '<span class="caret"></span>' . '<label>' . $item['label'] . '</label>', $item['url'], ['id' => 'navbarDropdown', 'data-bs-toggle' => 'dropdown', 'class' => 'nav-link dropdown-toggle', 'style' => 'color: #fff; margin-top: 16%;']);
                     continue;
                 }
                 $links[] = Html::tag('li', Html::a($image . '<label>' . $item['label'] . '</label>', $item['url']));
@@ -70,7 +70,7 @@ class LanguageSwitcherDropdownWidget extends \yii\base\Widget {
 
             $final_links = array ($selected_link, Html::tag('ul', implode($links), ['class' => 'dropdown-menu']));
 //            $final_links = array_merge($final_links, $links);
-            echo Html::tag('li', implode($final_links), ['class' => 'language-switcher']);
+            echo Html::tag('li', implode($final_links), ['class' => 'nav-item dropdown language-switcher']);
         }
     }
 

@@ -17,32 +17,27 @@ if (isset($modelCategory)) {
     $this->title = $title = $modelCategory->name;
     $this->params['breadcrumbs'] = $modelCategory->getBreadcrumbs();
 };
-$category = $modelCategory;
-if ($category->parent_id){
-    while ($category->parent_id){
-        $category = \common\models\wrappers\CategoryWrapper::findOne($category->parent_id);
-        $catCode = $category->code;
-    }
-} else{
-    $catCode = $category->code;
-}
+$catCode = $modelCategory->code;
+// if ($category->parent_id){
+//     while ($category->parent_id){
+//         $category = \common\models\wrappers\CategoryWrapper::findOne($category->parent_id);
+//         $catCode = $category->code;
+//     }
+// } else{
+//     $catCode = $category->code;
+// }
 if (!isset($view)){
-    if ($catCode == 'services'){
-        $view = 'services_list';
-        $style = 'background: linear-gradient(90deg, rgba(33,147,176,1) 0%, rgba(109,213,237,1) 100%) center center no-repeat;background-size: cover;
-        background-attachment: fixed;';
+    if ($catCode == 'products'){
+        $view = 'products-list';
     } elseif ($catCode == 'blog'){
         $view = 'blog-list';
-        $style = 'background: linear-gradient(90deg, rgba(204,43,94,1) 0%, rgba(117,58,136,1) 100%) center center no-repeat;background-size: cover;
-        background-attachment: fixed;';
     } elseif ($catCode == 'our_works'){
         $view = 'portfolio-list';
-        $style = 'background: linear-gradient(90deg, rgba(234,205,163,1) 0%, rgba(214,174,123,1) 100%) center center no-repeat;background-size: cover;
-        background-attachment: fixed;';
+
     } elseif ($catCode == 'partners'){
         $view = 'partners-list';
-        $style = 'background: linear-gradient(90deg, rgba(204,43,94,1) 0%, rgba(117,58,136,1) 100%) center center no-repeat;background-size: cover;
-        background-attachment: fixed;';
+    } elseif ($catCode == 'magazin'){
+        $view = 'magazin-list';
     }
 }
 // if ($category->getThumbPath()){

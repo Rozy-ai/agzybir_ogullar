@@ -97,7 +97,6 @@ class CategoryWrapper extends Category
         $domens = explode('/', trim($path, '/'));
         $model = null;
 
-
         if (count($domens) == 1) {
             $categoryLangModel = CategoryLangWrapper::find()->joinWith('category cat')->where(['alias' => $domens[0]])->andWhere(['OR', 'cat.parent_id is null', 'cat.parent_id=0'])->one();
             if (isset($categoryLangModel)) {

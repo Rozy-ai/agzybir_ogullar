@@ -31,20 +31,20 @@ class ItemController extends CommonController
     public function behaviors()
     {
         return [
-                        'access' => [
-                'class' => AccessControl::className(),
-                'rules' => [
-                    [
-                        'actions' => ['login', 'error', 'upload', 'deleteupload'],
-                        'allow' => true,
-                    ],
-                    [
-                        'actions' => ['logout', 'index', 'view'],
-                        'allow' => true,
-                        'roles' => ['@'],
-                    ],
-                ],
-            ],
+            //             'access' => [
+            //     'class' => AccessControl::className(),
+            //     'rules' => [
+            //         [
+            //             'actions' => ['login', 'error', 'upload', 'deleteupload'],
+            //             'allow' => true,
+            //         ],
+            //         [
+            //             'actions' => ['logout', 'index', 'view'],
+            //             'allow' => true,
+            //             'roles' => ['@'],
+            //         ],
+            //     ],
+            // ],
                         'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
@@ -103,7 +103,7 @@ class ItemController extends CommonController
             $viewpath = 'location/index';
 
         $view = null;
-        
+
         return $this->render($viewpath, [
             'dataProvider' => $dataProvider,
             'modelCategory' => $modelCategory,
