@@ -27,18 +27,12 @@ $this->params['breadcrumbs'][] = Yii::$app->controller->truncate($model->title, 
 $href = $model->url;
 $author = (isset($model->author) && strlen(trim($model->author)) > 0) ? $model->author : $model->create_username;
 $date = $model->renderDateToWord($model->date_created);
-if ($catCode == 'services'){
-    $view = 'services_view';
-     $style = 'background: linear-gradient(90deg, rgba(67,206,162,1) 0%, rgba(24,90,157,1) 100%) center center no-repeat;background-size: cover;
-        background-attachment: fixed;';
+if ($catCode == 'products'){
+    $view = 'products_view';
 } elseif ($catCode == 'blog'){
     $view = 'blog_view';
-        $style = 'background: linear-gradient(90deg, rgba(69,104,220,1) 0%, rgba(176,106,179,1) 100%) center center no-repeat;background-size: cover;
-        background-attachment: fixed;'; 
-} elseif ($catCode == 'our_works'){
-    $view = 'portfolio_view';
-            $style = 'background: linear-gradient(90deg, rgba(170,7,107,1) 0%, rgba(97,4,95,1) 100%) center center no-repeat;background-size: cover;
-        background-attachment: fixed;'; 
+} elseif ($catCode == 'magazin'){
+    $view = 'magazin_view';
 }
 
 
@@ -50,12 +44,14 @@ if ($imageBreadCrumb->getThumbPath()){
 
 <!-- product-details-area are start-->
 
-
 <section class="breadcrumb_area_two parallaxie">
+
         <!-- <div class="overlay"></div> -->
-        <div class="container">
+        <div class="container-fluid" style="background: #F1F5FB;">
+            <div class="container">
             <div class="row">
-            <div class="breadcrumb_content col-12 col-lg-4">
+           <nav aria-label="breadcrumb">
+      
                 <?php if(isset($this->title) && !isset($this->params['no-title'])) { echo'<h1>'.$this->title.'</h1>'; } ?>
                 <?php
                 echo Breadcrumbs::widget([
@@ -65,16 +61,17 @@ if ($imageBreadCrumb->getThumbPath()){
                     ],
                     'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
                     'options' => [
-                            'class' => 'nav'
+                            'class' => 'breadcrumb'
                     ]
                 ]);
                 ?>
+             
+            </nav>
             </div>
-            <div class="breadcrumb_content offset-md-2 col-md-6">
-                <p><?=$modelCategory->description;?></p>
-            </div>
+ 
             </div>
         </div>
+ 
     </section>
 
 <?php

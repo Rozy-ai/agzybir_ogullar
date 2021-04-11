@@ -1,10 +1,13 @@
 <?php
 use yii\helpers\Html;
 ?>
+    <div class="container">
+        <div class="row">
+
 <section>
     <div class="list_services">
-    <div class="container-fluid" style="padding-left: 7%; padding-right: 7%">
-        <div class="row service_item" style="margin-top: 3%;" >
+    <div class="container">
+        <div class="row">
                     <?php
                     $layoutPager = '<div class="clearfix"></div><div class="col-12"><div class="blog-post-pagination text-center">{pager}</div></div>';
 
@@ -17,7 +20,7 @@ use yii\helpers\Html;
                         'id' => 'item-list',
                         'itemView' => '_blog_list',
                         'viewParams' => [],
-                        'itemOptions' => ['class' => 'col-12 col-md-6 col-lg-3'],
+                        'itemOptions' => ['class' => 'col-sm-4 col-6'],
                         'layout' => "{items}" . $layoutPager,
                         'pager' => [
                             'options' => [

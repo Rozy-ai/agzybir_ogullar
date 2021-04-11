@@ -360,9 +360,15 @@ section.index_tab .nav-tabs .nav-link:focus,section.index_tab .nav-tabs .nav-lin
   color: #000;
 }
 
+
+
+section.breadcrumb_area_two{
+margin-bottom: 40px;
+    margin-top: 10px;
+}
 /*Blog*/
-.breadcrumb{
-  padding: 40px 0;
+section.breadcrumb_area_two nav{
+  padding: 30px;
 }
 .news_cart{
     margin-bottom: 25px;

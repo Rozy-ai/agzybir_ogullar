@@ -5,19 +5,31 @@ $items = \common\models\wrappers\ItemWrapper::find()->where(['category_id' =>$mo
 
 ?>
 
-<section id="" style="background-color: #EEF3FA; padding-bottom: 50px">
+<section id="">
     <div class="container">
         <div class="row">
-                <h1 style="margin-top: 100px; font-size: 50px"><?= yii::t('app', "Those who trust us")?></h1>
+        
+                <h1 style="margin-top: 100px; font-size: 50px">Brands we work with</h1>
                 <p>We are proud to work with some of the biggest entertainment, technology, and media companies in the world, along with many top consumer brands. You can see a selection of these companies below and see what they have to say about us in their testimonials.</p>
 
           <?php
+                $count = count($items);
+                $i=0;
                 foreach ($items as $key => $item):
             ?>
+                 <?php
+                  $i++;
+                 ?>
+            <div class="col-xs-12 col-md-4" style="height: 340px; margin-bottom: 70px; margin-top: 70px; ">
+                <p class="text-center"><img style="width: auto; height: 100px" src="<?= $item->getThumbPath()?>"></p>
+                <?php if ($i<10): ?>
+                <p><?=$item->description?></p>
+                <h4><?=$item->title?></h4>
+              <?php else: ?>
 
-            <div class="col-12 col-sm-6 col-md-3">
-                <p class="text-center"><img style="width: 100%; height: 200px; border-radius: 10px;" src="<?= $item->getThumbPath()?>"></p>
-              
+                 <?php
+                        endif;
+                    ?>
             </div>
             <?php
                          endforeach;

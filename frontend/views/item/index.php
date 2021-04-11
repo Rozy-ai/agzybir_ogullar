@@ -47,12 +47,33 @@ if (!isset($view)){
     
 // }
 ?>
+<!--     <div class="container-fluid" style="background: #F1F5FB;">
+            <div class="container">
+        <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Library</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Data</li>
+  </ol>
+</nav>
+    </div>
+    </div> -->
 
     <section class="breadcrumb_area_two parallaxie">
+
         <!-- <div class="overlay"></div> -->
-        <div class="container">
+        <div class="container-fluid" style="background: #F1F5FB;">
+            <div class="container">
             <div class="row">
-            <div class="breadcrumb_content col-12 col-md-4">
+<!--                         <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Library</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Data</li>
+  </ol>
+</nav> -->
+           <nav aria-label="breadcrumb">
+      
                 <?php if(isset($this->title) && !isset($this->params['no-title'])) { echo'<h1>'.$this->title.'</h1>'; } ?>
                 <?php
                 echo Breadcrumbs::widget([
@@ -62,16 +83,16 @@ if (!isset($view)){
                     ],
                     'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
                     'options' => [
-                            'class' => 'nav'
+                            'class' => 'breadcrumb'
                     ]
                 ]);
                 ?>
-            </div>
-            <div class="breadcrumb_content offset-md-2 col-md-6">
-                <p><?=$modelCategory->description;?></p>
-            </div>
+             
+            </nav>
+
             </div>
         </div>
+    </div>
     </section>
 
 

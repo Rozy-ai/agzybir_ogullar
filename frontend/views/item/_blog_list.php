@@ -22,30 +22,24 @@ use yii\helpers\Html;
     // $stylej8 = "background-color: #CED42A;";
     // $stylej9 = "background-color: #4700D4;";
     ?>
-
-<div class="row">
-    <div class="col-12">
-                     <div class="blog-one__single">
-                        <div class="blog-one__single-inner-block">
-                            <a href="<?= $model->url; ?>">
-                        <div class="scale">
-                          <img src="<?=$model->getThumbPath()?>" class="scale" alt="">
-                        </div>
-                        </a>        
-                        <div>
-                            <?= $date ?>
-                        </div>               
-                            <h1 class="blog-one__title"><?=$model->title?></h1>
-
-                    <div style="position: absolute;bottom: 2%; left: 10%">
-                        <?=html::a(yii::t('app', 'Doly maglumat').'  <i class="fa fa-long-arrow-right"></i>',$model->url, ['class' => 'blog-one__link button-underline'])?>
-                    </div>
-                        </div>
-                    </div>
+    <div class="news_cart">
+        <div class="news_cart_block">
+            <a href="<?= $model->url; ?>">
+                <div class="news_cart_img">
+                     <img src="<?=$model->getThumbPath()?>" class="img-fluid" alt="">
                 </div>
+            </a>
+            <div class="news_cart_caption">
+                <a href="<?= $model->url; ?>"> 
+                    <h4><?=$model->title?></h4>
+                </a>
+                <div class="news_cart_divider"></div>
+                <span class="new_date"><?= $date ?></span>
+            </div>
+        </div>
+    </div>
 
 
-</div>
 <?php if($index % 4 == 0): ?>
                             <div class="clearfix"></div>
                         <?php endif; ?>
