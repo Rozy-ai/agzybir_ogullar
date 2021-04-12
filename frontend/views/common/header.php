@@ -4,6 +4,7 @@ use yii\bootstrap\NavBar;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\widgets\Menu;
+use yii\bootstrap\ActiveForm;
 
 $ownerDetails = \common\models\OwnerContact::find()->one();
 
@@ -74,9 +75,25 @@ switch ($language){
             <!-- BEGIN TOP SEARCH -->
             
             <!-- END TOP SEARCH -->
-            <a href=""><i class="fa fa-search"></i></a>
-            <a href=""><i class="fa fa-user"></i></a>
-            <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                <?php $form = ActiveForm::begin(['action'=>['site/search'],'method'=>'get']); ?>
+                    <div class="input-group">             
+  <button type="button" id="show" class="call_btn">
+      <span class="fa fa-search"></span>
+    </button>
+
+    <button type="button" id="hide" class="call_btn">
+      <span class="fa fa-search"></span>
+    </button>
+
+  
+
+      <input type="text" placeholder="<?=Yii::t('app','Search')?>" class="search"  name="query">
+      <input type="submit" class="search_submit">
+      </div>
+
+      <?php ActiveForm::end(); ?>
+    <!--         <a href=""><i class="fa fa-user"></i></a>
+            <a href=""><i class="fa fa-shopping-cart"></i></a> -->
           </div>        
         </div>
     </nav>

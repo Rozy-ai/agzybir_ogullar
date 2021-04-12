@@ -1,9 +1,29 @@
     $(document).on('ready', function() {
+
+        $('#show').click(function(){
+      $(this).css('display','none');
+      $('#hide').css({
+        'display':'block',
+      });
+      $('.search').show(400).css('display','block');
+      $('.search_submit').show(400).css('display','block');
+    });
+    $('#hide').click(function(){
+      $(this).css('display','none');
+      $('#show').css({
+        'display':'block',
+      });
+      $('.search').hide(400);
+      $('.search_submit').hide(400);
+    });
+
       $(".regular").slick({
         dots: true,
         infinite: true,
         slidesToShow: 2,
         slidesToScroll: 2,
+        prevArrow: '<div class="slick_prev"><i class="fa fa-angle-left"></i></div>',
+        nextArrow: '<div class="slick_next"><i class="fa fa-angle-right"></i></div>',
           responsive: [
       {
         breakpoint: 550,
@@ -75,5 +95,7 @@
       },
     ]
   });
+
+
 
     });

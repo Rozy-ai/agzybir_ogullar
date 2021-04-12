@@ -4,10 +4,10 @@
 // use yii\helpers\Html;
 // use yii\helpers\Url;
 
-$ownerDetails = \common\models\OwnerContact::find()->one();
 
-
+$ownInfo = \common\models\OwnerContact::find()->one();
 ?>
+
   <footer>
     <div class="container">
       <div class="row">
@@ -47,13 +47,13 @@ $ownerDetails = \common\models\OwnerContact::find()->one();
             <h3>Контакты</h3>
             <br>
             <i class="fa fa-map-marker"></i> <span>Addres: <br>
-              Lorem ipsum dolor sit amet.</span> <br><br>
-            <i class="fa fa-phone"></i><span>Addres: <br>
-              Lorem ipsum dolor sit amet</span> <br><br>
-            <i class="fa fa-envelope"></i> <span>Addres: <br>
-              Lorem ipsum dolor sit amet</span> <br><br>
-            <i class="fa fa-clock-o"></i> <span>Addres: <br>
-              Lorem ipsum dolor sit amet</span>
+              <?= $ownInfo->my_address ?></span> <br><br>
+            <i class="fa fa-phone"></i><span>Phone: <br>
+              <?= $ownInfo->my_phone ?></span> <br><br>
+            <i class="fa fa-envelope"></i> <span>Email: <br>
+              <?= $ownInfo->my_email ?></span> <br><br>
+            <i class="fa fa-clock-o"></i> <span>Time work: <br>
+              Du-Sb/ 9:00-8:00</span>
           </div>
         </div>
       </div>

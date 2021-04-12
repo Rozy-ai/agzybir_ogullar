@@ -8,18 +8,25 @@ use yii\widgets\Breadcrumbs;
 /* @var $model common\models\wrappers\ItemWrapper */
 
 $this->title = $model->title;
-$category = $model->category;
-$imageBreadCrumb = $category;
-if ($category->parent_id){
-    while ($category->parent_id){
-        $category = \common\models\wrappers\CategoryWrapper::findOne($category->parent_id);
-        $catCode = $category->code;
-    }
-} else{
-    $catCode = $category->code;
-}
-if (isset($categoryModel)) {
-    $this->params['breadcrumbs'] = $categoryModel->getBreadcrumbs(true);
+// $category = $model->category;
+// $imageBreadCrumb = $category;
+$catCode = '';
+if (isset($modelCategory)) {
+    $catCode = $modelCategory->code;
+    $this->title = $title = $modelCategory->name;
+    $this->params['breadcrumbs'] = $modelCategory->getBreadcrumbs();
+};
+$catCode = $modelCategory->code;
+// if ($category->parent_id){
+//     while ($category->parent_id){
+//         $category = \common\models\wrappers\CategoryWrapper::findOne($category->parent_id);
+//         $catCode = $category->code;
+//     }
+// } else{
+//     $catCode = $category->code;
+// }
+if (isset($modelCategory)) {
+    $this->params['breadcrumbs'] = $modelCategory->getBreadcrumbs(true);
 }
 $this->params['breadcrumbs'][] = Yii::$app->controller->truncate($model->title, 8, 65);
 
@@ -28,18 +35,18 @@ $href = $model->url;
 $author = (isset($model->author) && strlen(trim($model->author)) > 0) ? $model->author : $model->create_username;
 $date = $model->renderDateToWord($model->date_created);
 if ($catCode == 'products'){
-    $view = 'products_view';
+    $view = 'product_view';
 } elseif ($catCode == 'blog'){
     $view = 'blog_view';
-} elseif ($catCode == 'magazin'){
-    $view = 'magazin_view';
+} elseif ($catCode == 'categorytest'){
+    $view = 'product_view';
 }
 
 
-if ($imageBreadCrumb->getThumbPath()){
+// if ($imageBreadCrumb->getThumbPath()){
     // $style = 'background: url('.$imageBreadCrumb->getThumbPath().') center center no-repeat; height: 500px;margin-top:-50px ;background-size: cover;
     //     background-attachment: fixed;';
-}
+// }
 ?>
 
 <!-- product-details-area are start-->

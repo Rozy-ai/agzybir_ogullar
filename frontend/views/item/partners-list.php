@@ -20,7 +20,7 @@ $items = \common\models\wrappers\ItemWrapper::find()->where(['category_id' =>$mo
                  <?php
                   $i++;
                  ?>
-            <div class="col-xs-12 col-md-4" style="height: 340px; margin-bottom: 70px; margin-top: 70px; ">
+            <div class="col-xs-12 col-md-4" style="margin-bottom: 70px; margin-top: 70px; ">
                 <p class="text-center"><img style="width: auto; height: 100px" src="<?= $item->getThumbPath()?>"></p>
                 <?php if ($i<10): ?>
                 <p><?=$item->description?></p>
@@ -39,12 +39,5 @@ $items = \common\models\wrappers\ItemWrapper::find()->where(['category_id' =>$mo
     </div>
 </section>
 
-    <?php
-
-                        if (isset($model->link_to_project)):
-                    ?>
-                    <a href="<?=$model->link_to_project?>" class="g_hover" target="_blank">Live Project</a>
-                    <?php
-                        endif;
-                    ?>
+  
 

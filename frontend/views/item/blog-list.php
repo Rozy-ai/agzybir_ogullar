@@ -6,8 +6,7 @@ use yii\helpers\Html;
 
 <section>
     <div class="list_services">
-    <div class="container">
-        <div class="row">
+
                     <?php
                     $layoutPager = '<div class="clearfix"></div><div class="col-12"><div class="blog-post-pagination text-center">{pager}</div></div>';
 
@@ -35,6 +34,7 @@ use yii\helpers\Html;
                      ?>
             </div>
 
-        </div>
-    </div>
+
 </section>
+</div>
+</div>

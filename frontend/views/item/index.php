@@ -37,7 +37,13 @@ if (!isset($view)){
     } elseif ($catCode == 'partners'){
         $view = 'partners-list';
     } elseif ($catCode == 'magazin'){
-        $view = 'magazin-list';
+        $view = 'category-list';
+    }
+    elseif ($catCode == 'about'){
+        $view = 'about';
+    }
+    elseif ($catCode == 'categorytest'){
+        $view = 'products-list';
     }
 }
 // if ($category->getThumbPath()){

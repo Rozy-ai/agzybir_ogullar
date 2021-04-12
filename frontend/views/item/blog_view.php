@@ -1,58 +1,63 @@
 <?php
-
-use yii\bootstrap\ActiveForm;
-use yii\helpers\Html;
-    $date = yii::$app->controller->renderDateToWord($model->date_created);
+    use yii\helpers\Html;
+     $date = yii::$app->controller->renderDateToWord($model->date_created);
 ?>
 
-
-<section style="margin-top: 5%" class="blog_detail py-8">
-    <div class="container">
+<div class="container">
         <div class="row">
-            <div class="offset-1 col-lg-10">
-                <div class="blog-details__content">
-             
-                      
-                        <div><?=$date?></div>
 
-                        <!-- /.blog-details__date -->
-         
-                    <h3 class="blog-details__title"><?=$model->title?></h3><!-- /.blog-details__title -->
-                    <p class="blog-details__text">
-                        <?=$model->content?>
-                    </p><!-- /.blog-details__text -->
-                </div><!-- /.blog-details__content -->
-            </div><!-- /.col-lg-8 -->
+
+        <div class="row main_product_info">
+            <div class="col-md-7 test_slider">
+
+
+
+        <!-- Carusel -->
+
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-touch="true" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <?php 
+                                    $documents = $model->documents;
+                                    $counter=0;
+                                    foreach($documents as $key => $document):
+                                    $counter++; ?>
+                                    <div class="carousel-item <?= ($counter==1)?'active':'' ?>" data-interval="true">
+                                                    <?= html::img($document->getThumb(), ['class' => 'img_blog']); ?>
+                                        
+                                    </div>
+                                    <?php
+                                    endforeach;
+                                    ?>
+
+                                </div>
+                            </div>
+
+ 
+
+  <!-- end carusel -->
+
+            </div>
+            <div class="col-md-5">
+                <h1>
+                    <?= $model->title ?>                </h1>
+                <p class="product_desc">
+                    <?= $model->description ?>               </p>
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3 style="font-size: 22px;">Doly maglumat</h3>
+                <div class="product_content_block">
+                    <p>&nbsp;</p>
+
+<?= $model->content ?>
+                </div>
+            </div>
 
         </div>
-<!--         <div class="subscribe_block text-center">
-            <h1>Habarlarymyzdan habardar boluň!</h1>
-            <form action="#">
-                <input type="text" name="sub_email">
-                <button type="submit">Send</button>
-            </form>
-        </div> -->
-    </div>
-</section>
-<section class="last_posts" style="padding-top: 40px;">
-    <div class="container">
-    <h3>End of story. <br>
-You might be interested in:</h3>
-        </div>
-                        <?php
-                        echo \common\widgets\items\lastPosts\LastPosts::widget([
 
-                        ]);
-                    ?>
-</section>
-<section style="padding: 40px 0">
-    <div class="container">
-        <h2><?= yii::t('app', "Let’s be friends, tell us about your project")?></h2>
-                      <a href="/site/a/contact">   <button class="contact1-form-btn btn btn-outline-success my-2 my-sm-0">
-<span>
-<?=yii::t('app','Send')?>
-    <i class="fa fa-long-arrow-right" style="color: #2ADFB4" aria-hidden="true"></i>
-</span>
-                    </button></a>
-    </div>
-</section>
+</div>
+</div>

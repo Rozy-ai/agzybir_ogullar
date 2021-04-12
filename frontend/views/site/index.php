@@ -1,11 +1,11 @@
 <?php
-
 use common\models\wrappers\CategoryWrapper;
 use common\models\wrappers\ItemWrapper;
 use dosamigos\gallery\Carousel;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use kartik\slider\Slider;
+
 
 $this->title = Yii::t('app', 'Home');
 // $serviceCategory = CategoryWrapper::find()->where(['code' => 'service'])->andWhere(['OR', 'parent_id is null', 'parent_id=0'])->one();
@@ -103,7 +103,7 @@ $hit_products = \common\models\wrappers\ItemWrapper::find()->where(['category_id
             <div class="eye select_box d-flex justify-content-center align-items-center"><a href="<?= '/item/'.$product->id; ?>"><i class="fa fa-eye"></i></a></div>
             <div class="reload select_box d-flex justify-content-center align-items-center"><a href="/"><i class="fa fa-refresh"></i></a></div>
             <div class="like select_box d-flex justify-content-center align-items-center"><a href="#"><i class="fa fa-heart-o"></i></a></div>
-            <div class="market select_box d-flex justify-content-center align-items-center"><a href="#"><i class="fa fa-cart-plus"></i></a></div>
+<!--             <div class="market select_box d-flex justify-content-center align-items-center"><a href="#"><i class="fa fa-cart-plus"></i></a></div> -->
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
             </div>
@@ -115,7 +115,7 @@ $hit_products = \common\models\wrappers\ItemWrapper::find()->where(['category_id
       <div class="clearfix"></div>
       <div class="row">
         <div class="col-12 d-flex justify-content-center">
-          <button type="button" class="btn btn-light" style="border:1px solid black">показать все</button>
+          <a href="<?= $category->url?>"><button type="button" class="btn btn-light" style="border:1px solid black"><?= yii::t('app', 'See All') ?></button></a>
         </div>
       </div>
   </div>
@@ -127,7 +127,7 @@ $hit_products = \common\models\wrappers\ItemWrapper::find()->where(['category_id
             <div class="eye select_box d-flex justify-content-center align-items-center"><a href="<?= '/item/'.$product->id; ?>"><i class="fa fa-eye"></i></a></div>
             <div class="reload select_box d-flex justify-content-center align-items-center"><a href="/"><i class="fa fa-refresh"></i></a></div>
             <div class="like select_box d-flex justify-content-center align-items-center"><a href="#"><i class="fa fa-heart-o"></i></a></div>
-            <div class="market select_box d-flex justify-content-center align-items-center"><a href="#"><i class="fa fa-cart-plus"></i></a></div>
+ <!--            <div class="market select_box d-flex justify-content-center align-items-center"><a href="#"><i class="fa fa-cart-plus"></i></a></div> -->
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
             </div>
@@ -139,7 +139,7 @@ $hit_products = \common\models\wrappers\ItemWrapper::find()->where(['category_id
       <div class="clearfix"></div>
       <div class="row">
         <div class="col-12 d-flex justify-content-center">
-          <a href="<?=$category->url?>"><button type="button" class="btn btn-light" style="border:1px solid black">показать все</button></a>
+          <a href="<?=$category->url?>"><button type="button" class="btn btn-light" style="border:1px solid black"><?= yii::t('app', 'See All') ?></button></a>
         </div>
       </div>
     </div>
@@ -188,7 +188,7 @@ $blogs = \common\models\wrappers\ItemWrapper::find()->where(['category_id' => $c
         </div>
 
         <div class="col-12 d-flex justify-content-center">
-          <a href="<?=$category->url?>"><button type="button" class="btn btn-light" style="border:1px solid black">показать все</button></a>
+          <a href="<?=$category->url?>"><button type="button" class="btn btn-light" style="border:1px solid black"><?= yii::t('app', 'See All') ?></button></a>
         </div>
       </div>
     </div>
