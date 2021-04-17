@@ -70,6 +70,10 @@ header div.lang_img img{
 .nav .dropdown-menu{
   background-color: none;
 }
+ul.dropdown-menu {
+  border: none;
+  background: #fff;
+}
 .icon i{
   margin-left:40px;
 }

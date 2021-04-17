@@ -40,6 +40,8 @@ if ($catCode == 'products'){
     $view = 'blog_view';
 } elseif ($catCode == 'categorytest'){
     $view = 'product_view';
+} else {
+     $view = 'product_view';
 }
 
 
@@ -47,7 +49,7 @@ if ($catCode == 'products'){
     // $style = 'background: url('.$imageBreadCrumb->getThumbPath().') center center no-repeat; height: 500px;margin-top:-50px ;background-size: cover;
     //     background-attachment: fixed;';
 // }
-?>
+?>       
 
 <!-- product-details-area are start-->
 

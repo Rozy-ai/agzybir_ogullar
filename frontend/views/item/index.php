@@ -44,6 +44,8 @@ if (!isset($view)){
     }
     elseif ($catCode == 'categorytest'){
         $view = 'products-list';
+    } else {
+         $view = 'products-list';
     }
 }
 // if ($category->getThumbPath()){

@@ -27,7 +27,7 @@
                 <div class="box-body">
                     <div class="box-body-content">
                         <h3 class="">Ýokary hil</h3>
-                        <p></p><p>Begler Ýoly hususy&nbsp;kärhanasy öz önümlerini&nbsp;mydama ýokary hil öndürmäge&nbsp;çalyşýar</p>
+                        <p></p><p>Agzybir ogullar hususy&nbsp;kärhanasy öz önümlerini&nbsp;mydama ýokary hil öndürmäge&nbsp;çalyşýar</p>
 <p></p>
                     </div>
                     <div class="box-body-img">

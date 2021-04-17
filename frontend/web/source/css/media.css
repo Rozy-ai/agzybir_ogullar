@@ -2,7 +2,25 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+.caption_cart{
+  padding: 20px 0;
+}
+.caption_cart h4{
+  font-size: 16px;
+}
+.caption_cart p{
+  font-size: 12px;
+}
+.btn_in_detail{
+  font-size: 10px;
+  width: 80%;
+  padding: 6px 10px;
+}
+.btn_in_detail:hover{
+    font-size: 10px;
+  width: 80%;
+  padding: 6px 10px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -16,6 +34,7 @@
 .corusel_top_img{
   height: 60%;
 }
+
 }
 
 /* Small Devices, Tablets */
@@ -32,6 +51,9 @@
 @media only screen and (max-width : 576px) {
 section.write form{
   margin-left: 7%;
+}
+footer{
+  display: none;
 }
 /*.carousel-inner .carousel-item{
   height: 50vh;
