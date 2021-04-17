@@ -2,11 +2,7 @@
     use yii\helpers\Html;
  
 ?>
-        <pre>
-    <?php
-    print_r($modelCategory);die;
-    ?>
-</pre>
+
     <div class="container">
         <div class="row">
 

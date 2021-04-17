@@ -97,12 +97,17 @@ class ItemController extends CommonController
             }
         }
 
-        $dataProvider = $searchModel->search([]);
         $viewpath = 'index';
         if (isset($modelCategory) && $modelCategory->code == 'location')
             $viewpath = 'location/index';
 
         $view = null;
+        if ($modelCategory->code == 'products') {
+        $catId = $modelCategory->id;
+        $searchModel->parent_category_id =$catId;
+        };
+      
+        $dataProvider = $searchModel->search([]);
 
         return $this->render($viewpath, [
             'dataProvider' => $dataProvider,

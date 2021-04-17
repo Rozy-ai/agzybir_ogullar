@@ -89,8 +89,8 @@ $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' 
    <?php
 $category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'products'])->one();
 $catId = $category->id;
-$new_products = \common\models\wrappers\ItemWrapper::find()->where(['category_id' => $catId, 'status' => '1'])->orderBy('id desc')->all();
-$hit_products = \common\models\wrappers\ItemWrapper::find()->where(['category_id' => $catId, 'status' => '1'])->orderBy('visited_count')->all();
+$new_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_category_id' => $catId, 'status' => '1'])->orderBy('id desc')->all();
+$hit_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_category_id' => $catId, 'status' => '1'])->orderBy('visited_count')->all();
 
 ?>
 <div class="tab-content" id="myTabContent">
@@ -102,10 +102,10 @@ $hit_products = \common\models\wrappers\ItemWrapper::find()->where(['category_id
             <?=html::img($product->getThumbPath(),['class' => 'card-img-top']) ?>
             <div class="eye select_box d-flex justify-content-center align-items-center"><a href="<?= '/item/'.$product->id; ?>"><i class="fa fa-eye"></i></a></div>
             <div class="reload select_box d-flex justify-content-center align-items-center"><a href="/"><i class="fa fa-refresh"></i></a></div>
-            <div class="like select_box d-flex justify-content-center align-items-center"><a href="#"><i class="fa fa-heart-o"></i></a></div>
+            <div class="like select_box d-flex justify-content-center align-items-center"><a class="like-Unlike" href="#"><i class="fa fa-heart-o"></i></a></div>
 <!--             <div class="market select_box d-flex justify-content-center align-items-center"><a href="#"><i class="fa fa-cart-plus"></i></a></div> -->
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title"><?= $product->title ?></h5>
             </div>
           </div>
 <?php endforeach; ?>
@@ -129,7 +129,7 @@ $hit_products = \common\models\wrappers\ItemWrapper::find()->where(['category_id
             <div class="like select_box d-flex justify-content-center align-items-center"><a href="#"><i class="fa fa-heart-o"></i></a></div>
  <!--            <div class="market select_box d-flex justify-content-center align-items-center"><a href="#"><i class="fa fa-cart-plus"></i></a></div> -->
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title"><?= $product->title ?></h5>
             </div>
           </div>
           <?php endforeach; ?>
@@ -233,7 +233,7 @@ $categoryLink = [$category->code => $category->url];
       <?php endforeach; ?>
 
     </div>
-      <p class="text-center my-4" style="padding-bottom: 100px">
+      <p class="text-center my-4">
                 <?=html::a(yii::t('app', 'See All'),$category->url, ['class' => 'see_all_btn'])?>
 </p>
   </section>

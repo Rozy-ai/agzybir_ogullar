@@ -87,7 +87,7 @@ class CommonActiveRecord extends ActiveRecord
 
     public function getParentCategoryList($except = [])
     {
-        $list = ArrayHelper::map(CategoryWrapper::find()->where(['or', 'parent_id=0', 'parent_id is null'])->all(), 'id', 'name');
+        $list = ArrayHelper::map(CategoryWrapper::find()->all(), 'id', 'name');
         if ($except && !is_array($except)) {
             $except = [$except];
         }

@@ -23,7 +23,7 @@ use yii\helpers\Html;
                 
             </a>
         </div>
-        <div class="col-md-4 hidden-xs hidden-sm" style="border-left: 1px solid #e7eaf3;">
+        <div class="col-md-4 d-sm-none d-none d-md-block" style="border-left: 1px solid #e7eaf3;">
             <div class="col-md-12 small_cart_img ovh" style="border-bottom: 1px solid #e7eaf3;">
                 <a href="<?= $model->url; ?>">
              

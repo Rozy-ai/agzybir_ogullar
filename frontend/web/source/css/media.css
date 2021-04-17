@@ -13,6 +13,9 @@
   header p {
     margin-right: 2%;
 }
+.corusel_top_img{
+  height: 60%;
+}
 }
 
 /* Small Devices, Tablets */
@@ -20,18 +23,20 @@
  header p {
     display : none;
 }
-.carousel-inner .carousel-item{
+/*.carousel-inner .carousel-item{
   height: 60vh;
-}
+}*/
+
 }
 
 @media only screen and (max-width : 576px) {
 section.write form{
   margin-left: 7%;
 }
-.carousel-inner .carousel-item{
+/*.carousel-inner .carousel-item{
   height: 50vh;
-}
+}*/
+
 }
 
 /* Extra Small Devices, Phones */

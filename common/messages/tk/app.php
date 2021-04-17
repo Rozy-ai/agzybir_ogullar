@@ -182,7 +182,7 @@ return array (
     'Sign out' => 'Çykmak',
     'Site description' => '',
     'Site keywords' => '',
-    'Site name' => '"Takyk çeşme"',
+    'Site name' => '"Agzybir ogullar"',
     'Slider' => '',
     'Sliders' => '',
     'Status' => 'Ýagdaýy',

@@ -1,4 +1,35 @@
 /* options */
+@font-face {
+    font-family: 'GothamMedium';
+    src: url('../fonts/GothamMedium.eot');
+    src: url('../fonts/GothamMedium.eot') format('embedded-opentype'),
+         url('../fonts/GothamMedium.woff2') format('woff2'),
+         url('../fonts/GothamMedium.woff') format('woff'),
+         url('../fonts/GothamMedium.ttf') format('truetype'),
+         url('../fonts/GothamMedium.svg#GothamMedium') format('svg');
+}
+@font-face {
+    font-family: 'GothamBold';
+    src: url('../fonts/GothamBold.eot');
+    src: url('../fonts/GothamBold.eot') format('embedded-opentype'),
+         url('../fonts/GothamBold.woff2') format('woff2'),
+         url('../fonts/GothamBold.woff') format('woff'),
+         url('../fonts/GothamBold.ttf') format('truetype'),
+         url('../fonts/GothamBold.svg#GothamBold') format('svg');
+}
+body {
+    font-family: "GothamMedium","Arial", sans-serif;
+    color: #000;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: "GothamBold","Arial", sans-serif;
+   /* color: #000;*/
+}
+ul.navbar-nav li.nav-item a.nav-link {
+  font-weight: bolder;
+  color: #000;
+} 
 section{
   margin-bottom: 120px;
 }
@@ -45,12 +76,12 @@ header div.lang_img img{
 .logo img{
   width: 100%;
 }
-.carousel-inner .carousel-item{
+/*.carousel-inner .carousel-item{
   height: 70vh;
-}
+}*/
 .corusel_top_img{
   width: 100%;
-  height: 100%;
+  height: 70vh;
 }
 .carousel-inner .carousel-caption{
   text-align: left;
@@ -191,8 +222,12 @@ section.write .write_form_in>div{
 }
 footer{
   background: #00447D;
-  padding:120px 0 100px;
+  padding:60px 0 50px;
   color: #fff;
+}
+.center_footer ul a{
+  color: #fff;
+  text-decoration: none;
 }
 footer .left_footer{
   margin-left: 5%;
@@ -275,14 +310,30 @@ section.blog .card{
   position: absolute;
     right: 4.3%;
     top: -90px;
-    font-size: 30px;
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+}
+.slick_next_bottom {
+  position: absolute;
+    right: 1.3%;
+    top: -90px;
+    font-size: 24px;
     color: #ccc;
     cursor: pointer;
 }
 .slick_prev {
   position: absolute;
-    left: 92%;
-    font-size: 30px;
+    left: 96%;
+    font-size: 24px;
+    color: #ccc;
+    top: -90px;
+    cursor: pointer;
+}
+.slick_prev_bottom {
+  position: absolute;
+    left: 96%;
+    font-size: 24px;
     color: #ccc;
     top: -90px;
     cursor: pointer;
@@ -322,6 +373,9 @@ section.index_tab div.select_box{
 }
 section.index_tab div.select_box a{
  color: black;
+}
+section.index_tab div.select_box a:focus{
+outline: none;
 }
 section.index_tab div.eye{
   top: 30%;

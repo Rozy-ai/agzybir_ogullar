@@ -34,11 +34,11 @@ $ownInfo = \common\models\OwnerContact::find()->one();
           <div class="center_footer">
             <h3>Полезно</h3><br>
             <ul>
-              <li>О нас</li>
-              <li>Производство</li>
-              <li>Как приобрести</li>
-              <li>Магазин</li>
-              <li>Магазин</li>
+              <a href="/item/about"> <li>О нас</li></a>
+              <a href="/item/magazin"> <li>Магазин</li></a>
+              <a href="/item/about/products"> <li>Производство</li></a>
+              <a href="/item/about/partners"> <li>Partners</li></a>
+              <a href="/item/blog"> <li>Blog</li></a>
             </ul>
           </div>
         </div>

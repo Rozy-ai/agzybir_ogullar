@@ -22,8 +22,8 @@
         infinite: true,
         slidesToShow: 2,
         slidesToScroll: 2,
-        prevArrow: '<div class="slick_prev"><i class="fa fa-angle-left"></i></div>',
-        nextArrow: '<div class="slick_next"><i class="fa fa-angle-right"></i></div>',
+        prevArrow: '<div class="slick_prev_bottom"><i class="fa fa-angle-left"></i></div>',
+        nextArrow: '<div class="slick_next_bottom"><i class="fa fa-angle-right"></i></div>',
           responsive: [
       {
         breakpoint: 550,
@@ -96,6 +96,16 @@
     ]
   });
 
-
+      $(".like-Unlike").click(function(e) {
+        // var a = $(this).html();
+        // alert(a);
+    if ($(this).html() == '<i class="fa fa-heart-o"></i>') {
+        $(this).html('<i class="fa fa-heart" style="color : red"></i>');
+    }
+    else {
+        $(this).html('<i class="fa fa-heart-o"></i>');
+    }
+    return false;
+});
 
     });

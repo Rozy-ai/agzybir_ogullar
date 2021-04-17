@@ -126,7 +126,7 @@ return array(
     'Sign out' => 'Выйти',
     'Site description' => 'Описание сайта',
     'Site keywords' => 'Ключевые слова сайта',
-    'Site name' => '"Takyk çeşme"',
+    'Site name' => '"Agzybir ogullar"',
     'Slider' => 'Слайдер',
     'Sliders' => 'Слайдеры',
     'Status' => 'Статус',

@@ -3,7 +3,7 @@ use yii\web\JsExpression;
 
 /* @var $this yii\web\View */
 
-$this->title = 'Welcome to ' . Yii::$app->name . 'admin panel!';
+$this->title = 'Welcome to ' . Yii::$app->name = "Agzybir ogullar" . ' admin panel!';
 ?>
 
 <?php

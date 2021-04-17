@@ -1,6 +1,6 @@
 <?php 
 use yii\helpers\Html;
-$category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'magazin'])->one();
+$category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'products'])->one();
 $catId = $category->id;
 $categories = \common\models\wrappers\CategoryWrapper::find()->where(['parent_id' =>$catId, 'status' => '1'])->all();
 ?>
@@ -15,7 +15,7 @@ $categories = \common\models\wrappers\CategoryWrapper::find()->where(['parent_id
             $image[] = $doc->getThumb();
         }
     } ?>
-		<div class="col-md-4 col-sm-6 col-xs-12 clear3BoxItem">
+		<div class="col-md-4 col-sm-6 col-12 clear3BoxItem">
     <div class="category_cart">
         <div class="img_block_cart_category">
             <div class="row">
@@ -31,7 +31,7 @@ $categories = \common\models\wrappers\CategoryWrapper::find()->where(['parent_id
                 
             </a>
         </div>
-        <div class="col-md-4 hidden-xs hidden-sm" style="border-left: 1px solid #e7eaf3;">
+        <div class="col-md-4 d-sm-none d-none d-md-block" style="border-left: 1px solid #e7eaf3;">
             <div class="col-md-12 small_cart_img ovh" style="border-bottom: 1px solid #e7eaf3;">
                 <a href="<?= $cat->url; ?>">
              
