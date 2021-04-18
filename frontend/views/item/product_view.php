@@ -23,7 +23,7 @@
                                     foreach($documents as $key => $document):
                                     $counter++; ?>
                                     <div class="carousel-item <?= ($counter==1)?'active':'' ?>" data-interval="true">
-                                                    <?= html::img($document->getThumb(), ['class' => 'img-fluid']); ?>
+                                                    <?= html::img($document->getThumb(), ['class' => 'img_blog']); ?>
                                         
                                     </div>
                                     <?php

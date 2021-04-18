@@ -76,7 +76,7 @@
     dots: false,
     infinite: true,
     centerMode: true,
-    slidesToShow: 4,
+    slidesToShow: 6,
     slidesToScroll: 3,
             responsive: [
       {
@@ -90,6 +90,13 @@
         breakpoint: 750,
         settings: {
           slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 4,
           slidesToScroll: 1
         }
       },

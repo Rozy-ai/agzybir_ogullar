@@ -126,7 +126,11 @@ $hit_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_cate
             <?=html::img($product->getThumbPath(),['class' => 'card-img-top']) ?>
             <div class="eye select_box d-flex justify-content-center align-items-center"><a href="<?= '/item/'.$product->id; ?>"><i class="fa fa-eye"></i></a></div>
             <div class="reload select_box d-flex justify-content-center align-items-center"><a href="/"><i class="fa fa-refresh"></i></a></div>
+            <?php 
+$liked = $product->liked;
+             ?>
             <div class="like select_box d-flex justify-content-center align-items-center"><a href="#"><i class="fa fa-heart-o"></i></a></div>
+
  <!--            <div class="market select_box d-flex justify-content-center align-items-center"><a href="#"><i class="fa fa-cart-plus"></i></a></div> -->
             <div class="card-body">
               <h5 class="card-title"><?= $product->title ?></h5>
@@ -179,7 +183,9 @@ $blogs = \common\models\wrappers\ItemWrapper::find()->where(['category_id' => $c
             <?=html::img($blog->getThumbPath(),['class' => 'card-img-top','alt'=>'$blog->title']) ?>
             <div class="card-body">
               <span><?= $date ?></span>
+              <a href="<?= $blog->url; ?>" style="text-decoration: none; color: #000;"> 
               <h5 class="card-title"><?= $blog->title; ?></h5>
+            </a>
               <p class="card-text"><?= $blog->description; ?></p>
             </div>
           </div>

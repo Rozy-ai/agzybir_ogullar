@@ -67,7 +67,7 @@ class ImageWrapper extends Image
                 'langForeignKey' => 'image_id',
                 'tableName' => "{{%tbl_image_lang}}",
                 'attributes' => [
-                    'title', 'description','btn_link', 'btn_title', 'color'
+                    'title', 'description','btn_link', 'btn_title',
                 ]
             ],
         ];

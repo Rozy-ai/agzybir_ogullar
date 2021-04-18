@@ -29,8 +29,8 @@ switch ($language){
       <div class="row header_top">
         <div class="col-sm-0 col-md-8">
           <p class="header_info"> <i class="fa fa-phone"></i> (+99312) 958662 </p>
-          <p class="header_info"> <i class="fa fa-envelope"> test@gmail.com</i> </p>
-          <p class="header_info"> <i class="fa fa-clock-o"> Du-Sb/ 9:00-8:00 </i> </p>
+          <p class="header_info"> <i class="fa fa-envelope"> </i> test@gmail.com</p>
+          <p class="header_info"> <i class="fa fa-clock-o"></i> Du-Sb/ 9:00-8:00  </p>
         </div>
         <div class="lang_img col-sm-12 col-md-4 d-flex justify-content-end language_box">
                               
@@ -50,7 +50,7 @@ switch ($language){
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <div class="col-2 logo">
+            <div class="col-5 logo">
             <a class="navbar-brand" href="/"><img src="/source/img/europlastic-logo.jpg" alt="Logo"></a>
           </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -71,7 +71,7 @@ switch ($language){
                 ]);
                 ?>
             </div>
-          <div class="col-2 icon d-flex justify-content-end">
+          <div class="col-1 icon d-flex justify-content-end">
             <!-- BEGIN TOP SEARCH -->
             
             <!-- END TOP SEARCH -->

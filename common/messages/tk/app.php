@@ -231,7 +231,13 @@ return array (
     'Stay tuned for more!' => 'Habarlarymyzdan habardar boluň!',
     'Take a look at our other skills' => 'Beýleki başarnyklarymyza göz aýlaň',
     'Let’s be friends, vertel ons over jouw project' => 'Geliň, dost bolalyň, taslamaňyz barada bize aýdyň',
-
+    'Shop' => 'Dükan',
+    'Production' => 'Önümçilik',
+    'Blog' => 'Blog',
+    'Working time' => 'Iş wagty',
+    'Working time' => 'Iş wagty',
+    'Mon - Sun / 9:00 AM - 8:00 PM' => 'DU - Sb / 9:00 - 8:00',
+    'Production of various plastic products for household, food and technical purposes.' => 'Öý, hojalyk, azyk we tehniki maksatlar üçin dürli plastmassa önümlerini öndürmek.',
 );
 
 ?>

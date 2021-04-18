@@ -177,6 +177,12 @@ return array(
     'Take a look at our other skills' => 'Взгляните на другие наши навыки',
     'Stay tuned for more!' => 'Следите за новостями!',
     'Let’s be friends, tell us about your project' => 'Давай дружить, расскажи о своем проекте',
+    'Shop' => 'Магазин',
+    'Production' => 'Производство',
+    'Blog' => 'Блог',
+    'Working time' => 'Рабочее время',
+    'Mon - Sun / 9:00 AM - 8:00 PM' => 'Пн - Сб / 9:00 - 8:00',
+    'Production of various plastic products for household, food and technical purposes.' => 'Производства различных пластиковых изделий бытового, хозяйственного, пищевого и технического назначения.',
 
 
 );

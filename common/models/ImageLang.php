@@ -34,7 +34,7 @@ class ImageLang extends \yii\db\ActiveRecord
             [['image_id', 'language', 'title'], 'required'],
             [['image_id'], 'integer'],
             [['language'], 'string', 'max' => 6],
-            [['title','btn_link', 'btn_title', 'color'], 'string', 'max' => 255],
+            [['title','btn_link', 'btn_title'], 'string', 'max' => 255],
             [['image_id'], 'exist', 'skipOnError' => true, 'targetClass' => Image::className(), 'targetAttribute' => ['image_id' => 'id']],
         ];
     }

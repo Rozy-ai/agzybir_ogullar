@@ -32,7 +32,7 @@ class Image extends CommonActiveRecord
             [['title', 'type'], 'required'],
             [['type', 'size'], 'integer'],
             [['date_created', 'date_modified'], 'safe'],
-            [['title', 'description', 'btn_link', 'color','btn_title'], 'string', 'max' => 255],
+            [['title', 'description', 'btn_link','btn_title'], 'string', 'max' => 255],
         ];
     }
 
@@ -49,7 +49,6 @@ class Image extends CommonActiveRecord
             'size' => Yii::t('app', 'Size'),
             'btn_link' => Yii::t('app', 'Button Link'),
             'btn_title' => Yii::t('app', 'Button Title'),
-            'color' => Yii::t('app', 'Color'),
             'date_created' => Yii::t('app', 'Date Created'),
             'date_modified' => Yii::t('app', 'Date Modified'),
         ];

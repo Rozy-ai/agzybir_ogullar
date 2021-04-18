@@ -14,7 +14,9 @@ $ownInfo = \common\models\OwnerContact::find()->one();
         <div class="col left_footer">
           <img src="img/europlastic-logo-copy.png" alt="">
           <br><br>
-          <p>Производства различных пластиковых изделий бытового, хозяйственного, пищевого и технического назначения.
+          <p><?= yii::t('app', 'Production of various plastic products for household, food and technical purposes.') ?>
+
+
           </p>
           <br>
           <hr><br>
@@ -30,30 +32,30 @@ $ownInfo = \common\models\OwnerContact::find()->one();
           </div>
 
         </div>
-        <div class="col">
+        <div class="col d-flex justify-content-center">
           <div class="center_footer">
             <h3>Полезно</h3><br>
             <ul>
-              <a href="/item/about"> <li>О нас</li></a>
-              <a href="/item/magazin"> <li>Магазин</li></a>
-              <a href="/item/about/products"> <li>Производство</li></a>
-              <a href="/item/about/partners"> <li>Partners</li></a>
-              <a href="/item/blog"> <li>Blog</li></a>
+              <a href="/item/about"> <li><?= yii::t('app', 'About Us') ?></li></a>
+              <a href="/item/magazin"> <li><?= yii::t('app', 'Shop') ?> </li></a>
+              <a href="/item/about/products"> <li><?= yii::t('app', 'Production') ?></li></a>
+              <a href="/item/about/partners"> <li><?= yii::t('app', 'Partners') ?></li></a>
+              <a href="/item/blog"> <li><?= yii::t('app', 'Blog') ?></li></a>
             </ul>
           </div>
         </div>
-        <div class="col">
+        <div class="col d-flex justify-content-center">
           <div class="right_footer">
             <h3>Контакты</h3>
             <br>
-            <i class="fa fa-map-marker"></i> <span>Addres: <br>
+            <i class="fa fa-map-marker"></i> <span><?= yii::t('app', 'Address') ?>: <br>
               <?= $ownInfo->my_address ?></span> <br><br>
-            <i class="fa fa-phone"></i><span>Phone: <br>
+            <i class="fa fa-phone"></i><span><?= yii::t('app', 'Phone') ?>: <br>
               <?= $ownInfo->my_phone ?></span> <br><br>
-            <i class="fa fa-envelope"></i> <span>Email: <br>
+            <i class="fa fa-envelope"></i> <span><?= yii::t('app', 'Email') ?>: <br>
               <?= $ownInfo->my_email ?></span> <br><br>
-            <i class="fa fa-clock-o"></i> <span>Time work: <br>
-              Du-Sb/ 9:00-8:00</span>
+            <i class="fa fa-clock-o"></i> <span><?= yii::t('app', 'Working time') ?>: <br>
+              <?= yii::t('app', 'Mon - Sun / 9:00 AM - 8:00 PM') ?></span>
           </div>
         </div>
       </div>

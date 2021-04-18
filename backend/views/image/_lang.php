@@ -14,5 +14,5 @@ else
 
 <?= $form->field($model, 'btn_link' . $lang)->textInput(['maxlength' => true]) ?>
 
-<?= $form->field($model, 'color' . $lang)->input('color',['class'=>"input_class"])->label('Fon renki ') ?>
+
 
