@@ -20,7 +20,7 @@ MainAsset::register($this);
         <?php $this->head() ?>
 
         <?php
-        $favicon = Yii::getAlias('@web') . '/source/img/favicon2.ico';
+        // $favicon = Yii::getAlias('@web') . '/source/img/favicon2.ico';
         ?>
 
         <link rel="shortcut icon" type="image/ico" href="<?= $favicon ?>"/>

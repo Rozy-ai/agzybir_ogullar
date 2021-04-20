@@ -238,6 +238,8 @@ return array (
     'Working time' => 'Iş wagty',
     'Mon - Sun / 9:00 AM - 8:00 PM' => 'DU - Sb / 9:00 - 8:00',
     'Production of various plastic products for household, food and technical purposes.' => 'Öý, hojalyk, azyk we tehniki maksatlar üçin dürli plastmassa önümlerini öndürmek.',
+    'New  ' => 'Täze gelenler  ',
+    'Popular' => 'Meşhur',
 );
 
 ?>

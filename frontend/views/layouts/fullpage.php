@@ -22,7 +22,7 @@ use yii\widgets\Breadcrumbs;
         <?php $this->head() ?>
 
         <?php
-        $favicon = Yii::getAlias('@web') . '/source/img/favicon.ico';
+        // $favicon = Yii::getAlias('@web') . '/source/img/favicon.ico';
         ?>
 
         <link rel="shortcut icon" type="image/ico" href="<?= $favicon ?>"/>

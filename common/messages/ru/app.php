@@ -183,6 +183,8 @@ return array(
     'Working time' => 'Рабочее время',
     'Mon - Sun / 9:00 AM - 8:00 PM' => 'Пн - Сб / 9:00 - 8:00',
     'Production of various plastic products for household, food and technical purposes.' => 'Производства различных пластиковых изделий бытового, хозяйственного, пищевого и технического назначения.',
+    'New  ' => 'Новинки  ',
+    'Popular' => 'Популярные',
 
 
 );

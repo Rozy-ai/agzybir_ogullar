@@ -81,10 +81,10 @@ $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' 
     <div class="container">
 <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Новинки  </button>
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"><?= yii::t('app', 'New  ') ?></button>
   </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link second_tab" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Популярные</button>
+    <button class="nav-link second_tab" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><?= yii::t('app', 'Popular') ?></button>
   </li>
 
 </ul>
