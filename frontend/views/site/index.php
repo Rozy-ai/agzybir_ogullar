@@ -42,7 +42,9 @@ $this->title = Yii::t('app', 'Home');
                 <p class="a-2"><?=$slider->description?></p>
               </div>
               <div class="layer-1-4">
+                <?php if ($slider->btn_link != ''): ?>
                 <p class="slider_btn_block a-6"><?=html::a($slider->btn_title,$slider->btn_link,['class' => 'btn btn_in_slider'])?></p>
+              <?php endif; ?>
               </div>
             </div>
           </div>

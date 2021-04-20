@@ -334,8 +334,8 @@ section.blog .card{
   position: absolute;
     right: 4.3%;
     top: -90px;
-    font-size: 24px;
-    color: #ccc;
+    font-size: 18px;
+    color: #8D8D8D;
     cursor: pointer;
 }
 .slick_next_bottom {
@@ -343,22 +343,22 @@ section.blog .card{
     right: 1.3%;
     top: -90px;
     font-size: 24px;
-    color: #ccc;
+    color: #090909;
     cursor: pointer;
 }
 .slick_prev {
   position: absolute;
     left: 96%;
-    font-size: 24px;
-    color: #ccc;
+    font-size: 18px;
+    color: #8D8D8D;
     top: -90px;
     cursor: pointer;
 }
 .slick_prev_bottom {
   position: absolute;
-    left: 96%;
+    left: 95%;
     font-size: 24px;
-    color: #ccc;
+    color: #090909;
     top: -90px;
     cursor: pointer;
 }
@@ -430,11 +430,11 @@ section.index_tab .nav-tabs {
 }
 section.index_tab .nav-tabs .nav-link.active {
     color: #000;
-    font-weight: bold;
-    border: none; 
 }
 section.index_tab .nav-tabs .nav-link {
-    border: none; 
+    border: none;
+    color: #8D8D8D;
+    font-weight: bold; 
 }
 section.index_tab .second_tab{
   border-left: 1px solid #000!important;
