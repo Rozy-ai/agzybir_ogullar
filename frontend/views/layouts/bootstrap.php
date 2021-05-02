@@ -27,8 +27,8 @@ AppAsset::register($this);
 
         <link rel="shortcut icon" type="image/ico" href="<?= $favicon ?>"/>
 
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,700i&amp;subset=cyrillic-ext"
-              rel="stylesheet">
+<!--         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,700i&amp;subset=cyrillic-ext"
+              rel="stylesheet"> -->
         <!-- Global site tag (gtag.js) - Google Analytics -->
 
 

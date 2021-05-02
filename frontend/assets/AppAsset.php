@@ -23,8 +23,8 @@ class AppAsset extends AssetBundle
     ];
     public $js = [
        'source/js/bootstrap.bundle.min.js',
-       'source/js/bootstrap.bundle.min.js.map',
-       'source/js/jquery-2.1.4.min.js',
+       // 'source/js/bootstrap.bundle.min.js.map',
+       'source/js/jquery.min.js',
         'source/js/wow.min.js',
         'source/js/slick.min.js',
         'source/js/scripts.js',

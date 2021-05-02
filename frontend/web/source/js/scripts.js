@@ -35,31 +35,31 @@
     ]
       });
 
-      $(".regular_tab").slick({
-        dots: false,
-        infinite: true,
-        fade: false,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        prevArrow: '<div class="slick_prev">пред</div>',
-        nextArrow: '<div class="slick_next">след  | </div>',
-          responsive: [
-      {
-        breakpoint: 750,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 550,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-    ]
-      });
+    //   $(".regular_tab").slick({
+    //     dots: false,
+    //     infinite: true,
+    //     fade: false,
+    //     slidesToShow: 4,
+    //     slidesToScroll: 1,
+    //     prevArrow: '<div class="slick_prev"><?= yii::t("app", "prev") ?></div>',
+    //     nextArrow: '<div class="slick_next"><?= yii::t("app", "next") ?>  | </div>',
+    //       responsive: [
+    //   {
+    //     breakpoint: 750,
+    //     settings: {
+    //       slidesToShow: 2,
+    //       slidesToScroll: 1
+    //     }
+    //   },
+    //   {
+    //     breakpoint: 550,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1
+    //     }
+    //   },
+    // ]
+    //   });
    
  $('button[data-bs-toggle="tab"]').on('shown.bs.tab', function(e) {
      e.target

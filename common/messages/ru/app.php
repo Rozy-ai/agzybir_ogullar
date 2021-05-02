@@ -185,6 +185,8 @@ return array(
     'Production of various plastic products for household, food and technical purposes.' => 'Производства различных пластиковых изделий бытового, хозяйственного, пищевого и технического назначения.',
     'New  ' => 'Новинки  ',
     'Popular' => 'Популярные',
+    'next' => 'след',
+    'prev' => 'пред',
 
 
 );

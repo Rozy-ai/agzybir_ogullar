@@ -9,17 +9,18 @@ use Yii;
  *
  * @property integer $id
  * @property string $email
- * @property integer $category
- * @property string $date
+ * @property string $addtime
  */
 class Subscriber extends \yii\db\ActiveRecord
 {
+     // public $email;
+     // public $addtime;
     /**
      * @inheritdoc
      */
     public static function tableName()
     {
-        return '{{%tbl_subscriber}}';
+        return '{{%subscription}}';
     }
 
     /**
@@ -28,10 +29,12 @@ class Subscriber extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['email', 'date'], 'required'],
-            [['category'], 'integer'],
-            [['date'], 'safe'],
+            [['email', 'addtime'], 'required'],
+            [['addtime'], 'safe'],
             [['email'], 'string', 'max' => 255],
+            [['email'], 'email'],
+            [['email'], 'trim'],
+            [['email'], 'unique'],
         ];
     }
 
@@ -43,8 +46,7 @@ class Subscriber extends \yii\db\ActiveRecord
         return [
             'id' => Yii::t('app', 'ID'),
             'email' => Yii::t('app', 'Email'),
-            'category' => Yii::t('app', 'Category'),
-            'date' => Yii::t('app', 'Date'),
+            'addtime' => Yii::t('app', 'Date'),
         ];
     }
 }

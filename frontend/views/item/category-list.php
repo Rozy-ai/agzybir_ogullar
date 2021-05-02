@@ -8,9 +8,9 @@ $categories = \common\models\wrappers\CategoryWrapper::find()->where(['parent_id
 <div class="container">
 	<div class="row">
 
-
 		<?php foreach ($categories as $key => $cat): ?>
 			<?php if (isset($cat->documents) && count($cat->documents) > 0){
+                $image=[];
         foreach ($cat->documents as $doc){
             $image[] = $doc->getThumb();
         }
@@ -22,7 +22,7 @@ $categories = \common\models\wrappers\CategoryWrapper::find()->where(['parent_id
                  <div class="col-md-8 ovh">
             <a href="<?= $cat->url; ?>">
              
-                    
+                     
                      <?php if (isset($image[0]) && strlen($image[0])>0){
                                 echo html::img($image[0],['class' => 'my_img2']);
                             } else{
@@ -82,6 +82,7 @@ $categories = \common\models\wrappers\CategoryWrapper::find()->where(['parent_id
                     } 
                    ?></p>
                 <a href="<?= $cat->url; ?>" class="btn_in_detail">Giňişleýin</a>
+
             </div>
         </div>
         </div>
@@ -92,3 +93,11 @@ $categories = \common\models\wrappers\CategoryWrapper::find()->where(['parent_id
 <?php endforeach; ?>
 	</div>
 </div>
+
+
+
+
+
+
+<!-- Gök bedre hojalyk harytlary üçin
+ -->

@@ -240,6 +240,8 @@ return array (
     'Production of various plastic products for household, food and technical purposes.' => 'Öý, hojalyk, azyk we tehniki maksatlar üçin dürli plastmassa önümlerini öndürmek.',
     'New  ' => 'Täze gelenler  ',
     'Popular' => 'Meşhur',
+    'next' => 'öňe',
+    'prev' => 'yza',
 );
 
 ?>

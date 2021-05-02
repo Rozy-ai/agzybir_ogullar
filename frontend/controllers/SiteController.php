@@ -2,6 +2,7 @@
 namespace frontend\controllers;
 
 use common\models\Item;
+use yii\helpers\Html;
 use common\models\ItemLang;
 use common\models\search\ItemLangSearch;
 use common\models\search\ItemSearch;
@@ -118,6 +119,10 @@ class SiteController extends CommonController
      */
     public function actionIndex()
     {
+         $model = new SubscriberWrapper();
+         //  if ($model->load(Yii::$app->request->post()) && $model->validate()){
+         //    return $this->render('site/subscription', ['model' => $model]);
+         //  } 
         // $this->layout = 'fullpage';
 //        $aboutCategory = CategoryWrapper::find()->where(['code' => 'about'])->one();
 //        $mainAboutItem = ItemWrapper::find()
@@ -145,6 +150,7 @@ class SiteController extends CommonController
 
 
         return $this->render('index', [
+            'model' => $model,
 //            'aboutCategory' => $aboutCategory,
 //            'itemCategory' => $itemCategory,
 //            'eventCategory' => $eventCategory,
@@ -155,6 +161,29 @@ class SiteController extends CommonController
 //            'sliderImages' => $sliderImages,
         ]);
     }
+
+
+//     public function actionSubscription(){
+//         $model = Yii::$app->request->post();
+//         var_dump($model);
+//     if ($model->validate()){
+//         $email = Html::encode($model->email);
+//         $model->email = $email;
+//         $model->addtime = (string) time();
+//         if ($model->save()) {                
+//             Yii::$app->response->refresh(); //очистка данных из формы
+//             echo "<p style='color:green'>Подписка оформлена!</p>";
+//             exit;
+//         } 
+//     } else {
+//         echo "<p style='color:red'>Ошибка оформления подписки.</p>";
+//         //Проверяем наличие фразы в массиве ошибки
+//         if(strpos($model->errors['email'][0], 'уже занято') !== false) {
+//             echo "<p style='color:red'>Вы уже подписаны!</p>";
+//         }          
+//     }        
+//     exit;
+// }
 
     /**
      * Logs in a user.
@@ -198,7 +227,6 @@ class SiteController extends CommonController
     public function actionContact()
     {
         // $this->layout = 'bootstrap';
-
         $model = new ContactWrapper();
         $ownInfo = OwnerContactWrapper::find()->one();
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
@@ -220,8 +248,11 @@ class SiteController extends CommonController
 
     public function actionSubscribe()
     {
+        $post = Yii::$app->request->post();
         $model = new SubscriberWrapper();
-        $model->date = \Yii::$app->formatter->asDate(new \DateTime(), 'yyyy-MM-dd HH:mm:ss');
+        $model->addtime = \Yii::$app->formatter->asDate(new \DateTime(), 'yyyy-MM-dd HH:mm:ss');
+         $email = Html::encode($post['SubscriberWrapper']['email']);
+        $model->email = $email;
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             if ($model->save()) {
                 Yii::$app->session->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');

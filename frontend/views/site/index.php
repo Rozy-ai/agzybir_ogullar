@@ -2,9 +2,12 @@
 use common\models\wrappers\CategoryWrapper;
 use common\models\wrappers\ItemWrapper;
 use dosamigos\gallery\Carousel;
+use common\widgets\SubscriptionWidget\SubscriptionWidget;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use kartik\slider\Slider;
+use yii\widgets\ActiveForm;
+use yii\widgets\Pjax;
 
 
 $this->title = Yii::t('app', 'Home');
@@ -209,18 +212,25 @@ $blogs = \common\models\wrappers\ItemWrapper::find()->where(['category_id' => $c
           <h3>Подпишитесь на нас</h3>
         </div>
         <div class="col-sm-7 d-flex justify-content-end">
-          <form action="">
-            <div class="row write_form_in">
-              <div class="col-8">
-                <input type="text" placeholder="Email  адрес" class="form-control">
-              </div>
-              <div class="col-4">
-                <button type="submit" class="btn btn-primary mb-2">подписатся</button>
-              </div>
-            </div>
 
+    <?php $form = ActiveForm::begin([
+            'action' => yii\helpers\Url::to(['site/subscribe']),
+        ]); ?>
+        <div class="row write_form_in">
+          <div class="col-8">
+            <?=$form->field($model, 'email')->textInput(['placeholder'=>'Email  адрес', 'class' =>'form-control'])->label(false);?>
+          </div>
+          <div class="col-4">
+            <?=Html::submitButton('Подписаться',  ['class' => 'btn btn-primary mb-2']); ?>
+          </div>
+        </div>
+    
+    
+    <?php ActiveForm::end(); ?>
 
-          </form>
+    <div style="clear:both;"></div>
+
+       
         </div>
 
       </div>
@@ -245,6 +255,40 @@ $categoryLink = [$category->code => $category->url];
                 <?=html::a(yii::t('app', 'See All'),$category->url, ['class' => 'see_all_btn'])?>
 </p>
   </section>
+
+  <?php
+  $this->registerJS('
+    
+    var next = "'.yii::t('app','next').'"
+    var prev = "'.yii::t('app','prev').'"
+
+    $(".regular_tab").slick({
+        dots: false,
+        infinite: true,
+        fade: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        prevArrow: "<div class=\'slick_prev\'> "+prev+"</div>",
+        nextArrow: "<div class=\'slick_next\'> "+next+"   | </div>",
+          responsive: [
+      {
+        breakpoint: 750,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 550,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+    ]
+      });
+
+  ',\yii\web\View::POS_END);
 
 
 

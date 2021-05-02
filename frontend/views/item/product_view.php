@@ -43,13 +43,11 @@
                     <?= $model->title ?>                </h1>
                 <p class="product_desc">
                     <?= $model->description ?>               </p>
-                    <?php if(isset($model->price)): ?>
-                <div class="product_price">
+                    <?php if($model->price != ''){
+                        echo " <div class='product_price'>".$model->price." manat </div>";
+                    } ?>
+                
 
-<?= $model->price ?> manat
-                    
-                                    </div>
-                                   <?php endif; ?>
 
             </div>
         </div>
