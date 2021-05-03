@@ -1,7 +1,7 @@
 <?php
 
 use frontend\assets\AppAsset;
-use kartik\alert\Alert;
+use common\widgets\Alert;
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
 
@@ -136,7 +136,12 @@ AppAsset::register($this);
     <?php $this->beginBody() ?>
 
     <?= $this->render('//common/header', ['menuItems' => $menuItems]) ?>
-
+          
+<?= Alert::widget([
+    'options' => [
+                'style' => 'opacity:1',
+            ]
+]); ?>
 
 
     <?= $content ?>
