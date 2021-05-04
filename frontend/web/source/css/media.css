@@ -34,6 +34,9 @@
 .corusel_top_img{
   height: 60%;
 }
+ul.navbar-nav li.nav-item a.nav-link{
+  padding-left: 2%;
+}
 
 }
 
