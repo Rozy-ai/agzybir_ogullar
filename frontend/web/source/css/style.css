@@ -451,9 +451,22 @@ h1, h2, h3, h4, h5, h6 {
    /* color: #000;*/
 }
 ul.navbar-nav li.nav-item a.nav-link {
+  text-transform: uppercase;
   font-weight: bolder;
   color: #000;
+  transition: 0s;
 } 
+ul.navbar-nav li.nav-item a.nav-link:hover {
+  border-radius: 10px!important;
+  color: #fff;
+  background-color: #00447D;
+} 
+ul.navbar-nav li.nav-item a.active {
+  border-radius: 10px!important;
+  color: #fff!important;
+  background-color: #00447D;
+} 
+
 section{
   margin-bottom: 120px;
 }
@@ -1399,11 +1412,14 @@ section.breadcrumb_area_two nav{
   width: 20%;
   height: 40px;
   border-radius: 10px!important;
-  color: #fff;
-  background-color: #00447D;
-  border: none;
+  color: #00447D;
+  border: 1px solid #00447D;
+  background-color: #fff;
   padding: 0 10px;
   z-index: 15;
+}
+.search:focus{
+  outline: none;
 }
 .search_submit{
   display: none;
@@ -1421,4 +1437,11 @@ section.breadcrumb_area_two nav{
 }
 #hide{
   display: none;
+}
+ul.lang_ul{
+  list-style: none;
+  margin: 38px 0 10px 0;
+}
+ul.lang_ul li{
+  display: inline-block;
 }

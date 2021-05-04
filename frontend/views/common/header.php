@@ -38,6 +38,7 @@ switch ($language){
                         echo \common\widgets\language\LanguageSwitcherDropdownWidget::widget([
                            // 'showFlags' => true
                         ]);0
+                        
                         ?>
                  
         </div>
@@ -88,7 +89,8 @@ switch ($language){
   
 
       <input type="text" placeholder="<?=Yii::t('app','Search')?>" class="search"  name="query">
-      <input type="submit" class="search_submit">
+   <!--    <input type="submit" class="search_submit"> -->
+      <button type="submit" class="search_submit"><?= Yii::t('app','Send') ?></button>
       </div>
 
       <?php ActiveForm::end(); ?>

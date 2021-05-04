@@ -1,5 +1,10 @@
     $(document).on('ready', function() {
 
+      $(function() {
+    var path = location.pathname;
+    $("a[href='" + path + "']").addClass('active');
+})
+
         $('#show').click(function(){
       $(this).css('display','none');
       $('#hide').css({
