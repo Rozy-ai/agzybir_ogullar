@@ -1317,7 +1317,7 @@ section.breadcrumb_area_two nav{
 
 /*View_blog*/
 .img_blog{
-  width: 100%;
+  width: auto;
   height: 70vh;
 }
 

@@ -264,6 +264,23 @@ class SiteController extends CommonController
         return $this->redirect(Yii::$app->homeUrl);
     }
 
+     public function actionLike()
+    {
+         // $model = new SubscriberWrapper();
+
+      $id = Yii::$app->request->get('id');
+      $product = \common\models\wrappers\ItemWrapper::findOne($id);
+      if(empty($product)) return false;
+      $product->liked = $product->liked + 1;
+       $product->raiting = $product->liked + $product->visited_count;
+      if ($product->save()) {
+      return json_encode(['status' => 200]);
+            } 
+      else {
+        return json_encode(['Error']);
+      }
+    }
+
 
     /**
      * Displays about page.

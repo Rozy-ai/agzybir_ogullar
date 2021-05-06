@@ -111,16 +111,39 @@
     ]
   });
 
-      $(".like-Unlike").click(function(e) {
-        // var a = $(this).html();
-        // alert(a);
-    if ($(this).html() == '<i class="fa fa-heart-o"></i>') {
-        $(this).html('<i class="fa fa-heart" style="color : red"></i>');
+//       $(".like-Unlike").click(function(e) {
+//         // var a = $(this).html();
+//         // alert(a);
+//     if ($(this).html() == '<i class="fa fa-heart-o"></i>') {
+//         $(this).html('<i class="fa fa-heart" style="color : red"></i>');
+//     }
+//     else {
+//         $(this).html('<i class="fa fa-heart-o"></i>');
+//     }
+//     return false;
+// });
+
+
+      $('.like-Unlike').on('click', function (e) {
+  e.preventDefault();
+  var self = $(this);  
+  $.ajax({
+    url: $(this).attr('href'),
+    type: 'GET',
+    success: function(){
+      // alert(1);
+      // var a = $(this).html();
+      self.html('<i class="fa fa-heart " style="color : red"></i>');
+      // self.addClass('redheart').removeClass('like-Unlike');
+    },
+    error: function () {
+      alert('Error!');
     }
-    else {
-        $(this).html('<i class="fa fa-heart-o"></i>');
-    }
-    return false;
+  });
 });
 
+
+
     });
+
+

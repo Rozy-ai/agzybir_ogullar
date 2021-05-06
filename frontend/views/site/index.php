@@ -95,7 +95,7 @@ $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' 
 $category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'products'])->one();
 $catId = $category->id;
 $new_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_category_id' => $catId, 'status' => '1'])->orderBy('id desc')->all();
-$hit_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_category_id' => $catId, 'status' => '1'])->orderBy('visited_count')->all();
+$hit_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_category_id' => $catId, 'status' => '1'])->orderBy('raiting desc')->all();
 
 ?>
 <div class="tab-content" id="myTabContent">
@@ -107,7 +107,7 @@ $hit_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_cate
             <?=html::img($product->getThumbPath(),['class' => 'card-img-top']) ?>
             <div class="eye select_box d-flex justify-content-center align-items-center"><a href="<?= '/item/'.$product->id; ?>"><i class="fa fa-eye"></i></a></div>
             <div class="reload select_box d-flex justify-content-center align-items-center"><a href="/"><i class="fa fa-refresh"></i></a></div>
-            <div class="like select_box d-flex justify-content-center align-items-center"><a class="like-Unlike" href="#"><i class="fa fa-heart-o"></i></a></div>
+            <div class="like select_box d-flex justify-content-center align-items-center"><a class="like-Unlike" href="<?= Url::to(['site/like', 'id' => $product->id]) ?>" data-id="<?= $product->id?>"><i class="fa fa-heart-o"></i></a></div>
 <!--             <div class="market select_box d-flex justify-content-center align-items-center"><a href="#"><i class="fa fa-cart-plus"></i></a></div> -->
             <div class="card-body">
               <h5 class="card-title"><?= $product->title ?></h5>
@@ -134,7 +134,8 @@ $hit_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_cate
             <?php 
 $liked = $product->liked;
              ?>
-            <div class="like select_box d-flex justify-content-center align-items-center"><a href="#"><i class="fa fa-heart-o"></i></a></div>
+            <div class="like select_box d-flex justify-content-center align-items-center"><a class="like-Unlike" href="<?= Url::to(['site/like', 'id' => $product->id]) ?>" data-id="<?= $product->id?>"><i class="fa fa-heart-o"></i></a></div>
+
 
  <!--            <div class="market select_box d-flex justify-content-center align-items-center"><a href="#"><i class="fa fa-cart-plus"></i></a></div> -->
             <div class="card-body">
@@ -289,8 +290,6 @@ $categoryLink = [$category->code => $category->url];
       });
 
   ',\yii\web\View::POS_END);
-
-
 
 
 
