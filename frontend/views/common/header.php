@@ -46,7 +46,7 @@ switch ($language){
     </div>
 
   </header>
-  <div class="container">
+  <div class="container bottom_header">
     <div class="row">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">

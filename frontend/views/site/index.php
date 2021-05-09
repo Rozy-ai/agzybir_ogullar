@@ -86,6 +86,7 @@ $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' 
   <li class="nav-item" role="presentation">
     <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"><?= yii::t('app', 'New  ') ?></button>
   </li>
+  <span class="index_tab_span"> | </span>
   <li class="nav-item" role="presentation">
     <button class="nav-link second_tab" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><?= yii::t('app', 'Popular') ?></button>
   </li>
@@ -110,7 +111,7 @@ $hit_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_cate
             <div class="like select_box d-flex justify-content-center align-items-center"><a class="like-Unlike" href="<?= Url::to(['site/like', 'id' => $product->id]) ?>" data-id="<?= $product->id?>"><i class="fa fa-heart-o"></i></a></div>
 <!--             <div class="market select_box d-flex justify-content-center align-items-center"><a href="#"><i class="fa fa-cart-plus"></i></a></div> -->
             <div class="card-body">
-              <h5 class="card-title"><?= $product->title ?></h5>
+              <h5 class="card-title text-center"><?= $product->title ?></h5>
             </div>
           </div>
 <?php endforeach; ?>
@@ -120,7 +121,7 @@ $hit_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_cate
       <div class="clearfix"></div>
       <div class="row">
         <div class="col-12 d-flex justify-content-center">
-          <a href="<?= $category->url?>"><button type="button" class="btn btn-light" style="border:1px solid black"><?= yii::t('app', 'See All') ?></button></a>
+          <a href="<?=$category->url?>"><button type="button" class="btn btn-light" style="border:2px solid black; background: #fff"><?= yii::t('app', 'Show all') ?></button></a>
         </div>
       </div>
   </div>
@@ -139,7 +140,7 @@ $liked = $product->liked;
 
  <!--            <div class="market select_box d-flex justify-content-center align-items-center"><a href="#"><i class="fa fa-cart-plus"></i></a></div> -->
             <div class="card-body">
-              <h5 class="card-title"><?= $product->title ?></h5>
+              <h5 class="card-title text-center"><?= $product->title ?></h5>
             </div>
           </div>
           <?php endforeach; ?>
@@ -149,7 +150,7 @@ $liked = $product->liked;
       <div class="clearfix"></div>
       <div class="row">
         <div class="col-12 d-flex justify-content-center">
-          <a href="<?=$category->url?>"><button type="button" class="btn btn-light" style="border:1px solid black"><?= yii::t('app', 'See All') ?></button></a>
+          <a href="<?=$category->url?>"><button type="button" class="btn btn-light" style="border:2px solid black; background: #fff"><?= yii::t('app', 'Show all') ?></button></a>
         </div>
       </div>
     </div>
@@ -157,9 +158,10 @@ $liked = $product->liked;
     </div>
   </section>
   <section class="about">
+    <div class="parallax">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-5 about_data">
           <h3>ХО «Agzybir ogullar»</h3>
           <p>Наша компания работает на рынке по производству различных пластиковых изделий бытового, хозяйственного,
             пищевого и
@@ -167,6 +169,7 @@ $liked = $product->liked;
         </div>
 
       </div>
+    </div>
     </div>
   </section>
   <section class="blog">
@@ -176,7 +179,7 @@ $category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'b
 $catId = $category->id;
 $blogs = \common\models\wrappers\ItemWrapper::find()->where(['category_id' => $catId, 'status' => '1'])->orderBy('id desc')->all();
 ?>
-      <h2>Блог</h2>
+      <h2><?= yii::t('app' , 'Blog') ?></h2>
       <div class="row">
         <div class="regular slider">
 
@@ -200,7 +203,7 @@ $blogs = \common\models\wrappers\ItemWrapper::find()->where(['category_id' => $c
         </div>
 
         <div class="col-12 d-flex justify-content-center">
-          <a href="<?=$category->url?>"><button type="button" class="btn btn-light" style="border:1px solid black"><?= yii::t('app', 'See All') ?></button></a>
+          <a href="<?=$category->url?>"><button type="button" class="btn btn-light" style="border:2px solid black"><?= yii::t('app', 'Show all') ?></button></a>
         </div>
       </div>
     </div>
@@ -208,9 +211,10 @@ $blogs = \common\models\wrappers\ItemWrapper::find()->where(['category_id' => $c
   </section>
   <section class="write">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-5">
-          <h3>Подпишитесь на нас</h3>
+      <div class="row align-items-center">
+        <div class="col-sm-5 d-flex justify-content-center">
+          <h3><?= yii::t("app", "Subscribe to us") ?></h3>
+          
         </div>
         <div class="col-sm-7 d-flex justify-content-end">
 
@@ -222,7 +226,7 @@ $blogs = \common\models\wrappers\ItemWrapper::find()->where(['category_id' => $c
             <?=$form->field($model, 'email')->textInput(['placeholder'=>'Email  адрес', 'class' =>'form-control'])->label(false);?>
           </div>
           <div class="col-4">
-            <?=Html::submitButton('Подписаться',  ['class' => 'btn btn-primary mb-2']); ?>
+            <?=Html::submitButton(yii::t("app", "subscribe") ,  ['class' => 'btn btn-primary mb-2']); ?>
           </div>
         </div>
     
@@ -252,9 +256,20 @@ $categoryLink = [$category->code => $category->url];
       <?php endforeach; ?>
 
     </div>
-      <p class="text-center my-4">
-                <?=html::a(yii::t('app', 'See All'),$category->url, ['class' => 'see_all_btn'])?>
-</p>
+    <!--   <p class="text-center my-4"> -->
+                <?php 
+                // echo html::a(yii::t('app', 'Show all'),$category->url, ['class' => 'see_all_btn'])
+                ?>
+             <!--    <a href=" -->
+                <?php  
+                // echo $category->url
+                ?>
+              <!--   "><button type="button" class="btn btn-light" style="border:2px solid black"> --><?php 
+                // echo yii::t('app', 'Show all') 
+                ?>
+                  
+<!--                 </button></a>
+</p> -->
   </section>
 
   <?php

@@ -43,7 +43,7 @@
                     <?= $model->title ?>                </h1>
                 <p class="product_desc">
                     <?= $model->description ?>               </p>
-                    <?php if($model->price != ''){
+                    <?php if(isset($model->price)){
                         echo " <div class='product_price'>".$model->price." manat </div>";
                     } ?>
                 

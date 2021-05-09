@@ -67,7 +67,7 @@ return array (
     'Event not found' => 'Saýlan günüňizde sahna ýok',
     'Event waiting...' => 'Magluamt yüklenilýär...',
 
-    'Show all news >' => 'Ählisini görkez >',
+    'Show all' => 'Ählisini görkez',
     'Gallery' => 'Galereýa',
     'Publications' => 'Makalalar',
     'Show all publications' => 'Ählisini görkez',
@@ -242,6 +242,9 @@ return array (
     'Popular' => 'Meşhur',
     'next' => 'öňe',
     'prev' => 'yza',
+    'subscribe' => 'ýazylmak',
+    'Subscribe to us' => 'Bize ýazylyň',
+
 );
 
 ?>

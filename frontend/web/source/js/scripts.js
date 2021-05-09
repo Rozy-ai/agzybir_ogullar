@@ -82,7 +82,7 @@
     infinite: true,
     centerMode: true,
     slidesToShow: 6,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
             responsive: [
       {
         breakpoint: 576,
@@ -90,22 +90,22 @@
           slidesToShow: 2,
         }
       },
+      // {
+      //   breakpoint: 750,
+      //   settings: {
+      //     slidesToShow: 3,
+      //   }
+      // },
       {
-        breakpoint: 750,
+        breakpoint: 992,
         settings: {
           slidesToShow: 3,
         }
       },
       {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 4,
-        }
-      },
-      {
         breakpoint: 1400,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 4,
         }
       },
     ]

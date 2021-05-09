@@ -21,7 +21,7 @@ return array(
     'yesterday' => 'Вчера',
     'search_hint' => 'Поиск',
     'Contact us' => 'Контакты',
-    'Show all news >' => 'Показать все >',
+    'Show all' => 'Показать все',
     'Publications' => 'Публикации',
     'Show all publications' => 'Показать все публикации',
     'Gallery' => 'Галерея',
@@ -187,6 +187,8 @@ return array(
     'Popular' => 'Популярные',
     'next' => 'след',
     'prev' => 'пред',
+    'subscribe' => 'подписатся',
+    'Subscribe to us' => 'Подпишитесь на нас',
 
 
 );

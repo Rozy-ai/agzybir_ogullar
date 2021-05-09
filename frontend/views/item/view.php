@@ -41,7 +41,7 @@ if ($catCode == 'products'){
 } elseif ($catCode == 'categorytest'){
     $view = 'product_view';
 } else {
-     $view = 'product_view';
+    $view = 'product_view';
 }
 
 
