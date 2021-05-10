@@ -8,6 +8,7 @@
 $ownInfo = \common\models\OwnerContact::find()->one();
 ?>
 
+
   <footer>
     <div class="container">
       <div class="row">
@@ -34,7 +35,7 @@ $ownInfo = \common\models\OwnerContact::find()->one();
         </div>
         <div class="col d-flex justify-content-center">
           <div class="center_footer">
-            <h3>Полезно</h3><br>
+            <h3><?= yii::t('app', 'Useful') ?></h3><br>
             <ul>
               <a href="/item/about"> <li><?= yii::t('app', 'About Us') ?></li></a>
               <a href="/item/magazin"> <li><?= yii::t('app', 'Shop') ?> </li></a>
@@ -46,7 +47,7 @@ $ownInfo = \common\models\OwnerContact::find()->one();
         </div>
         <div class="col d-flex justify-content-center">
           <div class="right_footer">
-            <h3>Контакты</h3>
+            <h3><?= yii::t('app', 'Contact us') ?></h3>
             <br>
             <i class="fa fa-map-marker"></i> <span><?= yii::t('app', 'Address') ?>: <br>
               <?= $ownInfo->my_address ?></span> <br><br>
@@ -61,4 +62,3 @@ $ownInfo = \common\models\OwnerContact::find()->one();
       </div>
     </div>
   </footer>
-

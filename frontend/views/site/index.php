@@ -23,17 +23,18 @@ $this->title = Yii::t('app', 'Home');
   <!-- Carusel -->
 
   <section class="container-fluid corusel_top p-0">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval='5000'>
       <div class="carousel-inner">
         <?php
     $sliders = \common\models\wrappers\ImageWrapper::find()->all();
     ?>
+
     <?php foreach ($sliders as $key => $slider): ?>
     <?php 
         $imagePath = $slider->getThumbPath();
  ?>
 
-        <div class="carousel-item <?= ($key==1)?'active':'' ?>" data-bs-interval="5000">
+        <div class="carousel-item <?= ($key==1)?'active':'' ?>" >
          
           <?=html::img($imagePath,['class'=>'corusel_top_img','alt'=>'...'])?>
           <div class="carousel-caption d-none d-md-block">
@@ -41,7 +42,7 @@ $this->title = Yii::t('app', 'Home');
               <div class="layer-3-3">
                 <h1 class="a-1"><?=$slider->title?></h1>
               </div>
-              <div class="layer-1-3" style="margin-bottom: 100px;">
+              <div class="layer-1-3" style="margin-bottom: 40px;">
                 <p class="a-2"><?=$slider->description?></p>
               </div>
               <div class="layer-1-4">
@@ -68,9 +69,9 @@ $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' 
 ?>
   <section class="about_us">
     <div class="container">
-      <div class="row">
+      <div class="row justify-content-between">
         <?php foreach ($advantages as $key => $advantage): ?>
-        <div class="col-md-4">
+        <div class="col-md-3">
           <h3> <?=html::img($advantage->getThumbPath(),['class' => '']) ?> <span><?=$advantage->title?></span> </h3>
           <br>
           <p><?= $advantage->content ?></p>
@@ -158,14 +159,17 @@ $liked = $product->liked;
     </div>
   </section>
   <section class="about">
+       <?php
+$ownInfo = \common\models\OwnerContact::find()->one();
+
+?>
+
     <div class="parallax">
     <div class="container">
       <div class="row">
         <div class="col-sm-5 about_data">
-          <h3>ХО «Agzybir ogullar»</h3>
-          <p>Наша компания работает на рынке по производству различных пластиковых изделий бытового, хозяйственного,
-            пищевого и
-            технического назначения которые вырабатываются из гранул полипропилена и полиэтилена.</p>
+          <h3> <?= $ownInfo->my_title ?></h3>
+          <p><?= $ownInfo->my_description ?></p>
         </div>
 
       </div>

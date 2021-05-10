@@ -244,6 +244,7 @@ return array (
     'prev' => 'yza',
     'subscribe' => 'ýazylmak',
     'Subscribe to us' => 'Bize ýazylyň',
+    'Useful' => 'Peýdaly',
 
 );
 

@@ -525,7 +525,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "MontserratBold","Arial", sans-serif;
 }
 section.about_us h3 span{
-  font-family: "MontserratSemiBold","Arial", sans-serif;
+  font-family: "MontserratBold","Arial", sans-serif;
+  font-size: 18px;
 }
 section.about .about_data{
   padding-top: 10%;
@@ -615,6 +616,9 @@ header div.lang_img img{
 .nav .dropdown-menu{
   background-color: none;
 }
+ul.dropdown-menu li.dropdown a.nav-link {
+  padding-left: 10%;
+}
 ul.dropdown-menu {
   border: none;
   background: #fff;
@@ -636,10 +640,12 @@ ul.dropdown-menu {
 }
 .carousel-inner .carousel-caption{
   text-align: left;
+  bottom: 2.8rem;
 }
 
 .slider_text_block h1{
-    font-size:400%;
+    font-size:32px;
+    width: 50%;
     font-weight: 600;
     color:#fff;
 }
@@ -648,14 +654,14 @@ ul.dropdown-menu {
     font-size: 19px;
 }
 .btn_in_slider{
-    padding: 8px 15px;
+    padding: 16px 30px;
     background: rgb(0,112,253);
 background: linear-gradient(180deg, rgba(0,112,253,1) 0%, rgba(108,31,216,1) 100%);
-    -webkit-border-radius:5px;
+/*    -webkit-border-radius:5px;
     -moz-border-radius:5px;
-    border-radius:5px;
+    border-radius:5px;*/
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
 }
 .btn_in_slider:hover{
     color:#eee;

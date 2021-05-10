@@ -189,6 +189,7 @@ return array(
     'prev' => 'пред',
     'subscribe' => 'подписатся',
     'Subscribe to us' => 'Подпишитесь на нас',
+    'Useful' => 'Полезно',
 
 
 );
