@@ -98,6 +98,7 @@ $category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'p
 $catId = $category->id;
 $new_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_category_id' => $catId, 'status' => '1'])->orderBy('id desc')->all();
 $hit_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_category_id' => $catId, 'status' => '1'])->orderBy('raiting desc')->all();
+$aa =  \common\models\wrappers\ItemWrapper::find()->where(['id' => '1808', 'status' => '1'])->one();
 
 ?>
 <div class="tab-content" id="myTabContent">
@@ -107,6 +108,9 @@ $hit_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_cate
             <?php foreach ($new_products as $key => $product): ?>
           <div class="card" style="width: 18rem;">
             <?=html::img($product->getThumbPath(),['class' => 'card-img-top']) ?>
+            <?php if(isset($product->skidka)){
+                        echo " <span class='skidka'>".$product->skidka."</span>";
+                    } ?>
             <div class="eye select_box d-flex justify-content-center align-items-center"><a href="<?= '/item/'.$product->id; ?>"><i class="fa fa-eye"></i></a></div>
             <div class="reload select_box d-flex justify-content-center align-items-center"><a href="/"><i class="fa fa-refresh"></i></a></div>
             <div class="like select_box d-flex justify-content-center align-items-center"><a class="like-Unlike" href="<?= Url::to(['site/like', 'id' => $product->id]) ?>" data-id="<?= $product->id?>"><i class="fa fa-heart-o"></i></a></div>
@@ -131,6 +135,9 @@ $hit_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_cate
             <?php foreach ($hit_products as $key => $product): ?>
           <div class="card" style="width: 18rem;">
             <?=html::img($product->getThumbPath(),['class' => 'card-img-top']) ?>
+            <?php if(isset($product->skidka)){
+                        echo " <span class='skidka'>".$product->skidka."</span>";
+                    } ?>
             <div class="eye select_box d-flex justify-content-center align-items-center"><a href="<?= '/item/'.$product->id; ?>"><i class="fa fa-eye"></i></a></div>
             <div class="reload select_box d-flex justify-content-center align-items-center"><a href="/"><i class="fa fa-refresh"></i></a></div>
             <?php 

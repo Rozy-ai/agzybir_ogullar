@@ -43,8 +43,12 @@
                     <?= $model->title ?>                </h1>
                 <p class="product_desc">
                     <?= $model->description ?>               </p>
-                    <?php if(isset($model->price)){
-                        echo " <div class='product_price'>".$model->price." manat </div>";
+                    <?php if(!empty($model->skidka)){
+                        echo " <div class='product_skidka'>Arzanladyş : ".$model->skidka."</div><br><br>";
+                    } ?>
+        
+                    <?php if(!empty($model->price)){
+                        echo " <div class='product_price'>Bahasy : ".$model->price." manat </div><br><br>";
                     } ?>
                 
 

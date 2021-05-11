@@ -25,6 +25,9 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+.slick_prev_bottom {
+    left: 85%;
+}
   .icon{
     display:none!important;
   }
@@ -71,6 +74,9 @@ footer{
 }
 section.partners{
   margin-bottom: 0;
+}
+.slick_prev_bottom {
+    left: 80%;
 }
 }
 
