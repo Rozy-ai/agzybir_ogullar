@@ -550,6 +550,15 @@ font-family: "MontserratBold","Arial", sans-serif;
   margin-top: 4px;
   font-family: "Montserrat","Arial", sans-serif;
 }
+footer{
+  font-family: "MontserratBold","Arial", sans-serif;
+}
+footer .right_footer span p{
+  font-family: "RubikRegular","Arial", sans-serif;
+}
+footer .left_footer p{
+  font-family: "RubikRegular","Arial", sans-serif;
+}
 /*endfonts*/
 
 
@@ -627,7 +636,7 @@ ul.dropdown-menu {
   margin-left:40px;
 }
 .logo img{
-  width: 50%;
+  width: 63%;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -746,13 +755,17 @@ background: linear-gradient(180deg, rgba(0,112,253,1) 0%, rgba(108,31,216,1) 100
   width: 2em;
 }
 .about_us h3{
+  text-align: center;     
   max-height: 30px;
   text-transform: uppercase;
+}
+.about_us h3 span{
+  color: #00467A;
 }
 .about_us p{ 
 }
 .about_us div.row div {
-  padding: 3% 2%;
+  /*padding: 3% 2%;*/
 }
 .about_us div.row div:hover {
     box-shadow: 0 5px 23px 10px rgb(0 0 0 / 5%);
@@ -823,6 +836,13 @@ footer .center_footer ul li{
 }
 footer .right_footer span{
   margin-bottom: 10px;
+}
+footer .right_footer span p a{
+  color: #fff;
+  text-decoration: none;
+}
+footer .right_footer span p a:hover{
+  text-decoration: underline;
 }
 .social_icons i{
   font-size: larger;
@@ -896,6 +916,15 @@ section.blog h2{
     font-size: 18px;
     color: #8D8D8D;
     cursor: pointer;
+}
+.slick_next:hover{
+  color: #000;
+}
+.slick_prev:hover {
+    color: #000;
+}
+.slick_next:hover span {
+    color: #8D8D8D;
 }
 .slick_next_bottom {
     border-radius: 50%;
@@ -990,7 +1019,7 @@ section.index_tab div.select_box a:focus{
 outline: none;
 }
 section.index_tab div.eye{
-  top: 30%;
+  top: 43%;
   right: 5%;
 }
 section.index_tab div.reload{
@@ -1118,6 +1147,21 @@ section.breadcrumb_area_two nav{
 }
 .news_cart_caption{
     height: 150px;
+    padding: 20px 30px 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.news_cart_caption_partners h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+}
+.news_cart_caption_partners a{
+    text-decoration: none;
+}
+.news_cart_caption_partners{
+/*    height: 150px;*/
     padding: 20px 30px 20px 30px;
     display: flex;
     flex-direction: column;
@@ -1363,6 +1407,12 @@ section.breadcrumb_area_two nav{
 .function_box:hover .box-body-img{
     color:#fff;
     transition: 0.5s;
+}
+.function_box .box-body-img img{
+    width: 2em;
+}
+.function_box:hover .box-body-img img{
+    filter: invert(1);
 }
 .function_box:hover h3{
     color:#fff;

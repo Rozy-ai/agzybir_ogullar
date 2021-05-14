@@ -1,6 +1,4 @@
-    $(document).on('ready', function() {
-
-      $(function() {
+$(function() {
     var path = location.pathname;
     $("a[href='" + path + "']").addClass('active');
 })
@@ -141,9 +139,3 @@
     }
   });
 });
-
-
-
-    });
-
-

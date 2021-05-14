@@ -71,11 +71,25 @@ $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' 
     <div class="container">
       <div class="row justify-content-between">
         <?php foreach ($advantages as $key => $advantage): ?>
-        <div class="col-md-3">
-          <h3> <?=html::img($advantage->getThumbPath(),['class' => '']) ?> <span><?=$advantage->title?></span> </h3>
-          <br>
-          <p><?= $advantage->content ?></p>
-        </div>
+                      <div class="col-md-4 col-sm-6 bg-white function_box">
+                <div class="overlay_function_box">
+                    <div class="overlay_function_box_top"></div>
+                    <div class="overlay_function_box_bottom"></div>
+                </div>
+                <div class="box-body">
+                    <div class="box-body-content">
+                        <h3 class=""><?=$advantage->title?></h3>
+                        <p></p><p><?= $advantage->content ?></p>
+<p></p>
+                    </div>
+                    <div class="box-body-img">
+                        <?=html::img($advantage->getThumbPath(),['class' => '']) ?>
+                    </div>
+                </div>
+            </div>
+
+   
+
         <?php endforeach; ?>
       </div>
     </div>
@@ -112,7 +126,7 @@ $aa =  \common\models\wrappers\ItemWrapper::find()->where(['id' => '1808', 'stat
                         echo " <span class='skidka'>".$product->skidka."</span>";
                     } ?>
             <div class="eye select_box d-flex justify-content-center align-items-center"><a href="<?= '/item/'.$product->id; ?>"><i class="fa fa-eye"></i></a></div>
-            <div class="reload select_box d-flex justify-content-center align-items-center"><a href="/"><i class="fa fa-refresh"></i></a></div>
+         <!--    <div class="reload select_box d-flex justify-content-center align-items-center"><a href="/"><i class="fa fa-refresh"></i></a></div> -->
             <div class="like select_box d-flex justify-content-center align-items-center"><a class="like-Unlike" href="<?= Url::to(['site/like', 'id' => $product->id]) ?>" data-id="<?= $product->id?>"><i class="fa fa-heart-o"></i></a></div>
 <!--             <div class="market select_box d-flex justify-content-center align-items-center"><a href="#"><i class="fa fa-cart-plus"></i></a></div> -->
             <div class="card-body">
@@ -139,7 +153,7 @@ $aa =  \common\models\wrappers\ItemWrapper::find()->where(['id' => '1808', 'stat
                         echo " <span class='skidka'>".$product->skidka."</span>";
                     } ?>
             <div class="eye select_box d-flex justify-content-center align-items-center"><a href="<?= '/item/'.$product->id; ?>"><i class="fa fa-eye"></i></a></div>
-            <div class="reload select_box d-flex justify-content-center align-items-center"><a href="/"><i class="fa fa-refresh"></i></a></div>
+            <!-- <div class="reload select_box d-flex justify-content-center align-items-center"><a href="/"><i class="fa fa-refresh"></i></a></div> -->
             <?php 
 $liked = $product->liked;
              ?>
@@ -190,7 +204,7 @@ $category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'b
 $catId = $category->id;
 $blogs = \common\models\wrappers\ItemWrapper::find()->where(['category_id' => $catId, 'status' => '1'])->orderBy('id desc')->all();
 ?>
-      <h2><?= yii::t('app' , 'Blog') ?></h2>
+      <h2><?= yii::t('app' , 'News') ?></h2>
       <div class="row">
         <div class="regular slider">
 
@@ -296,7 +310,7 @@ $categoryLink = [$category->code => $category->url];
         slidesToShow: 4,
         slidesToScroll: 1,
         prevArrow: "<div class=\'slick_prev\'> "+prev+"</div>",
-        nextArrow: "<div class=\'slick_next\'> "+next+"   | </div>",
+        nextArrow: "<div class=\'slick_next\'> "+next+"<span>" + " | "+" </span></div>",
           responsive: [
       {
         breakpoint: 750,

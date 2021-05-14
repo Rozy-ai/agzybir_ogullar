@@ -26,6 +26,7 @@ AppAsset::register($this);
         ?>
 
         <link rel="shortcut icon" type="image/ico" href="<?= $favicon ?>"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
         
 
 <!--         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,700i&amp;subset=cyrillic-ext"
@@ -146,7 +147,20 @@ AppAsset::register($this);
 
 
     <?= $content ?>
-
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#383b75"
+    },
+    "button": {
+      "background": "#ffffff"
+    }
+  },
+  "theme": "classic"
+});
+</script>
     <?= $this->render('//common/footer', ['menuItems' => $menuItems]) ?>
     <?php $this->endBody() ?>
     </body>

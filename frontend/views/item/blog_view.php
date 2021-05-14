@@ -48,14 +48,14 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <h3 style="font-size: 22px;">Doly maglumat</h3>
                 <div class="product_content_block">
                     <p>&nbsp;</p>
 
 <?= $model->content ?>
                 </div>
-            </div>
+            </div> <br><br><br><br>
 
         </div>
 

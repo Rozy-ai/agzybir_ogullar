@@ -49,14 +49,18 @@ $ownInfo = \common\models\OwnerContact::find()->one();
           <div class="right_footer">
             <h3><?= yii::t('app', 'Contact us') ?></h3>
             <br>
-            <i class="fa fa-map-marker"></i> <span><?= yii::t('app', 'Address') ?>: <br>
-              <?= $ownInfo->my_address ?></span> <br><br>
-            <i class="fa fa-phone"></i><span><?= yii::t('app', 'Phone') ?>: <br>
-              <?= $ownInfo->my_phone ?></span> <br><br>
-            <i class="fa fa-envelope"></i> <span><?= yii::t('app', 'Email') ?>: <br>
-              <?= $ownInfo->my_email ?></span> <br><br>
-            <i class="fa fa-clock-o"></i> <span><?= yii::t('app', 'Working time') ?>: <br>
-              <?= yii::t('app', 'Mon - Sun / 9:00 AM - 8:00 PM') ?></span>
+
+            <i class="fa fa-map-marker"></i> <span><?= yii::t('app', 'Address') ?>: <p>
+              <?= $ownInfo->my_address ?></p></span>
+
+            <i class="fa fa-phone"></i><span><?= yii::t('app', 'Phone') ?>: <p><a href="tel: <?= $ownInfo->my_phone ?>">
+              <?= $ownInfo->my_phone ?></a> </p> </span> 
+
+            <i class="fa fa-envelope"></i> <span><?= yii::t('app', 'Email') ?>: <p> <a href="mailto:<?= $ownInfo->my_email ?>">
+              <?= $ownInfo->my_email ?></a></p></span>
+
+            <i class="fa fa-clock-o"></i> <span><?= yii::t('app', 'Working time') ?>: <p>
+              <?= yii::t('app', 'Mon - Sun / 9:00 AM - 8:00 PM') ?></p></span>
           </div>
         </div>
       </div>

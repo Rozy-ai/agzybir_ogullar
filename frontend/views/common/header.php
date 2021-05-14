@@ -49,9 +49,9 @@ switch ($language){
   <div class="container bottom_header">
     <div class="row">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-            <div class="col-5 logo">
+            <div class="col-4 logo">
             <a class="navbar-brand" href="/"><img src="/source/img/europlastic-logo.jpg" alt="Logo"></a>
           </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"

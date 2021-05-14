@@ -66,7 +66,6 @@ if (!isset($view)){
 </nav>
     </div>
     </div> -->
-
     <section class="breadcrumb_area_two parallaxie">
 
         <!-- <div class="overlay"></div> -->
