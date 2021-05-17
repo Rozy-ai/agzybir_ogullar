@@ -20,8 +20,6 @@ class MainAsset extends AssetBundle
 
 
     public $js = [
-        // 'source/js/popper.min.js',
-        // 'source/js/jquery.min.js',
     ];
 
 

@@ -147,7 +147,9 @@ AppAsset::register($this);
 
 
     <?= $content ?>
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+
+    <?= $this->render('//common/footer', ['menuItems' => $menuItems]) ?>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 <script>
 window.cookieconsent.initialise({
   "palette": {
@@ -161,7 +163,6 @@ window.cookieconsent.initialise({
   "theme": "classic"
 });
 </script>
-    <?= $this->render('//common/footer', ['menuItems' => $menuItems]) ?>
     <?php $this->endBody() ?>
     </body>
     </html>

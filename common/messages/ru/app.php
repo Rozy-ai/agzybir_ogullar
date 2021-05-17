@@ -190,6 +190,7 @@ return array(
     'subscribe' => 'подписатся',
     'Subscribe to us' => 'Подпишитесь на нас',
     'Useful' => 'Полезно',
+    'YOU MAY ALSO LIKE...' => 'ВАМ ТАКЖЕ МОЖЕТ ПОНРАВИТЬСЯ...',
 
 
 );

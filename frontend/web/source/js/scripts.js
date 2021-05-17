@@ -3,22 +3,22 @@ $(function() {
     $("a[href='" + path + "']").addClass('active');
 })
 
-        $('#show').click(function(){
-      $(this).css('display','none');
-      $('#hide').css({
-        'display':'block',
-      });
-      $('.search').show(400).css('display','block');
-      $('.search_submit').show(400).css('display','block');
-    });
-    $('#hide').click(function(){
-      $(this).css('display','none');
-      $('#show').css({
-        'display':'block',
-      });
-      $('.search').hide(400);
-      $('.search_submit').hide(400);
-    });
+    //     $('#show').click(function(){
+    //   $(this).css('display','none');
+    //   $('#hide').css({
+    //     'display':'block',
+    //   });
+    //   $('.search').show(400).css('display','block');
+    //   $('.search_submit').show(400).css('display','block');
+    // });
+    // $('#hide').click(function(){
+    //   $(this).css('display','none');
+    //   $('#show').css({
+    //     'display':'block',
+    //   });
+    //   $('.search').hide(400);
+    //   $('.search_submit').hide(400);
+    // });
 
       $(".regular").slick({
         dots: true,
@@ -38,31 +38,63 @@ $(function() {
     ]
       });
 
-    //   $(".regular_tab").slick({
-    //     dots: false,
-    //     infinite: true,
-    //     fade: false,
-    //     slidesToShow: 4,
-    //     slidesToScroll: 1,
-    //     prevArrow: '<div class="slick_prev"><?= yii::t("app", "prev") ?></div>',
-    //     nextArrow: '<div class="slick_next"><?= yii::t("app", "next") ?>  | </div>',
-    //       responsive: [
-    //   {
-    //     breakpoint: 750,
-    //     settings: {
-    //       slidesToShow: 2,
-    //       slidesToScroll: 1
-    //     }
-    //   },
-    //   {
-    //     breakpoint: 550,
-    //     settings: {
-    //       slidesToShow: 1,
-    //       slidesToScroll: 1
-    //     }
-    //   },
-    // ]
-    //   });
+        $(".regular_2").slick({
+          prevArrow: '<div class="slick_prev_bottom"><i class="fa fa-angle-left"></i></div>',
+        nextArrow: '<div class="slick_next_bottom"><i class="fa fa-angle-right"></i></div>',
+    dots: false,
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 550,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 750,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 950,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      },
+    ]
+  });
+
+      $(".regular_tab").slick({
+        dots: false,
+        infinite: true,
+        fade: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        prevArrow: '<div class="slick_prev"><i class="fa  fa-angle-left"></i></div>',
+        nextArrow: '<div class="slick_next"> <i class="fa  fa-angle-right"></i> </div>',
+          responsive: [
+      {
+        breakpoint: 750,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 550,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+    ]
+      });
    
  $('button[data-bs-toggle="tab"]').on('shown.bs.tab', function(e) {
      e.target
@@ -139,3 +171,10 @@ $(function() {
     }
   });
 });
+
+      var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})

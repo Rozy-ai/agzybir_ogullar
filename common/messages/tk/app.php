@@ -242,9 +242,10 @@ return array (
     'Popular' => 'Meşhur',
     'next' => 'öňe',
     'prev' => 'yza',
-    'subscribe' => 'ýazylmak',
+    'subscribe' => 'Ýazylmak',
     'Subscribe to us' => 'Bize ýazylyň',
     'Useful' => 'Peýdaly',
+    'YOU MAY ALSO LIKE...' => 'Size peýdaly bolup biler...',
 
 );
 

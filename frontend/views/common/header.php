@@ -76,24 +76,25 @@ switch ($language){
             <!-- BEGIN TOP SEARCH -->
             
             <!-- END TOP SEARCH -->
-                                <?php $form = ActiveForm::begin(['action'=>['site/search'],'method'=>'get']); ?>
+                   
                     <div class="input-group">             
-  <button type="button" id="show" class="call_btn">
+  <button type="button" id="show" class="call_btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
       <span class="fa fa-search"></span>
     </button>
 
-    <button type="button" id="hide" class="call_btn">
+
+
+<!--     <button type="button" id="hide" class="call_btn">
       <span class="fa fa-search"></span>
-    </button>
+    </button> -->
 
-  
 
-      <input type="text" placeholder="<?=Yii::t('app','Search')?>" class="search"  name="query">
+ 
+     
    <!--    <input type="submit" class="search_submit"> -->
-      <button type="submit" class="search_submit"><?= Yii::t('app','Send') ?></button>
+      
       </div>
 
-      <?php ActiveForm::end(); ?>
     <!--         <a href=""><i class="fa fa-user"></i></a>
             <a href=""><i class="fa fa-shopping-cart"></i></a> -->
           </div>        
@@ -101,6 +102,33 @@ switch ($language){
     </nav>
         </div>
   </div>
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-keyboard="false" data-bs-backdrop="static" data-bs-focus="false">
+  <div class="modal-dialog">
+    <div class="modal-content">
+<!--       <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div> -->
+      <div class="modal-body">
+        <button type="button" class="close_modal" data-bs-dismiss="modal"><i class="fa fa-remove"></i></button>
+        <span class="i_input_search"><i class="fa fa-search"></i></span>
+                <?php $form = ActiveForm::begin(['action'=>['site/search'],'method'=>'get']); ?>
+               <input type="text" placeholder="<?=Yii::t('app','Search')?>" class="search"  name="query">
+       <button type="submit" class="search_submit"><?= Yii::t('app','Send') ?></button>
+        <?php ActiveForm::end(); ?>
+      </div>
+<!--       <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
 
 
 

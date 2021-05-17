@@ -23,21 +23,37 @@ $this->title = Yii::t('app', 'Home');
   <!-- Carusel -->
 
   <section class="container-fluid corusel_top p-0">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval='5000'>
-      <div class="carousel-inner">
-        <?php
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+    <?php
     $sliders = \common\models\wrappers\ImageWrapper::find()->all();
     ?>
+  <div class="carousel-indicators">
+
+    <?php
+            foreach ($sliders as $key => $slide):
+                if ($key == 0){
+                    $class = 'active';
+                } else {
+                    $class = '';
+                }
+                    ?>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="<?=$key?>" class="<?=$class?>" aria-current="true" aria-label="Slide <?=$key?>"></button>
+            <?php
+                endforeach;
+            ?>
+
+  </div>
+
+  <div class="carousel-inner">
+        
 
     <?php foreach ($sliders as $key => $slider): ?>
     <?php 
         $imagePath = $slider->getThumbPath();
  ?>
-
-        <div class="carousel-item <?= ($key==1)?'active':'' ?>" >
-         
-          <?=html::img($imagePath,['class'=>'corusel_top_img','alt'=>'...'])?>
-          <div class="carousel-caption d-none d-md-block">
+ <div class="carousel-item <?= ($key==1)?'active':'' ?>" >
+      <?=html::img($imagePath,['class'=>'corusel_top_img','alt'=>'...'])?>
+                <div class="carousel-caption d-none d-md-block">
             <div class="slider_text_block">
               <div class="layer-3-3">
                 <h1 class="a-1"><?=$slider->title?></h1>
@@ -52,11 +68,18 @@ $this->title = Yii::t('app', 'Home');
               </div>
             </div>
           </div>
-        </div>
+    </div>
 <?php endforeach; ?>
-    </div>
-      </div>
-    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
   </section>
   <!-- end carusel -->
 
@@ -112,7 +135,6 @@ $category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'p
 $catId = $category->id;
 $new_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_category_id' => $catId, 'status' => '1'])->orderBy('id desc')->all();
 $hit_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_category_id' => $catId, 'status' => '1'])->orderBy('raiting desc')->all();
-$aa =  \common\models\wrappers\ItemWrapper::find()->where(['id' => '1808', 'status' => '1'])->one();
 
 ?>
 <div class="tab-content" id="myTabContent">
@@ -121,7 +143,7 @@ $aa =  \common\models\wrappers\ItemWrapper::find()->where(['id' => '1808', 'stat
         <div class="regular_tab slider">
             <?php foreach ($new_products as $key => $product): ?>
           <div class="card" style="width: 18rem;">
-            <?=html::img($product->getThumbPath(),['class' => 'card-img-top']) ?>
+            <a href="<?= '/item/'.$product->id; ?>"><?=html::img($product->getThumbPath(),['class' => 'card-img-top']) ?></a>
             <?php if(isset($product->skidka)){
                         echo " <span class='skidka'>".$product->skidka."</span>";
                     } ?>
@@ -298,38 +320,38 @@ $categoryLink = [$category->code => $category->url];
   </section>
 
   <?php
-  $this->registerJS('
+  // $this->registerJS('
     
-    var next = "'.yii::t('app','next').'"
-    var prev = "'.yii::t('app','prev').'"
+  //   var next = "'.yii::t('app','next').'"
+  //   var prev = "'.yii::t('app','prev').'"
 
-    $(".regular_tab").slick({
-        dots: false,
-        infinite: true,
-        fade: false,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        prevArrow: "<div class=\'slick_prev\'> "+prev+"</div>",
-        nextArrow: "<div class=\'slick_next\'> "+next+"<span>" + " | "+" </span></div>",
-          responsive: [
-      {
-        breakpoint: 750,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 550,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-    ]
-      });
+  //   $(".regular_tab").slick({
+  //       dots: false,
+  //       infinite: true,
+  //       fade: false,
+  //       slidesToShow: 4,
+  //       slidesToScroll: 1,
+  //       prevArrow: "<div class=\'slick_prev\'> "+prev+"</div>",
+  //       nextArrow: "<div class=\'slick_next\'> "+next+"<span>" + " | "+" </span></div>",
+  //         responsive: [
+  //     {
+  //       breakpoint: 750,
+  //       settings: {
+  //         slidesToShow: 2,
+  //         slidesToScroll: 1
+  //       }
+  //     },
+  //     {
+  //       breakpoint: 550,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1
+  //       }
+  //     },
+  //   ]
+  //     });
 
-  ',\yii\web\View::POS_END);
+  // ',\yii\web\View::POS_END);
 
 
 
