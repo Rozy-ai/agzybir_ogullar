@@ -15,7 +15,7 @@ use yii\helpers\Html;
     Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Dignissimos atque pariatur voluptate, asperiores provident odio obcaecati corporis quidem temporibus impedit iste! Animi, possimus quos accusantium. Magni praesentium incidunt suscipit accusantium?
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti nulla cumque rem a atque tempora, eveniet architecto harum, neque mollitia vel temporibus ducimus ad, ea dolorum inventore accusamus possimus dolore.</p>
                         <div class="btn_black_div">
-                            <a href="/item/magazin" class="about_us_view_button" role="button">Products</a>
+                            <a href="/item/magazin" class="about_us_view_button" role="button"><?= Yii::t('app', 'Products') ?> </a>
                         </div>
                         
  			</div>
@@ -34,13 +34,13 @@ $catId = $category->id;
 $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' => $catId, 'status' => '1'])->orderBy('id')->all(); 
 ?>
 
-			<div class="col-md-5">
+			<div class="col-lg-5">
  <?php foreach ($advantages as $key => $advantage): ?>
                 <div class="row" style="margin-bottom: 30px;">
-                	<div class="box-body-img col-md-4 d-flex align-self-center">
+                	<div class="box-body-img col-4 d-flex align-self-center">
                         <?=html::img($advantage->getThumbPath(),['class' => '']) ?>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-8">
                         <h3 class=""><?=$advantage->title?></h3>
                         <p></p><p><?= $advantage->content ?></p>
 <p></p>
@@ -51,7 +51,7 @@ $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' 
 			<?php endforeach; ?>
 			</div>
 
-			<div class="col-md-5">
+			<div class="col-lg-5">
 				<?=html::img($category->getThumbPath(),['class' => 'about_view_img']) ?>
 			</div>
 		</div>

@@ -1,5 +1,6 @@
 <?php
     use yii\helpers\Html;
+    use yii\bootstrap\ActiveForm;
      $date = yii::$app->controller->renderDateToWord($model->date_created);
 ?>
 
@@ -8,8 +9,11 @@
 
 
         <div class="row main_product_info">
-            <div class="col-md-7 test_slider">
-
+            <div class="col-md-8 test_slider">
+                <h1 class="text-center">
+                    <?= $model->title ?>                </h1>
+<!--                 <p class="product_desc">
+                    <?= $model->description ?>               </p> -->
 
 
         <!-- Carusel -->
@@ -37,27 +41,52 @@
 
   <!-- end carusel -->
 
-            </div>
-            <div class="col-md-5">
-                <h1>
-                    <?= $model->title ?>                </h1>
-                <p class="product_desc">
-                    <?= $model->description ?>               </p>
-
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <h3 style="font-size: 22px;">Doly maglumat</h3>
                 <div class="product_content_block">
                     <p>&nbsp;</p>
 
 <?= $model->content ?>
                 </div>
-            </div> <br><br><br><br>
 
+            </div>
+            <div class="col-md-4">
+                <div class="container">
+                    <div class="row">
+                <div class="search_blog col-12">
+                
+                        <?php $form = ActiveForm::begin(['action'=>['site/search'],'method'=>'get']); ?>
+                    
+                            <input type="text" autocomplete="off" placeholder="<?=Yii::t('app','Search')?>" name="query">
+                   
+                   
+                            <button type="submit" class="search_submit"><?= Yii::t('app','Send') ?></button>
+                       
+
+        <?php ActiveForm::end(); ?>
+               
+               
+       
+                </div>
+                </div>
+                </div>
+<h2 class="text-center" style="margin: 10% 0">Latest Posts</h2>
+                                            <?php
+                        echo \common\widgets\items\lastPosts\LastPosts::widget([
+
+                        ]);
+                    ?>
+                          <div class="recent_posts">
+                                <?php
+                        echo \common\widgets\items\recent\RecentPosts::widget([
+
+                        ]);
+                    ?>
+                          </div>
+                                          
+
+
+            </div>
         </div>
+
 
 </div>
 </div>

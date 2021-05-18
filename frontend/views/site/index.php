@@ -58,7 +58,7 @@ $this->title = Yii::t('app', 'Home');
               <div class="layer-3-3">
                 <h1 class="a-1"><?=$slider->title?></h1>
               </div>
-              <div class="layer-1-3" style="margin-bottom: 40px;">
+              <div class="layer-1-3">
                 <p class="a-2"><?=$slider->description?></p>
               </div>
               <div class="layer-1-4">
@@ -94,7 +94,7 @@ $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' 
     <div class="container">
       <div class="row justify-content-between">
         <?php foreach ($advantages as $key => $advantage): ?>
-                      <div class="col-md-4 col-sm-6 bg-white function_box">
+                      <div class="col-md-4 col-sm-12 bg-white function_box">
                 <div class="overlay_function_box">
                     <div class="overlay_function_box_top"></div>
                     <div class="overlay_function_box_bottom"></div>
@@ -210,7 +210,7 @@ $ownInfo = \common\models\OwnerContact::find()->one();
     <div class="parallax">
     <div class="container">
       <div class="row">
-        <div class="col-sm-5 about_data">
+        <div class="col-md-5 about_data">
           <h3> <?= $ownInfo->my_title ?></h3>
           <p><?= $ownInfo->my_description ?></p>
         </div>

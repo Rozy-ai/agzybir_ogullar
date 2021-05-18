@@ -5,6 +5,7 @@ $items = $this->context->items;
 
 if (isset($items) && count($items) > 0) { ?>
     <div class="widget-title">
+
         <h2><?= Yii::t('app', 'Lenta') ?></h2>
     </div>
     <?php foreach ($items as $key => $data) { ?>
@@ -27,5 +28,6 @@ if (isset($items) && count($items) > 0) { ?>
                 </div>
             </div>
         </div>
+        <hr>
     <?php } ?>
 <?php } ?>

@@ -11,8 +11,8 @@ use common\models\wrappers\ItemWrapper;
 
 class RecentPosts  extends \yii\base\Widget{
     public $items= [];
-    public $count= 5;
-    public $category= 5;
+    public $count= 3;
+    public $category= 'blog';
 
     public function init() {
         if ($this->category)

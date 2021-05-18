@@ -25,8 +25,8 @@ $(function() {
         infinite: true,
         slidesToShow: 2,
         slidesToScroll: 2,
-        prevArrow: '<div class="slick_prev_bottom"><i class="fa fa-angle-left"></i></div>',
-        nextArrow: '<div class="slick_next_bottom"><i class="fa fa-angle-right"></i></div>',
+        prevArrow: '<div class="slick_prev_bottom"><span class="line_slick"></span><i class="fa fa-angle-left"></i></div>',
+        nextArrow: '<div class="slick_next_bottom"><span class="line_slick"></span><i class="fa fa-angle-right"></i></div>',
           responsive: [
       {
         breakpoint: 550,
@@ -72,6 +72,8 @@ $(function() {
 
       $(".regular_tab").slick({
         dots: false,
+        lazyLoad: 'ondemand',
+        fade: true,
         infinite: true,
         fade: false,
         slidesToShow: 4,
@@ -108,6 +110,8 @@ $(function() {
     autoplaySpeed: 0,
     speed: 9000,
     arrows: false,
+    draggable: true,
+    pauseOnHover: true,
     dots: false,
     infinite: true,
     centerMode: true,
