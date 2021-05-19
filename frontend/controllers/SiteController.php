@@ -300,6 +300,11 @@ class SiteController extends CommonController
         return $this->render('about');
     }
 
+    public function actionPrivacy()
+    {
+        return $this->render('privacy');
+    }
+
     public function actionSearch()
     {
         if (isset($_GET['query']) && isset($_GET['category'])) {

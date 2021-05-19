@@ -81,6 +81,7 @@ return [
             'enableLanguageDetection' => false,
             'enableLanguagePersistence' => false,
             'rules' => array (
+
                 'm/<module:\w+>/<controller:\w+>/<id:\d+>' => '<module>/<controller>/view',
                 'm/<module:\w+>/<controller:\w+>/<action:[\w\-\/]+>' => '<module>/<controller>/<action>',
                 'm/<module:\w+>/<controller:\w+>/<action:[\w\-\/]+>/<id:\d+>' => '<module>/<controller>/<action>',
@@ -90,6 +91,7 @@ return [
                 '<controller:\w+>/a/<action:[\w\-\/]+>/<id:\d+>' => '<controller>/<action>',
                 '<controller:\w+>/a/<action:[\w\-\/]+>' => '<controller>/<action>',
                 '<controller:\w+>/<path:[\w\-\/]+>' => '<controller>/index',
+                
             ),
         ],
         

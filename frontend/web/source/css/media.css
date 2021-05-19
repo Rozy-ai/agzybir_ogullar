@@ -79,11 +79,18 @@ ul.navbar-nav li.nav-item a.nav-link{
 
 }
 
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
   .about_view_img{
     margin-top: 5%;
   }
+  .img_blog{
+  height: 300px;
+}
+.search_submit {
+  width: auto;
+}
   .parallax{
     min-height: auto;
     background-attachment: local;

@@ -1,3 +1,0 @@
-# Agzybir ogullar
-
-Agzybir ogullar

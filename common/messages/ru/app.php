@@ -191,6 +191,7 @@ return array(
     'Subscribe to us' => 'Подпишитесь на нас',
     'Useful' => 'Полезно',
     'YOU MAY ALSO LIKE...' => 'ВАМ ТАКЖЕ МОЖЕТ ПОНРАВИТЬСЯ...',
+    'Privacy Policy' => 'Политика конфиденциальности',
 
 
 );

@@ -39,9 +39,10 @@ $ownInfo = \common\models\OwnerContact::find()->one();
             <ul>
               <a href="/item/about"> <li><?= yii::t('app', 'About Us') ?></li></a>
               <a href="/item/magazin"> <li><?= yii::t('app', 'Shop') ?> </li></a>
-              <a href="/item/about/products"> <li><?= yii::t('app', 'Production') ?></li></a>
+              <!-- <a href="/item/about/products"> <li><?= yii::t('app', 'Production') ?></li></a> -->
               <a href="/item/about/partners"> <li><?= yii::t('app', 'Partners') ?></li></a>
               <a href="/item/blog"> <li><?= yii::t('app', 'Blog') ?></li></a>
+              <a href="/site/a/privacy"> <li><?= yii::t('app', 'Privacy Policy') ?></li></a>
             </ul>
           </div>
         </div>

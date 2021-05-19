@@ -19,7 +19,7 @@
                         'id' => 'item-list',
                         'itemView' => '_product_list',
                         'viewParams' => [],
-                        'itemOptions' => ['class' => 'col-md-4 col-sm-6 col-xs-12 clear3BoxItem'],
+                        'itemOptions' => ['class' => 'col-md-4 col-sm-6 col-12 clear3BoxItem'],
                         'layout' => "{items}" . $layoutPager,
                         'pager' => [
                             'options' => [

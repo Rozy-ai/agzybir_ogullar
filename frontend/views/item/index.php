@@ -27,9 +27,7 @@ $catCode = $modelCategory->code;
 //     $catCode = $category->code;
 // }
 if (!isset($view)){
-    if ($catCode == 'products'){
-        $view = 'products-list';
-    } elseif ($catCode == 'blog'){
+    if ($catCode == 'blog'){
         $view = 'blog-list';
     } elseif ($catCode == 'our_works'){
         $view = 'portfolio-list';

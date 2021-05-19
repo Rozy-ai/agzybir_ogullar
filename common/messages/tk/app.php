@@ -246,6 +246,7 @@ return array (
     'Subscribe to us' => 'Bize ýazylyň',
     'Useful' => 'Peýdaly',
     'YOU MAY ALSO LIKE...' => 'Size peýdaly bolup biler...',
+    'Privacy Policy' => 'Gizlinlik syýasaty',
 
 );
 

@@ -1,6 +1,6 @@
 <?php 
 use yii\helpers\Html;
-$category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'products'])->one();
+$category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'magazin'])->one();
 $catId = $category->id;
 $categories = \common\models\wrappers\CategoryWrapper::find()->where(['parent_id' =>$catId, 'status' => '1'])->all();
 ?>
