@@ -864,10 +864,15 @@ section.breadcrumb_area_two nav{
   font-weight: 600;
 }
 .news_cart_img{
-    /*height: 240px;*/
+    height: 240px;
+}
+.news_cart_img img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
 }
 .news_cart_caption{
-  /*  height: 150px;*/
+   height: 200px;
     padding: 20px 30px 20px 30px;
     display: flex;
     flex-direction: column;
@@ -1596,4 +1601,10 @@ text-decoration: none;
 }
 section.service_list_page{
   margin-bottom: 40px;
+}
+.bottom_header .icon{
+  margin-right: -5%;
+}
+.pagination li.disablePager{
+  margin-right: 10px;
 }

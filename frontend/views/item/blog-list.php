@@ -19,7 +19,7 @@ use yii\helpers\Html;
                         'id' => 'item-list',
                         'itemView' => '_blog_list',
                         'viewParams' => [],
-                        'itemOptions' => ['class' => 'col-md-4 col-sm-6 col-12'],
+                        'itemOptions' => ['class' => 'col-lg-4 col-sm-6 col-12'],
                         'layout' => "{items}" . $layoutPager,
                         'pager' => [
                             'options' => [
@@ -38,3 +38,4 @@ use yii\helpers\Html;
 </section>
 </div>
 </div>
+
