@@ -33,7 +33,7 @@ if (isset($list) && count($list) > 0) { ?>
 
 
 
-        
+        <hr style="margin-bottom: 5%">
 
                             <?php } ?>
 

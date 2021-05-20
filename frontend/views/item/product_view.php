@@ -46,22 +46,33 @@
                     <?= $model->title ?>                </h1>
                 <p class="product_desc" style="margin-top: 5%;">
                     <?= $model->description ?>               </p>
-                    <?php if(!empty($model->skidka)){
-                        echo " <div class='product_skidka'>Arzanladyş : ".$model->skidka."</div><br><br>";
-                    } ?>
+                    
         
-                    <?php if(!empty($model->price)){
-                        echo " <div class='product_price'>Bahasy : ".$model->price." manat </div><br><br>";
+                    <?php if(!empty($model->price || $model->skidka)){
+                        echo " <div class='product_price'>Bahasy : ".$model->price." manat <span class='skidka'>".$model->skidka."</span></div><br><br>";
                     } ?>
                 <p class="product_desc"> <b>Kategoriya:</b> <?= $model->category->code ?></p>
-<div class="view_select">
-    <a class="like-Unlike" href="<?= Url::to(['site/like', 'id' => $product->id]) ?>" data-id="<?= $product->id?>"><i class="fa fa-heart-o"></i></a>
+<!-- <div class="view_select">
+    <a class="like-Unlike" href=" -->
+    <? 
+    // echo Url::to(['site/like', 'id' => $product->id]) ?>
+    <!-- " data-id=" -->
+    <? 
+    // echo $product->id;
+    ?>
+    <!-- "><i class="fa fa-heart-o"></i></a>
     
 </div>
-<div class="view_select">
-    <a href="<?=$document->getThumb();?>"> <i class="fa fa-refresh"></i> </a>
+<div class="view_select"> -->
+    <!-- <a href=" -->
+    <? 
+    // echo $document->getThumb();
+    ?>
+    <!-- " -->
+    <!-- > -->
+     <!-- <i class="fa fa-refresh"></i> </a> -->
     
-</div>
+<!-- </div> -->
 <div class="clearfix"></div>
 
 
@@ -71,7 +82,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <h3 style="font-size: 22px;" class="text-center">Doly maglumat</h3>
+                <h3 style="font-size: 22px;" class="text-center"><?= Yii::t('app', 'Overview'); ?></h3>
                 <div class="product_content_block">
                    
 

@@ -100,14 +100,16 @@ $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' 
                     <div class="overlay_function_box_bottom"></div>
                 </div>
                 <div class="box-body">
+                	<div class="box-body-img">
+                        <?=html::img($advantage->getThumbPath(),['class' => '']) ?>
+                    </div>
+                 
                     <div class="box-body-content">
                         <h3 class=""><?=$advantage->title?></h3>
                         <p></p><p><?= $advantage->content ?></p>
 <p></p>
                     </div>
-                    <div class="box-body-img">
-                        <?=html::img($advantage->getThumbPath(),['class' => '']) ?>
-                    </div>
+                    
                 </div>
             </div>
 

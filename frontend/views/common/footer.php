@@ -13,7 +13,7 @@ $ownInfo = \common\models\OwnerContact::find()->one();
     <div class="container">
       <div class="row">
         <div class="col left_footer">
-          <img src="img/europlastic-logo-copy.png" alt="">
+          <img src="/img/europlastic-logo-copy.png" alt="">
           <br><br>
           <p><?= yii::t('app', 'Production of various plastic products for household, food and technical purposes.') ?>
 

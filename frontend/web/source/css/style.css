@@ -112,7 +112,7 @@ font-family: "MontserratBold","Arial", sans-serif;
 footer{
   font-family: "MontserratBold","Arial", sans-serif;
 }
-footer .right_footer span p{
+footer .right_footer span{
   font-family: "RubikRegular","Arial", sans-serif;
 }
 footer .left_footer p{
@@ -408,9 +408,13 @@ footer .center_footer ul li{
 footer .right_footer span{
   margin-bottom: 10px;
 }
+footer .right_footer span p{
+font-family: "MontserratBold","Arial", sans-serif;
+}
 footer .right_footer span p a{
   color: #fff;
   text-decoration: none;
+  font-family: "MontserratBold","Arial", sans-serif;
 }
 footer .right_footer span p a:hover{
   text-decoration: underline;
@@ -900,18 +904,18 @@ section.breadcrumb_area_two nav{
 /*Onumler*/
 .category_cart{
   height: 250px;
-  margin-bottom: 20px;
+  margin-bottom: 10%;
     position: relative;
 }
 .category_cart:hover .signature{
   opacity: 1;
 }
 .category_cart:hover h4{
-  color: #fff;
+  color: #000;
 }
 .category_cart:hover .caption_cart p{
   opacity: 1;
-  color: #fff;
+  color: #000;
 }
 .category_cart h4{
   transition: .2s;
@@ -955,7 +959,8 @@ section.breadcrumb_area_two nav{
 }
 .caption_cart{
   top: 30%;
-  width: 90%;
+  width: 100%;
+  text-align: center;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -979,7 +984,7 @@ section.breadcrumb_area_two nav{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgb(241 245 251);
     text-align: center;
     color: #fff;
     display: -webkit-flex;
@@ -1087,6 +1092,15 @@ section.breadcrumb_area_two nav{
     border: 1px solid #c7cbd0;
     margin: 70px 0;
 }
+.product_price{
+  font-weight: bold;
+  font-size: 24px;
+  position: relative;
+}
+.product_price span.skidka{
+  font-weight: bolder;
+  font-size: 14px;
+}
 .product_additional_block li {
     list-style: disc;
     line-height: 24px;
@@ -1191,11 +1205,13 @@ section.breadcrumb_area_two nav{
 .box-body-img{
     font-size: 45px;
     color:#00447D;
-    margin-top: auto;
-    margin-bottom: 10px;
+/*    margin-top: auto;
+    margin-bottom: 10px;*/
 }
 .box-body-content{
-    padding: 21px 0 0;
+    padding: 21px 0 21px 0;
+    bottom: 0;
+    position: absolute;
 }
 .box-body-content h3{
     text-transform: uppercase;
@@ -1373,8 +1389,9 @@ color: #828699;
     height: 30px;
     width: 45px;
 }
+
 .contact_icons{
- background-color: #000;
+ background-color: #00467a;
  padding: 20px;
  width: auto;
 -webkit-border-radius: 50%;
@@ -1566,4 +1583,17 @@ section.about_view p{
 
 .blog-one__single-inner-block img{
   width: 100%;
+}
+.blog-one__single{
+  margin-bottom: 5%;
+}
+
+
+
+
+.total-event a{
+text-decoration: none;
+}
+section.service_list_page{
+  margin-bottom: 40px;
 }

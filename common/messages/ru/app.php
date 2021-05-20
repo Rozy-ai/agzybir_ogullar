@@ -192,6 +192,7 @@ return array(
     'Useful' => 'Полезно',
     'YOU MAY ALSO LIKE...' => 'ВАМ ТАКЖЕ МОЖЕТ ПОНРАВИТЬСЯ...',
     'Privacy Policy' => 'Политика конфиденциальности',
+    'Overview' => 'Обзор',
 
 
 );

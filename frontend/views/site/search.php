@@ -44,6 +44,7 @@ $this->params['breadcrumbs'][] = Yii::t('app', 'Search Page');
                         <?php \yii\widgets\Pjax::end(); ?>
                     </div>
                 </div>
+                <hr>
             </div>
         </div>
     </div>

@@ -1,3 +1,4 @@
+
 <?php
 
 use yii\helpers\Html;
@@ -28,7 +29,7 @@ $catCode = $modelCategory->code;
 if (isset($modelCategory)) {
     $this->params['breadcrumbs'] = $modelCategory->getBreadcrumbs(true);
 }
-$this->params['breadcrumbs'][] = Yii::$app->controller->truncate($model->title, 8, 65);
+// $this->params['breadcrumbs'][] = Yii::$app->controller->truncate($model->title, 8, 65);
 
 
 $href = $model->url;

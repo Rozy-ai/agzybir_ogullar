@@ -37,11 +37,9 @@ $categories = \common\models\wrappers\CategoryWrapper::find()->where(['parent_id
 
 
         </div>
-
-
             <div class="caption_cart" style="box-sizing:border-box">
                 
-                    <a href="<?= $cat->url; ?>"> <h4 class="text-center"><?=$cat->name?></h4></a>
+                    <a href="<?= $cat->url; ?>"> <h4><?=$cat->name?></h4></a>
             
                 <p>                             <?php
                   $length = strlen($cat->description);

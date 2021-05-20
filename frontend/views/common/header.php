@@ -28,9 +28,9 @@ switch ($language){
     <div class="container">
       <div class="row header_top">
         <div class="col-sm-0 col-md-8">
-          <p class="header_info"> <i class="fa fa-phone"></i> (+99312) 958662 </p>
-          <p class="header_info"> <i class="fa fa-envelope"> </i> test@gmail.com</p>
-          <p class="header_info"> <i class="fa fa-clock-o"></i> Du-Sb/ 9:00-8:00  </p>
+          <p class="header_info"> <i class="fa fa-phone"></i> <?= $ownerDetails->my_phone; ?></p>
+          <p class="header_info"> <i class="fa fa-envelope"> </i> <?= $ownerDetails->my_email; ?></p>
+          <p class="header_info"> <i class="fa fa-clock-o"></i> <?= yii::t('app', 'Mon - Sun / 9:00 AM - 8:00 PM') ?>  </p>
         </div>
         <div class="lang_img col-sm-12 col-md-4 d-flex justify-content-end language_box">
                               
@@ -119,7 +119,7 @@ switch ($language){
         <span class="i_input_search"><i class="fa fa-search"></i></span>
                 <?php $form = ActiveForm::begin(['action'=>['site/search'],'method'=>'get']); ?>
                <input type="text" placeholder="<?=Yii::t('app','Search')?>" class="search"  name="query">
-       <button type="submit" class="search_submit"><?= Yii::t('app','Send') ?></button>
+       <button type="submit" class="search_submit"><?= Yii::t('app','Search') ?></button>
         <?php ActiveForm::end(); ?>
       </div>
 <!--       <div class="modal-footer">

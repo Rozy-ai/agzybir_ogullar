@@ -58,7 +58,7 @@
                             <input type="text" autocomplete="off" placeholder="<?=Yii::t('app','Search')?>" name="query">
                    
                    
-                            <button type="submit" class="search_submit"><?= Yii::t('app','Send') ?></button>
+                            <button type="submit" class="search_submit"><?= Yii::t('app','Search') ?></button>
                        
 
         <?php ActiveForm::end(); ?>
@@ -74,13 +74,13 @@
 
                         ]);
                     ?>
-                          <div class="recent_posts">
+                          <!-- <div class="recent_posts"> -->
                                 <?php
-                        echo \common\widgets\items\recent\RecentPosts::widget([
+                        // echo \common\widgets\items\recent\RecentPosts::widget([
 
-                        ]);
+                        // ]);
                     ?>
-                          </div>
+                          <!-- </div> -->
                                           
 
 
