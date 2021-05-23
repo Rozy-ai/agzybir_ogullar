@@ -28,8 +28,12 @@ switch ($language){
     <div class="container">
       <div class="row header_top">
         <div class="col-sm-0 col-md-8">
-          <p class="header_info"> <i class="fa fa-phone"></i> <?= $ownerDetails->my_phone; ?></p>
-          <p class="header_info"> <i class="fa fa-envelope"> </i> <?= $ownerDetails->my_email; ?></p>
+          <p class="header_info">
+
+           <i class="fa fa-phone"></i> <a href="tel: <?= $ownerDetails->my_phone ?>">
+              <?= $ownerDetails->my_phone ?></a></p>
+          <p class="header_info"> <i class="fa fa-envelope"> </i> <a href="mailto:<?= $ownerDetails->my_email ?>">
+              <?= $ownerDetails->my_email ?></a></p>
           <p class="header_info"> <i class="fa fa-clock-o"></i> <?= yii::t('app', 'Mon - Sun / 9:00 AM - 8:00 PM') ?>  </p>
         </div>
         <div class="lang_img col-sm-12 col-md-4 d-flex justify-content-end language_box">

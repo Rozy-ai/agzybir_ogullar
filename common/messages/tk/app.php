@@ -131,6 +131,8 @@ return array (
     'Participants' => 'Agzalary',
     'Coaches' => 'Tälimçiler',
     'Price list' => 'Nyrhnama',
+    'You have successfully subscribed' => 'Siz üsdünlikli ýazyldyňyz',
+    'There was an error sending email' => 'E-poçta ibermekde ýalňyşlyk boldy',
 
 //    from begleryoly
     ' days ago' => 'gün öň',
@@ -152,6 +154,7 @@ return array (
     'Description' => 'Mazmuny',
     'EN' => 'EN',
     'Enter your email address' => 'Emaýl salgyňyzy giriziň',
+    'Incorrect email address' => 'Nädogry email salgy',
     'Enter your name' => 'Adyňyzy giriziň',
     'Enter your phone' => 'Telefon belgiňizi giriziň',
     'Full Screen' => 'Doly ekran',

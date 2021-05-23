@@ -74,6 +74,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
 /*  font-family: "RubikRegular","Arial", sans-serif;*/
 }
+.header_info a{
+  color: #fff;
+  text-decoration: none;
+}
 .slider_text_block h1{
   font-family: "MontserratExtraBold","Arial", sans-serif;
 }
@@ -126,16 +130,29 @@ ul.navbar-nav li.nav-item a.nav-link {
   font-weight: bolder;
   color: #000;
   transition: 0s;
+  position: relative;
 } 
-ul.navbar-nav li.nav-item a.nav-link:hover {
-  border-radius: 10px!important;
-  color: #fff;
-  background-color: #00447D;
+ul.navbar-nav li.nav-item:hover a.nav-link:before {
+  width: 100%;
+  /*  border-radius: 10px!important;*/
+/*  color: #fff;*/
+/*  background-color: #00447D;*/
 } 
-ul.navbar-nav li.nav-item a.active {
-  border-radius: 10px!important;
+ul.navbar-nav li.nav-item a.nav-link:before{
+   content: '';
+   transition: 0.5s;
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background: #00467A;
+}
+ul.navbar-nav li.nav-item a.active:before{
+  width: 100%;
+/*  border-radius: 10px!important;
   color: #fff!important;
-  background-color: #00447D;
+  background-color: #00447D;*/
 } 
 
 section{
@@ -406,7 +423,11 @@ footer .center_footer ul li{
   margin-bottom: 20px;
 }
 footer .right_footer span{
+  opacity: 0.6;
   margin-bottom: 10px;
+}
+footer .right_footer i{
+opacity: 0.6;
 }
 footer .right_footer span p{
 font-family: "MontserratBold","Arial", sans-serif;
@@ -692,7 +713,7 @@ span.skidka{
   display: inline-block;
   position: absolute;
   top: 2%;
-  right: 2%;
+  margin-left: 2%;
   padding: 5px 15px;
   color: #fff;
 }
@@ -913,7 +934,7 @@ section.breadcrumb_area_two nav{
     position: relative;
 }
 .category_cart:hover .signature{
-  opacity: 1;
+  opacity: 0.6;
 }
 .category_cart:hover h4{
   color: #000;
@@ -1355,9 +1376,11 @@ color: #828699;
     padding: 25px 17px;
 }
 .contact_form input:active, .contact_form input:focus{
-    border:none !important;
-    outline: none !important;
+      border: 1px solid #000 !important;
     box-shadow: none !important;
+   /* border:none !important;*/
+    outline: none !important;
+   /* box-shadow: none !important;*/
 }
 .contact_form textarea{
     border: none;
@@ -1548,7 +1571,7 @@ section.about_view p{
 }
 .about_view_img{
   text-align: center;
-    width: 100%;
+/*    width: 100%;*/
     max-width: 100%;
 }
     .btn_black_div{
@@ -1608,3 +1631,36 @@ section.service_list_page{
 .pagination li.disablePager{
   margin-right: 10px;
 }
+
+
+
+
+.search_query_title{
+  font-size: "RubikRegular","Arial", sans-serif;
+  color: grey;
+}
+.search_query_title .query{
+  font-size: "MontserratBold","Arial", sans-serif;
+  color: #000;
+}
+
+
+/*.tabcontent {
+  animation: fadeEffect 3s!important; /* Fading effect takes 1 second */
+}*/
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/* bootstrap hack: fix content width inside hidden tabs */
+.tab-content > .tab-pane, .pill-content > .pill-pane {
+    display: block;    /* undo display:none          */
+    height: 0;         /* height:0 is also invisible */
+    //overflow: hidden;  /* no-overflow                */
+}
+.tab-content > .active, .pill-content > .active {
+    height: auto;      /* let the content decide it  */
+} 

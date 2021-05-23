@@ -3,12 +3,12 @@ use yii\helpers\Html;
  ?>
  <section class="about_us_view">
  	<div class="container">
- 		<div class="row justify-content-center">
+ 		<div class="row">
  						<?php 
 			$category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'about'])->one();
 ?>
 
- 			<div class="col-md-5">
+ 			<div class="col-md-6">
  				 <h3 style="margin-bottom: 30px">ХО «Agzybir ogullar»</h3>
                  <p><i>"<?=$category->description?>"</i></p>
                         <p style=" color: #828699; margin-bottom: 30px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil repellat sed quisquam suscipit totam inventore eligendi amet iste maxime, eius laudantium eveniet facilis, iusto voluptate. Nulla, nisi dolorem dicta aspernatur!
@@ -19,7 +19,7 @@ use yii\helpers\Html;
                         </div>
                         
  			</div>
- 			<div class="col-md-5">
+ 			<div class="col-md-6">
  				<?=html::img($category->getThumbPath(),['class' => 'about_view_img']) ?>
  			</div>
  		</div>
@@ -27,14 +27,14 @@ use yii\helpers\Html;
  </section>
 <section class="about_view">
 	<div class="container">
-		<div class="row justify-content-center">
+		<div class="row">
 			<?php 
 			$category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'advantage'])->one();
 $catId = $category->id;
 $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' => $catId, 'status' => '1'])->orderBy('id')->all(); 
 ?>
 
-			<div class="col-lg-5">
+			<div class="col-lg-6">
  <?php foreach ($advantages as $key => $advantage): ?>
                 <div class="row" style="margin-bottom: 30px;">
                 	<div class="box-body-img col-4 d-flex align-self-center">
@@ -51,7 +51,7 @@ $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' 
 			<?php endforeach; ?>
 			</div>
 
-			<div class="col-lg-5">
+			<div class="col-lg-6">
 				<?=html::img($category->getThumbPath(),['class' => 'about_view_img']) ?>
 			</div>
 		</div>
@@ -68,7 +68,7 @@ $categoryLink = [$category->code => $category->url];
     <div class="center slider">
  <?php foreach ($partners as $key => $partner): ?>
 
-        <?=html::img($partner->getThumbPath(),['class' => 'my_img', 'style' => 'height : 200px'])?>
+        <?=html::img($partner->getThumbPath(),['class' => 'my_img', 'style' => 'height : 150px'])?>
       <?php endforeach; ?>
 
     </div>

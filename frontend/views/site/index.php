@@ -268,11 +268,10 @@ $blogs = \common\models\wrappers\ItemWrapper::find()->where(['category_id' => $c
         <div class="col-sm-7 d-flex justify-content-end">
 
     <?php $form = ActiveForm::begin([
-            'action' => yii\helpers\Url::to(['site/subscribe']),
-        ]); ?>
+            'action' => yii\helpers\Url::to(['site/subscribe'])]); ?>
         <div class="row write_form_in">
           <div class="col-8">
-            <?=$form->field($model, 'email')->textInput(['placeholder'=>'Email  адрес', 'class' =>'form-control'])->label(false);?>
+            <?=$form->field($model, 'email')->textInput(['placeholder'=>yii::t('app', 'Enter your email address'), 'class' =>'form-control'])->label(false);?>
           </div>
           <div class="col-4">
             <?=Html::submitButton(yii::t("app", "subscribe") ,  ['class' => 'btn btn-primary mb-2']); ?>
@@ -301,7 +300,7 @@ $categoryLink = [$category->code => $category->url];
     <div class="center slider">
  <?php foreach ($partners as $key => $partner): ?>
 
-        <?=html::img($partner->getThumbPath(),['class' => 'my_img', 'style' => 'height : 200px'])?>
+        <?=html::img($partner->getThumbPath(),['class' => 'my_img', 'style' => 'height : 150px'])?>
       <?php endforeach; ?>
 
     </div>

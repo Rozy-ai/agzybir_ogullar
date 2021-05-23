@@ -255,10 +255,10 @@ class SiteController extends CommonController
         $model->email = $email;
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             if ($model->save()) {
-                Yii::$app->session->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
+                Yii::$app->session->setFlash('success', yii::t('app', 'You have successfully subscribed'));
             }
         } else {
-            Yii::$app->session->setFlash('error', 'There was an error sending email.');
+            Yii::$app->session->setFlash('error',  yii::t('app','There was an error sending email'));
         }
 
         return $this->redirect(Yii::$app->homeUrl);

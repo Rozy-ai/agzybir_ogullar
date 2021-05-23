@@ -67,7 +67,7 @@ class ItemSearch extends ItemWrapper
 
         // grid filtering conditions
         $query->andFilterWhere([
-            'id' => $this->id,
+            'tbl_item.id' => $this->id,
             'category_id' => $this->category_id,
             'parent_category_id' => $this->parent_category_id,
             'visited_count' => $this->visited_count,

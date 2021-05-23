@@ -155,7 +155,7 @@ $categoryLink = [$category->code => $category->url];
     <div class="center slider">
  <?php foreach ($partners as $key => $partner): ?>
 
-        <?=html::img($partner->getThumbPath(),['class' => 'my_img', 'style' => 'height : 200px'])?>
+        <?=html::img($partner->getThumbPath(),['class' => 'my_img', 'style' => 'height : 150px'])?>
       <?php endforeach; ?>
 
     </div>

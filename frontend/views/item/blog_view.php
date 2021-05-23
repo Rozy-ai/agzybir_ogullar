@@ -10,7 +10,7 @@
 
         <div class="row main_product_info">
             <div class="col-md-8 test_slider">
-                <h1 class="text-center">
+                <h1>
                     <?= $model->title ?>                </h1>
 <!--                 <p class="product_desc">
                     <?= $model->description ?>               </p> -->
@@ -68,7 +68,7 @@
                 </div>
                 </div>
                 </div>
-<h2 class="text-center" style="margin: 10% 0">Latest Posts</h2>
+<h2 class="text-center" style="margin: 10% 0"><?= yii::t('app', 'Latest News') ?></h2>
                                             <?php
                         echo \common\widgets\items\lastPosts\LastPosts::widget([
 
@@ -86,7 +86,6 @@
 
             </div>
         </div>
-
 
 </div>
 </div>

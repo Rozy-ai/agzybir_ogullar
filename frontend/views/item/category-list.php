@@ -42,15 +42,17 @@ $categories = \common\models\wrappers\CategoryWrapper::find()->where(['parent_id
                     <a href="<?= $cat->url; ?>"> <h4><?=$cat->name?></h4></a>
             
                 <p>                             <?php
-                  $length = strlen($cat->description);
-                  if($length > 100){
-                    $text = mb_substr($cat->description, 0, 100);
-                    $firsPos = strripos($text, ' ');
-                    $text = mb_substr($text, 0, $firsPos); 
-                    echo ($text.'...');
-                    } else{
-                        echo ($cat->description);
-                    } 
+                  // $length = strlen($cat->description);
+                  // if($length > 100){
+                  //   $text = mb_substr($cat->description, 0, 100);
+                  //   $firsPos = strripos($text, ' ');
+                  //   $text = mb_substr($text, 0, $firsPos); 
+                  //   echo ($text.'...');
+                  //   } else{
+                  //       echo ($cat->description);
+                  //   } 
+
+           echo Yii::$app->controller->getFragment(strip_tags($model->description), $query); 
                    ?></p>
                
 

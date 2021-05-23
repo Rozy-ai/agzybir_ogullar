@@ -73,9 +73,8 @@ $(function() {
       $(".regular_tab").slick({
         dots: false,
         lazyLoad: 'ondemand',
-        fade: true,
-        infinite: true,
         fade: false,
+        infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1,
         prevArrow: '<div class="slick_prev"><i class="fa  fa-angle-left"></i></div>',
@@ -97,12 +96,41 @@ $(function() {
       },
     ]
       });
+
+$(".regular_tab_2").slick({
+        dots: false,
+        lazyLoad: 'ondemand',
+        fade: false,
+        infinite: true,
+        // fade: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        prevArrow: '<div class="slick_prev"><i class="fa  fa-angle-left"></i></div>',
+        nextArrow: '<div class="slick_next"> <i class="fa  fa-angle-right"></i> </div>',
+          responsive: [
+      {
+        breakpoint: 750,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 550,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+    ]
+      });
+
    
- $('button[data-bs-toggle="tab"]').on('shown.bs.tab', function(e) {
-     e.target
-     e.relatedTarget
-     $('.regular_tab').slick('setPosition');
- });
+ // $('button[data-bs-toggle="tab"]').on('shown.bs.tab', function(e) {
+ //     e.target
+ //     e.relatedTarget
+ //     $('.regular_tab_2').slick('reinit');
+ // });
 
     $(".center").slick({
     cssEase: 'linear',

@@ -29,10 +29,10 @@ class Subscriber extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['email', 'addtime'], 'required'],
+            [['email', 'addtime'], 'required','message' => yii::t('app', 'Enter your email address')],
             [['addtime'], 'safe'],
             [['email'], 'string', 'max' => 255],
-            [['email'], 'email'],
+            [['email'], 'email','message' => yii::t('app', 'Incorrect email address')],
             [['email'], 'trim'],
             [['email'], 'unique'],
         ];

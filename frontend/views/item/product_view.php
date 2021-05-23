@@ -51,7 +51,7 @@
                     <?php if(!empty($model->price || $model->skidka)){
                         echo " <div class='product_price'>Bahasy : ".$model->price." manat <span class='skidka'>".$model->skidka."</span></div><br><br>";
                     } ?>
-                <p class="product_desc"> <b>Kategoriya:</b> <?= $model->category->code ?></p>
+                <p class="product_desc"> <b><?= yii::t('app', 'Product Category') ?>:</b> <?= $model->category->name ?></p>
 <!-- <div class="view_select">
     <a class="like-Unlike" href=" -->
     <? 
