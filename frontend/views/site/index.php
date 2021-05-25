@@ -94,7 +94,7 @@ $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' 
     <div class="container">
       <div class="row justify-content-between">
         <?php foreach ($advantages as $key => $advantage): ?>
-                      <div class="col-md-4 col-sm-12 bg-white function_box">
+                      <div class="col-lg-4 col-sm-12 bg-white function_box">
                 <div class="overlay_function_box">
                     <div class="overlay_function_box_top"></div>
                     <div class="overlay_function_box_bottom"></div>
@@ -102,12 +102,11 @@ $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' 
                 <div class="box-body">
                 	<div class="box-body-img">
                         <?=html::img($advantage->getThumbPath(),['class' => '']) ?>
+                        <h3 class=""><?=$advantage->title?></h3>
                     </div>
                  
                     <div class="box-body-content">
-                        <h3 class=""><?=$advantage->title?></h3>
-                        <p></p><p><?= $advantage->content ?></p>
-<p></p>
+                        <p><?= $advantage->content ?></p>
                     </div>
                     
                 </div>

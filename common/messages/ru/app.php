@@ -196,6 +196,7 @@ return array(
     'YOU MAY ALSO LIKE...' => 'ВАМ ТАКЖЕ МОЖЕТ ПОНРАВИТЬСЯ...',
     'Privacy Policy' => 'Политика конфиденциальности',
     'Overview' => 'Обзор',
+    'About the goods' => 'O товарах',
 
 
 );

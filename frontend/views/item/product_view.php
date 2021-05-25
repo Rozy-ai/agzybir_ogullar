@@ -48,9 +48,21 @@
                     <?= $model->description ?>               </p>
                     
         
-                    <?php if(!empty($model->price || $model->skidka)){
-                        echo " <div class='product_price'>Bahasy : ".$model->price." manat <span class='skidka'>".$model->skidka."</span></div><br><br>";
-                    } ?>
+                    <?php 
+                       if (!empty($model->price) || !empty($model->skidka)) {
+                          echo "<div class='product_price'>";
+                    if(!empty($model->price)){
+                        echo "Bahasy : ".$model->price." manat";
+                    } 
+                      if (!empty($model->skidka)) {
+                        echo "<span class='skidka'>".$model->skidka."</span>";
+                      }
+                      echo "</div><br><br>";
+                       }
+                    ?>
+
+
+
                 <p class="product_desc"> <b><?= yii::t('app', 'Product Category') ?>:</b> <?= $model->category->name ?></p>
 <!-- <div class="view_select">
     <a class="like-Unlike" href=" -->
@@ -80,14 +92,30 @@
 
             </div>
         </div>
-        <div class="row">
+        <div class="row product_view_content">
             <div class="col-12">
-                <h3 style="font-size: 22px;" class="text-center"><?= Yii::t('app', 'Overview'); ?></h3>
-                <div class="product_content_block">
+              <ul>
+                <li>
+                  <h4 style=""><?= yii::t('app', 'About the goods') ?></h4>
+                </li>
+              </ul>
+                
+
+              
+              <div class="row">
+                <div class="col-lg-3 col-12 text-center" style="padding-top: 20px;margin-bottom: 20px;">
+                  <h3 style="font-size: 22px;"><?= Yii::t('app', 'Overview'); ?></h3>
+                </div>
+                <div class="col-lg-9 col-12 mr-0 ml-0">
+                                  <div class="product_view_description">
                    
 
-<?= $model->content ?>
+            <?= $model->content ?>
                 </div>
+                </div>
+              </div>
+                
+
             </div>
 
         </div>

@@ -108,6 +108,9 @@ ul.navbar-nav li.nav-item a.nav-link{
 section.index_tab ul li .nav-link{
   font-size: 24px;
 }
+footer{
+  display: none;
+}
 /*.carousel-inner .carousel-item{
   height: 60vh;
 }*/
@@ -118,9 +121,7 @@ section.index_tab ul li .nav-link{
 section.write form{
   margin-left: 7%;
 }
-footer{
-  display: none;
-}
+
 .section.about_view .box-body-img{
   margin-right: 0;
 }

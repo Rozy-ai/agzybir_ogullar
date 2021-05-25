@@ -12314,3 +12314,3127 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2021-05-24 10:56:02 [127.0.0.1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'user' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user/messages/tk/user.php
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user\views\security\login.php:23
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\user\SecurityController.php:165
+2021-05-24 10:56:02 [127.0.0.1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\security\LoginForm.php:81
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user\views\security\login.php:56
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\user\SecurityController.php:165
+2021-05-24 10:56:01 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => 'iitm0hij45gqcb53qqe2oatq7e63b538'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_PURPOSE' => 'prefetch'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=iitm0hij45gqcb53qqe2oatq7e63b538'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1038'
+    'REDIRECT_URL' => '/backend/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/user/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621835761.57
+    'REQUEST_TIME' => 1621835761
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 10:56:03 [127.0.0.1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'user' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user/messages/tk/user.php
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user\views\security\login.php:23
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\user\SecurityController.php:165
+2021-05-24 10:56:03 [127.0.0.1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\security\LoginForm.php:81
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user\views\security\login.php:56
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\user\SecurityController.php:165
+2021-05-24 10:56:02 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => 'g5q57h4foeii2297e46bhtanadujm87d'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=g5q57h4foeii2297e46bhtanadujm87d'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1039'
+    'REDIRECT_URL' => '/backend/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/user/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621835762.658
+    'REQUEST_TIME' => 1621835762
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 10:56:12 [127.0.0.1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\security\LoginForm.php:81
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user\traits\AjaxValidationTrait.php:32
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\user\SecurityController.php:156
+2021-05-24 10:56:11 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = [
+    '_csrf-backend' => 'jee5VorPAJEkNMUh5zqRVAuVCvCrlbr0CnD2SmrCBUbY1_gUzLhw1V1Mk02DCNseYtRale_34805G7sbBfE8Mw=='
+    'login-form' => [
+        'login' => 'Rozy'
+        'password' => 'rozy1212'
+        'rememberMe' => '0'
+    ]
+    'ajax' => 'login-form'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => 'g5q57h4foeii2297e46bhtanadujm87d'
+    '_csrf-backend' => 'd6ce06632ab46aa8af9d366bdfca1c6cd7c70e12a5b1f335f56cf34c9950969aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"U0ABFwpDyxVld2JJiAPeDbY93kMQo39u\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '212'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'jee5VorPAJEkNMUh5zqRVAuVCvCrlbr0CnD2SmrCBUbY1_gUzLhw1V1Mk02DCNseYtRale_34805G7sbBfE8Mw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://agzybir.ogullar'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/user/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=g5q57h4foeii2297e46bhtanadujm87d; _csrf-backend=d6ce06632ab46aa8af9d366bdfca1c6cd7c70e12a5b1f335f56cf34c9950969aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22U0ABFwpDyxVld2JJiAPeDbY93kMQo39u%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1039'
+    'REDIRECT_URL' => '/backend/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/user/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621835771.936
+    'REQUEST_TIME' => 1621835771
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 10:56:13 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\security\LoginForm.php:81
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\user\SecurityController.php:159
+2021-05-24 10:56:13 [127.0.0.1][17][-][info][application] $_GET = []
+
+$_POST = [
+    '_csrf-backend' => 'jee5VorPAJEkNMUh5zqRVAuVCvCrlbr0CnD2SmrCBUbY1_gUzLhw1V1Mk02DCNseYtRale_34805G7sbBfE8Mw=='
+    'login-form' => [
+        'login' => 'Rozy'
+        'password' => 'rozy1212'
+        'rememberMe' => '0'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => 'g5q57h4foeii2297e46bhtanadujm87d'
+    '_csrf-backend' => 'd6ce06632ab46aa8af9d366bdfca1c6cd7c70e12a5b1f335f56cf34c9950969aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"U0ABFwpDyxVld2JJiAPeDbY93kMQo39u\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '196'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://agzybir.ogullar'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/user/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=g5q57h4foeii2297e46bhtanadujm87d; _csrf-backend=d6ce06632ab46aa8af9d366bdfca1c6cd7c70e12a5b1f335f56cf34c9950969aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22U0ABFwpDyxVld2JJiAPeDbY93kMQo39u%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1039'
+    'REDIRECT_URL' => '/backend/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/user/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621835773.126
+    'REQUEST_TIME' => 1621835773
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 10:56:33 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\components\DynamicFieldsBehavior.php:127
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\ItemController.php:44
+2021-05-24 10:56:33 [127.0.0.1][17][-][info][application] $_GET = [
+    'sort' => '-id'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1045'
+    'REDIRECT_URL' => '/backend/item/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/item/index'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621835792.96
+    'REQUEST_TIME' => 1621835792
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 11:02:13 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\components\DynamicFieldsBehavior.php:127
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\ItemController.php:44
+2021-05-24 11:02:13 [127.0.0.1][17][-][info][application] $_GET = [
+    'ItemSearch' => [
+        'id' => ''
+        'category_id' => '9'
+        'title' => ''
+        'description' => ''
+        'status' => ''
+        'is_main' => ''
+        'author' => ''
+    ]
+    '_pjax' => '#p0'
+    'sort' => '-id'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'OwmtI863d-CcIQTku46lCn_i1AKNsiF4pnUk23svPEZySp0Q-YM4uvRJT5z_xvE9KJLlQdXhFRPQGVC0KBl6AQ=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1268'
+    'REDIRECT_URL' => '/backend/item/index'
+    'REDIRECT_QUERY_STRING' => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D=&_pjax=%23p0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D=&_pjax=%23p0'
+    'REQUEST_URI' => '/backend/item/index?ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D=&_pjax=%23p0'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836133.08
+    'REQUEST_TIME' => 1621836133
+    'argv' => [
+        0 => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D=&_pjax=%23p0'
+    ]
+    'argc' => 1
+]
+2021-05-24 11:02:15 [127.0.0.1][17][1scgrli3p6bhdv36ubu7ii49eulp5mfg][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+2021-05-24 11:02:15 [127.0.0.1][17][1scgrli3p6bhdv36ubu7ii49eulp5mfg][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "img/loading.gif". in C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('img/loading.gif', Array)
+#1 C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 C:\OSPanel\domains\agzybir.ogullar\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 C:\OSPanel\domains\agzybir.ogullar\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2021-05-24 11:02:13 [127.0.0.1][17][1scgrli3p6bhdv36ubu7ii49eulp5mfg][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/css/site.css?v=0.01'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1269'
+    'REDIRECT_URL' => '/backend/web/img/loading.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/img/loading.gif'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836133.353
+    'REQUEST_TIME' => 1621836133
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 11:02:15 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'user' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user/messages/tk/user.php
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user\models\User.php:190
+2021-05-24 11:02:13 [127.0.0.1][17][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/css/site.css?v=0.01'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1269'
+    'REDIRECT_URL' => '/backend/web/img/loading.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/img/loading.gif'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836133.353
+    'REQUEST_TIME' => 1621836133
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 11:02:15 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\components\DynamicFieldsBehavior.php:127
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\ItemController.php:44
+2021-05-24 11:02:14 [127.0.0.1][17][-][info][application] $_GET = [
+    'ItemSearch' => [
+        'id' => ''
+        'category_id' => '9'
+        'title' => ''
+        'description' => ''
+        'status' => ''
+        'is_main' => ''
+        'author' => ''
+    ]
+    'sort' => '-id'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1272'
+    'REDIRECT_URL' => '/backend/item/index'
+    'REDIRECT_QUERY_STRING' => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    'REQUEST_URI' => '/backend/item/index?ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836134.163
+    'REQUEST_TIME' => 1621836134
+    'argv' => [
+        0 => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    ]
+    'argc' => 1
+]
+2021-05-24 11:02:25 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\omgdef\yii2-multilingual-behavior\src\MultilingualBehavior.php:178
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\wrappers\ItemWrapper.php:159
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\wrappers\ItemWrapper.php:136
+2021-05-24 11:02:24 [127.0.0.1][17][-][info][application] $_GET = [
+    'id' => '1830'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/index?ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1272'
+    'REDIRECT_URL' => '/backend/item/update/1830'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/item/update/1830'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836144.861
+    'REQUEST_TIME' => 1621836144
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 11:09:02 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\omgdef\yii2-multilingual-behavior\src\MultilingualBehavior.php:178
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\DocumentController.php:204
+2021-05-24 11:09:02 [127.0.0.1][17][-][error][yii\web\HeadersAlreadySentException] yii\web\HeadersAlreadySentException: Headers already sent in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\DocumentController.php on line 214. in C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 C:\OSPanel\domains\agzybir.ogullar\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2021-05-24 11:09:01 [127.0.0.1][17][-][info][application] $_GET = []
+
+$_POST = [
+    'folder' => 'item'
+    '_csrf-backend' => 'WW0pgqesRr1rvtGJWuuprC6QCOxXa6eltxE8d0mPCiQQLhmxkJgJ5wPWmvEeo_2beeA5rw84k87BfUgYGrlMYw=='
+]
+
+$_FILES = [
+    'file' => [
+        'name' => 'Layer-31.png'
+        'type' => 'image/png'
+        'tmp_name' => 'C:\\OSPanel\\userdata\\temp\\phpAF42.tmp'
+        'error' => 0
+        'size' => 1151
+    ]
+]
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1621'
+    'HTTP_ACCEPT' => 'application/json'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_X_CSRF_TOKEN' => 'WW0pgqesRr1rvtGJWuuprC6QCOxXa6eltxE8d0mPCiQQLhmxkJgJ5wPWmvEeo_2beeA5rw84k87BfUgYGrlMYw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundarycHCWB8e0JooEOaqv'
+    'HTTP_ORIGIN' => 'http://agzybir.ogullar'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/update/1830'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1598'
+    'REDIRECT_URL' => '/backend/document/upload'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/document/upload'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836541.54
+    'REQUEST_TIME' => 1621836541
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 11:09:06 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\omgdef\yii2-multilingual-behavior\src\MultilingualBehavior.php:178
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\wrappers\ItemWrapper.php:159
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\wrappers\ItemWrapper.php:136
+2021-05-24 11:09:05 [127.0.0.1][17][-][info][application] $_GET = [
+    'id' => '1830'
+]
+
+$_POST = [
+    '_csrf-backend' => 'WW0pgqesRr1rvtGJWuuprC6QCOxXa6eltxE8d0mPCiQQLhmxkJgJ5wPWmvEeo_2beeA5rw84k87BfUgYGrlMYw=='
+    'ItemWrapper' => [
+        'title' => 'оплата'
+        'description' => ''
+        'content' => '<p>Оплачивайте покупки любым способом</p>
+'
+        'title_ru' => ''
+        'description_ru' => ''
+        'content_ru' => ''
+        'title_en' => ''
+        'description_en' => ''
+        'content_en' => ''
+        'category_id' => '9'
+        'tagNames' => ''
+        'status' => '1'
+        'is_main' => '0'
+        'is_menu' => '0'
+        'docs' => '156<pre>An Error occurred while handling another error:
+yii\\web\\HeadersAlreadySentException: Headers already sent in C:\\OSPanel\\domains\\agzybir.ogullar\\backend\\controllers\\DocumentController.php on line 214. in C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\web\\Response.php:366
+Stack trace:
+#0 C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\web\\Response.php(339): yii\\web\\Response-&gt;sendHeaders()
+#1 C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\web\\ErrorHandler.php(135): yii\\web\\Response-&gt;send()
+#2 C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\base\\ErrorHandler.php(111): yii\\web\\ErrorHandler-&gt;renderException(Object(yii\\web\\HeadersAlreadySentException))
+#3 [internal function]: yii\\base\\ErrorHandler-&gt;handleException(Object(yii\\web\\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\\web\\HeadersAlreadySentException: Headers already sent in C:\\OSPanel\\domains\\agzybir.ogullar\\backend\\controllers\\DocumentController.php on line 214. in C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\web\\Response.php:366
+Stack trace:
+#0 C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\web\\Response.php(339): yii\\web\\Response-&gt;sendHeaders()
+#1 C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\base\\Application.php(392): yii\\web\\Response-&gt;send()
+#2 C:\\OSPanel\\domains\\agzybir.ogullar\\backend\\web\\index.php(18): yii\\base\\Application-&gt;run()
+#3 {main}</pre>'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '3499'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://agzybir.ogullar'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary3NfHBXXMRivwmvhk'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/update/1830'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1598'
+    'REDIRECT_URL' => '/backend/item/update/1830'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/item/update/1830'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836545.853
+    'REQUEST_TIME' => 1621836545
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 11:09:08 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\components\DynamicFieldsBehavior.php:127
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\ItemController.php:44
+2021-05-24 11:09:07 [127.0.0.1][17][-][info][application] $_GET = [
+    'sort' => '-id'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/update/1830'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1598'
+    'REDIRECT_URL' => '/backend/item/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/item/index'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836547.522
+    'REQUEST_TIME' => 1621836547
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 11:13:10 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\components\DynamicFieldsBehavior.php:127
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\ItemController.php:44
+2021-05-24 11:13:09 [127.0.0.1][17][-][info][application] $_GET = [
+    'ItemSearch' => [
+        'id' => ''
+        'category_id' => '9'
+        'title' => ''
+        'description' => ''
+        'status' => ''
+        'is_main' => ''
+        'author' => ''
+    ]
+    '_pjax' => '#p0'
+    'sort' => '-id'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'o_oCj-kXG3W_lGLnk7GMd0h2Kt0Kiz12q4ignYnx-R3quTK83iNUL9f8KZ_X-dhAHwYbnlLYCR3d5NTy2se_Wg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1818'
+    'REDIRECT_URL' => '/backend/item/index'
+    'REDIRECT_QUERY_STRING' => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D=&_pjax=%23p0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D=&_pjax=%23p0'
+    'REQUEST_URI' => '/backend/item/index?ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D=&_pjax=%23p0'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836789.124
+    'REQUEST_TIME' => 1621836789
+    'argv' => [
+        0 => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D=&_pjax=%23p0'
+    ]
+    'argc' => 1
+]
+2021-05-24 11:13:13 [127.0.0.1][17][1scgrli3p6bhdv36ubu7ii49eulp5mfg][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+2021-05-24 11:13:13 [127.0.0.1][17][1scgrli3p6bhdv36ubu7ii49eulp5mfg][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "img/loading.gif". in C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('img/loading.gif', Array)
+#1 C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 C:\OSPanel\domains\agzybir.ogullar\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 C:\OSPanel\domains\agzybir.ogullar\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2021-05-24 11:13:09 [127.0.0.1][17][1scgrli3p6bhdv36ubu7ii49eulp5mfg][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/css/site.css?v=0.01'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1820'
+    'REDIRECT_URL' => '/backend/web/img/loading.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/img/loading.gif'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836789.625
+    'REQUEST_TIME' => 1621836789
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 11:13:13 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'user' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user/messages/tk/user.php
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user\models\User.php:190
+2021-05-24 11:13:09 [127.0.0.1][17][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/css/site.css?v=0.01'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1820'
+    'REDIRECT_URL' => '/backend/web/img/loading.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/img/loading.gif'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836789.625
+    'REQUEST_TIME' => 1621836789
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 11:13:13 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\components\DynamicFieldsBehavior.php:127
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\ItemController.php:44
+2021-05-24 11:13:11 [127.0.0.1][17][-][info][application] $_GET = [
+    'ItemSearch' => [
+        'id' => ''
+        'category_id' => '9'
+        'title' => ''
+        'description' => ''
+        'status' => ''
+        'is_main' => ''
+        'author' => ''
+    ]
+    'sort' => '-id'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1824'
+    'REDIRECT_URL' => '/backend/item/index'
+    'REDIRECT_QUERY_STRING' => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    'REQUEST_URI' => '/backend/item/index?ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836791.165
+    'REQUEST_TIME' => 1621836791
+    'argv' => [
+        0 => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    ]
+    'argc' => 1
+]
+2021-05-24 11:13:22 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\omgdef\yii2-multilingual-behavior\src\MultilingualBehavior.php:178
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\wrappers\ItemWrapper.php:159
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\wrappers\ItemWrapper.php:136
+2021-05-24 11:13:20 [127.0.0.1][17][-][info][application] $_GET = [
+    'id' => '1829'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/index?ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1824'
+    'REDIRECT_URL' => '/backend/item/update/1829'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/item/update/1829'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836800.07
+    'REQUEST_TIME' => 1621836800
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 11:13:36 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\omgdef\yii2-multilingual-behavior\src\MultilingualBehavior.php:178
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\DocumentController.php:204
+2021-05-24 11:13:36 [127.0.0.1][17][-][error][yii\web\HeadersAlreadySentException] yii\web\HeadersAlreadySentException: Headers already sent in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\DocumentController.php on line 214. in C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 C:\OSPanel\domains\agzybir.ogullar\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2021-05-24 11:13:35 [127.0.0.1][17][-][info][application] $_GET = []
+
+$_POST = [
+    'folder' => 'item'
+    '_csrf-backend' => 'NuiQXyQkU3wPZuu34EJ0_6it8LIE-9SNOU0kEWz__xZ_q6BsExAcJmcOoM-kCiDI_93B8Vyo4OZPIVB-P8m5UQ=='
+]
+
+$_FILES = [
+    'file' => [
+        'name' => 'Layer-32.png'
+        'type' => 'image/png'
+        'tmp_name' => 'C:\\OSPanel\\userdata\\temp\\phpDDC2.tmp'
+        'error' => 0
+        'size' => 1198
+    ]
+]
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1668'
+    'HTTP_ACCEPT' => 'application/json'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_X_CSRF_TOKEN' => 'NuiQXyQkU3wPZuu34EJ0_6it8LIE-9SNOU0kEWz__xZ_q6BsExAcJmcOoM-kCiDI_93B8Vyo4OZPIVB-P8m5UQ=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryBPp4ETYnZXoO07B5'
+    'HTTP_ORIGIN' => 'http://agzybir.ogullar'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/update/1829'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1824'
+    'REDIRECT_URL' => '/backend/document/upload'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/document/upload'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836815.586
+    'REQUEST_TIME' => 1621836815
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 11:13:38 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\omgdef\yii2-multilingual-behavior\src\MultilingualBehavior.php:178
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\wrappers\ItemWrapper.php:159
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\wrappers\ItemWrapper.php:136
+2021-05-24 11:13:38 [127.0.0.1][17][-][info][application] $_GET = [
+    'id' => '1829'
+]
+
+$_POST = [
+    '_csrf-backend' => 'NuiQXyQkU3wPZuu34EJ0_6it8LIE-9SNOU0kEWz__xZ_q6BsExAcJmcOoM-kCiDI_93B8Vyo4OZPIVB-P8m5UQ=='
+    'ItemWrapper' => [
+        'title' => 'онлайн'
+        'description' => ''
+        'content' => '<p>получайте всю информацию онлайн в любое удобное для вас время</p>
+'
+        'title_ru' => ''
+        'description_ru' => ''
+        'content_ru' => ''
+        'title_en' => ''
+        'description_en' => ''
+        'content_en' => ''
+        'category_id' => '9'
+        'tagNames' => ''
+        'status' => '1'
+        'is_main' => '0'
+        'is_menu' => '0'
+        'docs' => '157<pre>An Error occurred while handling another error:
+yii\\web\\HeadersAlreadySentException: Headers already sent in C:\\OSPanel\\domains\\agzybir.ogullar\\backend\\controllers\\DocumentController.php on line 214. in C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\web\\Response.php:366
+Stack trace:
+#0 C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\web\\Response.php(339): yii\\web\\Response-&gt;sendHeaders()
+#1 C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\web\\ErrorHandler.php(135): yii\\web\\Response-&gt;send()
+#2 C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\base\\ErrorHandler.php(111): yii\\web\\ErrorHandler-&gt;renderException(Object(yii\\web\\HeadersAlreadySentException))
+#3 [internal function]: yii\\base\\ErrorHandler-&gt;handleException(Object(yii\\web\\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\\web\\HeadersAlreadySentException: Headers already sent in C:\\OSPanel\\domains\\agzybir.ogullar\\backend\\controllers\\DocumentController.php on line 214. in C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\web\\Response.php:366
+Stack trace:
+#0 C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\web\\Response.php(339): yii\\web\\Response-&gt;sendHeaders()
+#1 C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\base\\Application.php(392): yii\\web\\Response-&gt;send()
+#2 C:\\OSPanel\\domains\\agzybir.ogullar\\backend\\web\\index.php(18): yii\\base\\Application-&gt;run()
+#3 {main}</pre>'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '3547'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://agzybir.ogullar'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryzVurPnaAnOIQ0BDM'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/update/1829'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1824'
+    'REDIRECT_URL' => '/backend/item/update/1829'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/item/update/1829'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836818.053
+    'REQUEST_TIME' => 1621836818
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 11:13:40 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\components\DynamicFieldsBehavior.php:127
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\ItemController.php:44
+2021-05-24 11:13:39 [127.0.0.1][17][-][info][application] $_GET = [
+    'sort' => '-id'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/update/1829'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1824'
+    'REDIRECT_URL' => '/backend/item/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/item/index'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836819.319
+    'REQUEST_TIME' => 1621836819
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 11:13:48 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\components\DynamicFieldsBehavior.php:127
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\ItemController.php:44
+2021-05-24 11:13:47 [127.0.0.1][17][-][info][application] $_GET = [
+    'ItemSearch' => [
+        'id' => ''
+        'category_id' => '9'
+        'title' => ''
+        'description' => ''
+        'status' => ''
+        'is_main' => ''
+        'author' => ''
+    ]
+    '_pjax' => '#p0'
+    'sort' => '-id'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'VvBDCHIRst1JNgnd7gUcsaxKCqNhrH_N9pQmp5W8ik8fs3M7RSX9hyFeQqWqTUiG-zo74Dn_S6aA-FLIxorMCA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1824'
+    'REDIRECT_URL' => '/backend/item/index'
+    'REDIRECT_QUERY_STRING' => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D=&_pjax=%23p0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D=&_pjax=%23p0'
+    'REQUEST_URI' => '/backend/item/index?ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D=&_pjax=%23p0'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836827.753
+    'REQUEST_TIME' => 1621836827
+    'argv' => [
+        0 => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D=&_pjax=%23p0'
+    ]
+    'argc' => 1
+]
+2021-05-24 11:13:50 [127.0.0.1][17][1scgrli3p6bhdv36ubu7ii49eulp5mfg][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+2021-05-24 11:13:50 [127.0.0.1][17][1scgrli3p6bhdv36ubu7ii49eulp5mfg][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "img/loading.gif". in C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('img/loading.gif', Array)
+#1 C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 C:\OSPanel\domains\agzybir.ogullar\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 C:\OSPanel\domains\agzybir.ogullar\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2021-05-24 11:13:48 [127.0.0.1][17][1scgrli3p6bhdv36ubu7ii49eulp5mfg][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/css/site.css?v=0.01'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1858'
+    'REDIRECT_URL' => '/backend/web/img/loading.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/img/loading.gif'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836828.035
+    'REQUEST_TIME' => 1621836828
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 11:13:50 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'user' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user/messages/tk/user.php
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user\models\User.php:190
+2021-05-24 11:13:48 [127.0.0.1][17][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/css/site.css?v=0.01'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1858'
+    'REDIRECT_URL' => '/backend/web/img/loading.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/img/loading.gif'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836828.035
+    'REQUEST_TIME' => 1621836828
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 11:13:50 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\components\DynamicFieldsBehavior.php:127
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\ItemController.php:44
+2021-05-24 11:13:49 [127.0.0.1][17][-][info][application] $_GET = [
+    'ItemSearch' => [
+        'id' => ''
+        'category_id' => '9'
+        'title' => ''
+        'description' => ''
+        'status' => ''
+        'is_main' => ''
+        'author' => ''
+    ]
+    'sort' => '-id'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1872'
+    'REDIRECT_URL' => '/backend/item/index'
+    'REDIRECT_QUERY_STRING' => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    'REQUEST_URI' => '/backend/item/index?ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836829.009
+    'REQUEST_TIME' => 1621836829
+    'argv' => [
+        0 => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    ]
+    'argc' => 1
+]
+2021-05-24 11:14:00 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\omgdef\yii2-multilingual-behavior\src\MultilingualBehavior.php:178
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\wrappers\ItemWrapper.php:159
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\wrappers\ItemWrapper.php:136
+2021-05-24 11:13:59 [127.0.0.1][17][-][info][application] $_GET = [
+    'id' => '1828'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/index?ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1872'
+    'REDIRECT_URL' => '/backend/item/update/1828'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/item/update/1828'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836839.701
+    'REQUEST_TIME' => 1621836839
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 11:14:11 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\omgdef\yii2-multilingual-behavior\src\MultilingualBehavior.php:178
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\DocumentController.php:204
+2021-05-24 11:14:11 [127.0.0.1][17][-][error][yii\web\HeadersAlreadySentException] yii\web\HeadersAlreadySentException: Headers already sent in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\DocumentController.php on line 214. in C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 C:\OSPanel\domains\agzybir.ogullar\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2021-05-24 11:14:10 [127.0.0.1][17][-][info][application] $_GET = []
+
+$_POST = [
+    'folder' => 'item'
+    '_csrf-backend' => '4xlRxot-t_JVg5DcE4GdQJoryk8Qv1-kH_FH3uh2GVuqWmH1vEr4qD3r26RXycl3zVv7DEjsa89pnTOxu0BfHA=='
+]
+
+$_FILES = [
+    'file' => [
+        'name' => 'Layer-33.png'
+        'type' => 'image/png'
+        'tmp_name' => 'C:\\OSPanel\\userdata\\temp\\php6624.tmp'
+        'error' => 0
+        'size' => 1442
+    ]
+]
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1912'
+    'HTTP_ACCEPT' => 'application/json'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_X_CSRF_TOKEN' => '4xlRxot-t_JVg5DcE4GdQJoryk8Qv1-kH_FH3uh2GVuqWmH1vEr4qD3r26RXycl3zVv7DEjsa89pnTOxu0BfHA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryErBr98U646eRL0gl'
+    'HTTP_ORIGIN' => 'http://agzybir.ogullar'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/update/1828'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1887'
+    'REDIRECT_URL' => '/backend/document/upload'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/document/upload'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836850.497
+    'REQUEST_TIME' => 1621836850
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 11:14:13 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\omgdef\yii2-multilingual-behavior\src\MultilingualBehavior.php:178
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\wrappers\ItemWrapper.php:159
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\wrappers\ItemWrapper.php:136
+2021-05-24 11:14:12 [127.0.0.1][17][-][info][application] $_GET = [
+    'id' => '1828'
+]
+
+$_POST = [
+    '_csrf-backend' => '4xlRxot-t_JVg5DcE4GdQJoryk8Qv1-kH_FH3uh2GVuqWmH1vEr4qD3r26RXycl3zVv7DEjsa89pnTOxu0BfHA=='
+    'ItemWrapper' => [
+        'title' => 'Доставка'
+        'description' => ''
+        'content' => '<p>Мы осуществляем доставку практически в любую точку Туркменстана</p>
+'
+        'title_ru' => ''
+        'description_ru' => ''
+        'content_ru' => ''
+        'title_en' => ''
+        'description_en' => ''
+        'content_en' => ''
+        'category_id' => '9'
+        'tagNames' => ''
+        'status' => '1'
+        'is_main' => '0'
+        'is_menu' => '0'
+        'docs' => '158<pre>An Error occurred while handling another error:
+yii\\web\\HeadersAlreadySentException: Headers already sent in C:\\OSPanel\\domains\\agzybir.ogullar\\backend\\controllers\\DocumentController.php on line 214. in C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\web\\Response.php:366
+Stack trace:
+#0 C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\web\\Response.php(339): yii\\web\\Response-&gt;sendHeaders()
+#1 C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\web\\ErrorHandler.php(135): yii\\web\\Response-&gt;send()
+#2 C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\base\\ErrorHandler.php(111): yii\\web\\ErrorHandler-&gt;renderException(Object(yii\\web\\HeadersAlreadySentException))
+#3 [internal function]: yii\\base\\ErrorHandler-&gt;handleException(Object(yii\\web\\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\\web\\HeadersAlreadySentException: Headers already sent in C:\\OSPanel\\domains\\agzybir.ogullar\\backend\\controllers\\DocumentController.php on line 214. in C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\web\\Response.php:366
+Stack trace:
+#0 C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\web\\Response.php(339): yii\\web\\Response-&gt;sendHeaders()
+#1 C:\\OSPanel\\domains\\agzybir.ogullar\\vendor\\yiisoft\\yii2\\base\\Application.php(392): yii\\web\\Response-&gt;send()
+#2 C:\\OSPanel\\domains\\agzybir.ogullar\\backend\\web\\index.php(18): yii\\base\\Application-&gt;run()
+#3 {main}</pre>'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '3557'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://agzybir.ogullar'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryVjBAQEx7RXCZBSot'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/update/1828'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1887'
+    'REDIRECT_URL' => '/backend/item/update/1828'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/item/update/1828'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836852.931
+    'REQUEST_TIME' => 1621836852
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 11:14:15 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\components\DynamicFieldsBehavior.php:127
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\ItemController.php:44
+2021-05-24 11:14:14 [127.0.0.1][17][-][info][application] $_GET = [
+    'sort' => '-id'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '100jvte5u53bt5h805nhf0e0ebrnir99'
+    '_csrf-frontend' => '751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6\";}'
+    'PHPSESSID' => '1scgrli3p6bhdv36ubu7ii49eulp5mfg'
+    '_csrf-backend' => '546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/update/1828'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=100jvte5u53bt5h805nhf0e0ebrnir99; _csrf-frontend=751633687e4dd468e64b7e60a308573be824672d575b492d0cd21fc8dddda93da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22v25EXQme0cGyYk2TNBEdgUl4H3pnyHi6%22%3B%7D; PHPSESSID=1scgrli3p6bhdv36ubu7ii49eulp5mfg; _csrf-backend=546b7bbfc52cfc52b0d9c6c77eb72ac4b19de54a51939a90491628ff33e2b9fda%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22IC0374OZhhKxDHT7Wp1CXS4kvltoS6FG%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '1887'
+    'REDIRECT_URL' => '/backend/item/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/item/index'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621836854.867
+    'REQUEST_TIME' => 1621836854
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 23:39:09 [127.0.0.1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'user' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user/messages/tk/user.php
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user\views\security\login.php:23
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\user\SecurityController.php:165
+2021-05-24 23:39:09 [127.0.0.1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\security\LoginForm.php:81
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user\views\security\login.php:56
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\user\SecurityController.php:165
+2021-05-24 23:39:08 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '4grppemo91aee74fg5kjgdtp62m8ni6q'
+    '_csrf-frontend' => '7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s\";}'
+    'PHPSESSID' => '38qbuhd9673ub0hjka6tkonnunh90nhe'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_PURPOSE' => 'prefetch'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=4grppemo91aee74fg5kjgdtp62m8ni6q; _csrf-frontend=7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s%22%3B%7D; PHPSESSID=38qbuhd9673ub0hjka6tkonnunh90nhe'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '2809'
+    'REDIRECT_URL' => '/backend/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/user/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621881548.146
+    'REQUEST_TIME' => 1621881548
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 23:39:10 [127.0.0.1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'user' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user/messages/tk/user.php
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user\views\security\login.php:23
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\user\SecurityController.php:165
+2021-05-24 23:39:10 [127.0.0.1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\security\LoginForm.php:81
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user\views\security\login.php:56
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\user\SecurityController.php:165
+2021-05-24 23:39:09 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '4grppemo91aee74fg5kjgdtp62m8ni6q'
+    '_csrf-frontend' => '7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s\";}'
+    'PHPSESSID' => '6td4fb2mcj1drosu7l6k4k1i8vjso6hc'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=4grppemo91aee74fg5kjgdtp62m8ni6q; _csrf-frontend=7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s%22%3B%7D; PHPSESSID=6td4fb2mcj1drosu7l6k4k1i8vjso6hc'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '2810'
+    'REDIRECT_URL' => '/backend/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/user/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621881549.592
+    'REQUEST_TIME' => 1621881549
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 23:39:18 [127.0.0.1][-][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\security\LoginForm.php:81
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user\traits\AjaxValidationTrait.php:32
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\user\SecurityController.php:156
+2021-05-24 23:39:18 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = [
+    '_csrf-backend' => 'Uh1LWPGEcP7EQKauloQmYU8jMqBLLw11QujXO68NTXIdWSholLcBlq8VxcXz90oOGBNUxg1hSwUY3aFdyGQUQA=='
+    'login-form' => [
+        'login' => 'Rozy'
+        'password' => 'rozy1212'
+        'rememberMe' => '0'
+    ]
+    'ajax' => 'login-form'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '4grppemo91aee74fg5kjgdtp62m8ni6q'
+    '_csrf-frontend' => '7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s\";}'
+    'PHPSESSID' => '6td4fb2mcj1drosu7l6k4k1i8vjso6hc'
+    '_csrf-backend' => '96683d3732bfec5acda39714087efaf41c40e3c674a6b89da120995a9585bc83a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ODc0e3qhkUckesloW0ffFNFpZ5vfgiY2\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '212'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'Uh1LWPGEcP7EQKauloQmYU8jMqBLLw11QujXO68NTXIdWSholLcBlq8VxcXz90oOGBNUxg1hSwUY3aFdyGQUQA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://agzybir.ogullar'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/user/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=4grppemo91aee74fg5kjgdtp62m8ni6q; _csrf-frontend=7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s%22%3B%7D; PHPSESSID=6td4fb2mcj1drosu7l6k4k1i8vjso6hc; _csrf-backend=96683d3732bfec5acda39714087efaf41c40e3c674a6b89da120995a9585bc83a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ODc0e3qhkUckesloW0ffFNFpZ5vfgiY2%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '2809'
+    'REDIRECT_URL' => '/backend/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/user/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621881557.988
+    'REQUEST_TIME' => 1621881557
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 23:39:19 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\security\LoginForm.php:81
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\user\SecurityController.php:159
+2021-05-24 23:39:19 [127.0.0.1][17][-][info][application] $_GET = []
+
+$_POST = [
+    '_csrf-backend' => 'Uh1LWPGEcP7EQKauloQmYU8jMqBLLw11QujXO68NTXIdWSholLcBlq8VxcXz90oOGBNUxg1hSwUY3aFdyGQUQA=='
+    'login-form' => [
+        'login' => 'Rozy'
+        'password' => 'rozy1212'
+        'rememberMe' => '0'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '4grppemo91aee74fg5kjgdtp62m8ni6q'
+    '_csrf-frontend' => '7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s\";}'
+    'PHPSESSID' => '6td4fb2mcj1drosu7l6k4k1i8vjso6hc'
+    '_csrf-backend' => '96683d3732bfec5acda39714087efaf41c40e3c674a6b89da120995a9585bc83a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ODc0e3qhkUckesloW0ffFNFpZ5vfgiY2\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '196'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://agzybir.ogullar'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/user/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=4grppemo91aee74fg5kjgdtp62m8ni6q; _csrf-frontend=7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s%22%3B%7D; PHPSESSID=6td4fb2mcj1drosu7l6k4k1i8vjso6hc; _csrf-backend=96683d3732bfec5acda39714087efaf41c40e3c674a6b89da120995a9585bc83a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ODc0e3qhkUckesloW0ffFNFpZ5vfgiY2%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '2809'
+    'REDIRECT_URL' => '/backend/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/user/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621881558.95
+    'REQUEST_TIME' => 1621881558
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 23:39:31 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\components\DynamicFieldsBehavior.php:127
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\ItemController.php:44
+2021-05-24 23:39:30 [127.0.0.1][17][-][info][application] $_GET = [
+    'sort' => '-id'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '4grppemo91aee74fg5kjgdtp62m8ni6q'
+    '_csrf-frontend' => '7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s\";}'
+    'PHPSESSID' => '9j7rlpbg8a2r3nmliq2atu742uvcn0tv'
+    '_csrf-backend' => 'fbc6b3d8d95811619e738521fdee9e76ab09ae7de0860e0ba08acf763f046a93a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"9mU2jjqnOtjT4pyXhXGnl_Ucf0RjoEoR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=4grppemo91aee74fg5kjgdtp62m8ni6q; _csrf-frontend=7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s%22%3B%7D; PHPSESSID=9j7rlpbg8a2r3nmliq2atu742uvcn0tv; _csrf-backend=fbc6b3d8d95811619e738521fdee9e76ab09ae7de0860e0ba08acf763f046a93a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%229mU2jjqnOtjT4pyXhXGnl_Ucf0RjoEoR%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '2809'
+    'REDIRECT_URL' => '/backend/item/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/item/index'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621881570.256
+    'REQUEST_TIME' => 1621881570
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 23:39:43 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\components\DynamicFieldsBehavior.php:127
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\ItemController.php:44
+2021-05-24 23:39:42 [127.0.0.1][17][-][info][application] $_GET = [
+    'ItemSearch' => [
+        'id' => ''
+        'category_id' => '9'
+        'title' => ''
+        'description' => ''
+        'status' => ''
+        'is_main' => ''
+        'author' => ''
+    ]
+    '_pjax' => '#p0'
+    'sort' => '-id'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '4grppemo91aee74fg5kjgdtp62m8ni6q'
+    '_csrf-frontend' => '7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s\";}'
+    'PHPSESSID' => '9j7rlpbg8a2r3nmliq2atu742uvcn0tv'
+    '_csrf-backend' => 'fbc6b3d8d95811619e738521fdee9e76ab09ae7de0860e0ba08acf763f046a93a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"9mU2jjqnOtjT4pyXhXGnl_Ucf0RjoEoR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'NddHiq2_SU6L3fDXFBuL592nqIgcg19ujfIBfjrSTBQMuhK4x9U4IMSpmoMga_K_tf_v5nDcCg3rwlMUVZcjRg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_PJAX' => 'true'
+    'HTTP_X_PJAX_CONTAINER' => '#p0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=4grppemo91aee74fg5kjgdtp62m8ni6q; _csrf-frontend=7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s%22%3B%7D; PHPSESSID=9j7rlpbg8a2r3nmliq2atu742uvcn0tv; _csrf-backend=fbc6b3d8d95811619e738521fdee9e76ab09ae7de0860e0ba08acf763f046a93a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%229mU2jjqnOtjT4pyXhXGnl_Ucf0RjoEoR%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '2809'
+    'REDIRECT_URL' => '/backend/item/index'
+    'REDIRECT_QUERY_STRING' => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D=&_pjax=%23p0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D=&_pjax=%23p0'
+    'REQUEST_URI' => '/backend/item/index?ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D=&_pjax=%23p0'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621881582.434
+    'REQUEST_TIME' => 1621881582
+    'argv' => [
+        0 => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D=&_pjax=%23p0'
+    ]
+    'argc' => 1
+]
+2021-05-24 23:39:44 [127.0.0.1][17][9j7rlpbg8a2r3nmliq2atu742uvcn0tv][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+2021-05-24 23:39:44 [127.0.0.1][17][9j7rlpbg8a2r3nmliq2atu742uvcn0tv][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "img/loading.gif". in C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('img/loading.gif', Array)
+#1 C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 C:\OSPanel\domains\agzybir.ogullar\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 C:\OSPanel\domains\agzybir.ogullar\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2021-05-24 23:39:42 [127.0.0.1][17][9j7rlpbg8a2r3nmliq2atu742uvcn0tv][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '4grppemo91aee74fg5kjgdtp62m8ni6q'
+    '_csrf-frontend' => '7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s\";}'
+    'PHPSESSID' => '9j7rlpbg8a2r3nmliq2atu742uvcn0tv'
+    '_csrf-backend' => 'fbc6b3d8d95811619e738521fdee9e76ab09ae7de0860e0ba08acf763f046a93a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"9mU2jjqnOtjT4pyXhXGnl_Ucf0RjoEoR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/css/site.css?v=0.01'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=4grppemo91aee74fg5kjgdtp62m8ni6q; _csrf-frontend=7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s%22%3B%7D; PHPSESSID=9j7rlpbg8a2r3nmliq2atu742uvcn0tv; _csrf-backend=fbc6b3d8d95811619e738521fdee9e76ab09ae7de0860e0ba08acf763f046a93a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%229mU2jjqnOtjT4pyXhXGnl_Ucf0RjoEoR%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '2828'
+    'REDIRECT_URL' => '/backend/web/img/loading.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/img/loading.gif'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621881582.556
+    'REQUEST_TIME' => 1621881582
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 23:39:45 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'user' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user/messages/tk/user.php
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\dektrium\yii2-user\models\User.php:190
+2021-05-24 23:39:42 [127.0.0.1][17][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '4grppemo91aee74fg5kjgdtp62m8ni6q'
+    '_csrf-frontend' => '7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s\";}'
+    'PHPSESSID' => '9j7rlpbg8a2r3nmliq2atu742uvcn0tv'
+    '_csrf-backend' => 'fbc6b3d8d95811619e738521fdee9e76ab09ae7de0860e0ba08acf763f046a93a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"9mU2jjqnOtjT4pyXhXGnl_Ucf0RjoEoR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/css/site.css?v=0.01'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=4grppemo91aee74fg5kjgdtp62m8ni6q; _csrf-frontend=7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s%22%3B%7D; PHPSESSID=9j7rlpbg8a2r3nmliq2atu742uvcn0tv; _csrf-backend=fbc6b3d8d95811619e738521fdee9e76ab09ae7de0860e0ba08acf763f046a93a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%229mU2jjqnOtjT4pyXhXGnl_Ucf0RjoEoR%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '2828'
+    'REDIRECT_URL' => '/backend/web/img/loading.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/img/loading.gif'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621881582.556
+    'REQUEST_TIME' => 1621881582
+    'argv' => []
+    'argc' => 0
+]
+2021-05-24 23:39:45 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\common\components\DynamicFieldsBehavior.php:127
+    in C:\OSPanel\domains\agzybir.ogullar\backend\controllers\ItemController.php:44
+2021-05-24 23:39:43 [127.0.0.1][17][-][info][application] $_GET = [
+    'ItemSearch' => [
+        'id' => ''
+        'category_id' => '9'
+        'title' => ''
+        'description' => ''
+        'status' => ''
+        'is_main' => ''
+        'author' => ''
+    ]
+    'sort' => '-id'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '4grppemo91aee74fg5kjgdtp62m8ni6q'
+    '_csrf-frontend' => '7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s\";}'
+    'PHPSESSID' => '9j7rlpbg8a2r3nmliq2atu742uvcn0tv'
+    '_csrf-backend' => 'fbc6b3d8d95811619e738521fdee9e76ab09ae7de0860e0ba08acf763f046a93a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"9mU2jjqnOtjT4pyXhXGnl_Ucf0RjoEoR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=4grppemo91aee74fg5kjgdtp62m8ni6q; _csrf-frontend=7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s%22%3B%7D; PHPSESSID=9j7rlpbg8a2r3nmliq2atu742uvcn0tv; _csrf-backend=fbc6b3d8d95811619e738521fdee9e76ab09ae7de0860e0ba08acf763f046a93a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%229mU2jjqnOtjT4pyXhXGnl_Ucf0RjoEoR%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '2834'
+    'REDIRECT_URL' => '/backend/item/index'
+    'REDIRECT_QUERY_STRING' => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    'REQUEST_URI' => '/backend/item/index?ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621881583.383
+    'REQUEST_TIME' => 1621881583
+    'argv' => [
+        0 => 'ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    ]
+    'argc' => 1
+]
+2021-05-24 23:39:53 [127.0.0.1][17][-][warning][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\OSPanel\domains\agzybir.ogullar\vendor\yiisoft\yii2/messages/tk/yii.php
+    in C:\OSPanel\domains\agzybir.ogullar\vendor\omgdef\yii2-multilingual-behavior\src\MultilingualBehavior.php:178
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\wrappers\ItemWrapper.php:159
+    in C:\OSPanel\domains\agzybir.ogullar\common\models\wrappers\ItemWrapper.php:136
+2021-05-24 23:39:52 [127.0.0.1][17][-][info][application] $_GET = [
+    'id' => '1830'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'cookieconsent_status' => 'dismiss'
+    'advanced-frontend' => '4grppemo91aee74fg5kjgdtp62m8ni6q'
+    '_csrf-frontend' => '7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s\";}'
+    'PHPSESSID' => '9j7rlpbg8a2r3nmliq2atu742uvcn0tv'
+    '_csrf-backend' => 'fbc6b3d8d95811619e738521fdee9e76ab09ae7de0860e0ba08acf763f046a93a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"9mU2jjqnOtjT4pyXhXGnl_Ucf0RjoEoR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/'
+    '__id' => 17
+    'KCFINDER' => [
+        'disabled' => false
+        'uploadURL' => '/uploads'
+        'uploadDir' => 'C:\\OSPanel\\domains\\agzybir.ogullar/uploads'
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'agzybir.ogullar'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://agzybir.ogullar/backend/item/index?ItemSearch%5Bid%5D=&ItemSearch%5Bcategory_id%5D=9&ItemSearch%5Btitle%5D=&ItemSearch%5Bdescription%5D=&ItemSearch%5Bstatus%5D=&ItemSearch%5Bis_main%5D=&ItemSearch%5Bauthor%5D='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'cookieconsent_status=dismiss; advanced-frontend=4grppemo91aee74fg5kjgdtp62m8ni6q; _csrf-frontend=7dd011c888c2c8768c45a6ba99a237d6fffe03b24295fe861ca5e47f35a5cacca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22zpaI8KVgDolS5Pv2SpbItaBJTZqGum5s%22%3B%7D; PHPSESSID=9j7rlpbg8a2r3nmliq2atu742uvcn0tv; _csrf-backend=fbc6b3d8d95811619e738521fdee9e76ab09ae7de0860e0ba08acf763f046a93a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%229mU2jjqnOtjT4pyXhXGnl_Ucf0RjoEoR%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-7.2\\ext;c:\\ospanel\\modules\\php\\PHP-7.2\\pear;c:\\ospanel\\modules\\php\\PHP-7.2\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-7.2;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2\\bin;c:\\ospanel\\modules\\http\\Apache-PHP-7.2;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'agzybir.ogullar'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/agzybir.ogullar'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/agzybir.ogullar/backend/web/index.php'
+    'REMOTE_PORT' => '2837'
+    'REDIRECT_URL' => '/backend/item/update/1830'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/item/update/1830'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1621881591.996
+    'REQUEST_TIME' => 1621881591
+    'argv' => []
+    'argc' => 0
+]

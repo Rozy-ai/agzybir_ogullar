@@ -1,16 +1,47 @@
 <?php
+use yii\helpers\Html;
 $href = $model->item->url;
 ?>
 
 
-<div class="col-md-12">
-    <h4 class="search_title">
-        <a href="<?= $href ?>"><?php echo $model->title; ?></a>
-    </h4>
-<!--    <img src="<?
- // echo$model->getThumbPath()
- ?>" class="img-fluid" alt=""> -->
 
-</div>
+      <?php if (isset($model->item->documents) && count($model->item->documents) > 0){
+                $image=[];
+        foreach ($model->item->documents as $doc){
+            $image[] = $doc->getThumb();
+        }
+    } ?>
+<div class="col-md-4 col-sm-6 col-12 clear3BoxItem">
+  <div class="category_cart">
+        <div class="img_block_cart_category">
+          <a href="<?= $href; ?>">
+             
+                     
+                     <?php if (isset($image[0]) && strlen($image[0])>0){
+                                echo html::img($image[0],['class' => 'my_img2']);
+                            } else{
+                                echo html::img($image[0],['class' => 'my_img2']);
+                            } ?>
+                
+            </a>
+<div class="signature"></div>
+        </div>
+            <div class="caption_cart" style="box-sizing:border-box">
+                
+                    <a href="<?= $href; ?>"> <h4><?=$model->title?></h4></a>
+            
+                <p>                             <?php
+
+
+           echo Yii::$app->controller->getFragment(strip_tags($model->description), $query); 
+                   ?></p>
+               
+
+            </div>
+
+            </div>
+    
+
+        </div>
 
 

@@ -38,6 +38,6 @@ if (isset($list) && count($list) > 0) { ?>
                             <?php } ?>
 
 <?php } ?>
-<a href="/item/blog"><button type="button" class="btn btn-light" style="border:2px solid black;text-align: center;margin-bottom: 10%;"><?= yii::t('app', 'Show all') ?></button></a>
+<a href="/item/blog" class="text-center"><button type="button" class="btn btn-light" style="border:2px solid black;text-align: center;margin-bottom: 10%;"><?= yii::t('app', 'Show all') ?></button></a>
 </div>
 </div>

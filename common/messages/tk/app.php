@@ -250,6 +250,7 @@ return array (
     'Useful' => 'Peýdaly',
     'YOU MAY ALSO LIKE...' => 'Size peýdaly bolup biler...',
     'Privacy Policy' => 'Gizlinlik syýasaty',
+    'About the goods' => 'Haryt barada',
 
 );
 

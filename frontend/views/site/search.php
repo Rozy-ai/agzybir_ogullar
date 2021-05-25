@@ -29,6 +29,8 @@ $this->params['breadcrumbs'][] = Yii::t('app', 'Search Page');
     <div class="row">
         <div class="col-md-9 col-sm-8">
             <h4 class="search_query_title"> <?php echo Yii::t('app', 'search_query') . ' <span class="query">"' . Html::encode($query) . '" </span>'; ?></h4><br><br>
+        </div>
+        <div class="row">
 
             <div class="total-event">
                 <div class="total-product">
