@@ -16,6 +16,8 @@ class LastPosts extends \yii\base\Widget
     public $category = 'blog';
     public $view = 'lastPosts';
     public $limit = 3;
+    public $message;
+
 
     public function init()
     {

@@ -11,7 +11,7 @@ $href = $model->item->url;
             $image[] = $doc->getThumb();
         }
     } ?>
-<div class="col-md-4 col-sm-6 col-12 clear3BoxItem">
+<div class="">
   <div class="category_cart">
         <div class="img_block_cart_category">
           <a href="<?= $href; ?>">

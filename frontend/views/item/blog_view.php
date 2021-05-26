@@ -27,7 +27,7 @@
                                     foreach($documents as $key => $document):
                                     $counter++; ?>
                                     <div class="carousel-item <?= ($counter==1)?'active':'' ?>" data-interval="true">
-                                                    <?= html::img($document->getThumb(), ['class' => 'img_blog']); ?>
+                                    <?= html::img($document->getThumb(), ['class' => 'img_blog']); ?>
                                         
                                     </div>
                                     <?php
@@ -68,10 +68,13 @@
                 </div>
                 </div>
                 </div>
+
 <h2 class="text-center" style="margin: 10% 0"><?= yii::t('app', 'Latest News') ?></h2>
                                             <?php
-                        echo \common\widgets\items\lastPosts\LastPosts::widget([
+                                            $unset_id = $model->id;
 
+                        echo \common\widgets\items\lastPosts\LastPosts::widget([
+                            'message' => $unset_id
                         ]);
                     ?>
                           <!-- <div class="recent_posts"> -->

@@ -121,10 +121,11 @@
         </div>
 
 </div>
+<hr>
                         <h2 style="margin-top: 6%" class="slick_arrow_text"><?= yii::t('app', 'YOU MAY ALSO LIKE...') ?></h2>
                         <section class="index_tab">
         <?php
-$category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'products'])->one();
+$category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'magazin'])->one();
 $catId = $category->id;
 $projects = \common\models\wrappers\ItemWrapper::find()->where(['parent_category_id' => $catId, 'status' => '1'])->orderBy('raiting')->limit(8)->all();
 
@@ -133,7 +134,11 @@ $projects = \common\models\wrappers\ItemWrapper::find()->where(['parent_category
         <div class="regular_tab slider">
             <?php foreach ($projects as $key => $product): ?>
           <div class="card" style="width: 18rem;">
-            <a href="<?= '/item/'.$product->id; ?>"><?=html::img($product->getThumbPath(),['class' => 'card-img-top']) ?></a>
+            <a href="<?= '/item/'.$product->id; ?>" class="hover14">
+               <figure>
+              <?=html::img($product->getThumbPath(),['class' => 'card-img-top']) ?>
+                </figure>
+              </a>
             <?php if(isset($product->skidka)){
                         echo " <span class='skidka'>".$product->skidka."</span>";
                     } ?>

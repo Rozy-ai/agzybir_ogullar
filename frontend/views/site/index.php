@@ -132,7 +132,7 @@ $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' 
 
 </ul>
    <?php
-$category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'products'])->one();
+$category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'magazin'])->one();
 $catId = $category->id;
 $new_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_category_id' => $catId, 'status' => '1'])->orderBy('id desc')->all();
 $hit_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_category_id' => $catId, 'status' => '1'])->orderBy('raiting desc')->all();
@@ -144,7 +144,11 @@ $hit_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_cate
         <div class="regular_tab slider">
             <?php foreach ($new_products as $key => $product): ?>
           <div class="card" style="width: 18rem;">
-            <a href="<?= '/item/'.$product->id; ?>"><?=html::img($product->getThumbPath(),['class' => 'card-img-top']) ?></a>
+            <a href="<?= '/item/'.$product->id; ?>" class="hover14">
+              <figure>
+              <?=html::img($product->getThumbPath(),['class' => 'card-img-top']) ?>
+                </figure>
+              </a>
             <?php if(isset($product->skidka)){
                         echo " <span class='skidka'>".$product->skidka."</span>";
                     } ?>
@@ -171,7 +175,11 @@ $hit_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_cate
         <div class="regular_tab slider">
             <?php foreach ($hit_products as $key => $product): ?>
           <div class="card" style="width: 18rem;">
-            <?=html::img($product->getThumbPath(),['class' => 'card-img-top']) ?>
+            <a href="<?= '/item/'.$product->id; ?>" class="hover14">
+              <figure>
+              <?=html::img($product->getThumbPath(),['class' => 'card-img-top']) ?>
+                </figure>
+              </a>
             <?php if(isset($product->skidka)){
                         echo " <span class='skidka'>".$product->skidka."</span>";
                     } ?>

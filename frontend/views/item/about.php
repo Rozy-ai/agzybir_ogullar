@@ -15,7 +15,10 @@ use yii\helpers\Html;
     Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Dignissimos atque pariatur voluptate, asperiores provident odio obcaecati corporis quidem temporibus impedit iste! Animi, possimus quos accusantium. Magni praesentium incidunt suscipit accusantium?
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti nulla cumque rem a atque tempora, eveniet architecto harum, neque mollitia vel temporibus ducimus ad, ea dolorum inventore accusamus possimus dolore.</p>
                         <div class="btn_black_div">
-                            <a href="/item/magazin" class="about_us_view_button" role="button"><?= Yii::t('app', 'Products') ?> </a>
+                          <?php 
+$category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'magazin'])->one();
+                           ?>
+                            <a href="<?=$category->url?>" class="about_us_view_button" role="button"><?= Yii::t('app', 'Products') ?> </a>
                         </div>
                         
  			</div>

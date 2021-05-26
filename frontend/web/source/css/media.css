@@ -42,6 +42,9 @@
   .slick_next {
     right: 0;
 }
+section{
+  margin-bottom: 40px;
+}
 .slick_prev{
   left: 85%;
 }

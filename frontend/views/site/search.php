@@ -30,26 +30,30 @@ $this->params['breadcrumbs'][] = Yii::t('app', 'Search Page');
         <div class="col-md-9 col-sm-8">
             <h4 class="search_query_title"> <?php echo Yii::t('app', 'search_query') . ' <span class="query">"' . Html::encode($query) . '" </span>'; ?></h4><br><br>
         </div>
-        <div class="row">
+    </div>
+     <!--    <div class="row"> -->
 
             <div class="total-event">
                 <div class="total-product">
                     <div class="row">
                         <?php \yii\widgets\Pjax::begin(['id' => 'pjax-item-list', 'enablePushState' => false]); ?>
                         <?= \yii\widgets\ListView::widget([
+                            'options' => [
+                                'class' => 'row',
+                            ],
                             'dataProvider' => $searchModel,
                             'viewParams' => ['query' => $query],
                             'id' => 'item-list',
                             'itemView' => '_search_view',
                             'layout' => "{items}\n{pager}",
-                            'itemOptions' => ['class' => 'item']
+                            'itemOptions' => ['class' => 'item col-md-4 col-sm-6 col-12 clear3BoxItem']
                         ]); ?>
                         <?php \yii\widgets\Pjax::end(); ?>
                     </div>
                 </div>
-                <hr>
+            
             </div>
-        </div>
+    <!--     </div> -->
     </div>
 
 </div>
