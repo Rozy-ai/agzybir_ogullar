@@ -6292,7 +6292,7 @@
 
     <div class="icon_inpit">
 <!--     <input type="text" class="form-control select_icon"> -->
-    <?= $form->field($model, 'icon')->textInput(['maxlength' => true])->val() ?>
+<?= $form->field($model, 'icon')->textInput(['class' => 'select_icon form-control'])->label('Icon'); ?>
     </div>
       </div>
 

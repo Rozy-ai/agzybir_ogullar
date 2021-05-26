@@ -34,6 +34,14 @@ use yii\widgets\ActiveForm;
                 ]),
 //                'options' => ['id' => 'myveryownID'],
             ],
+                 [
+                'label' => 'Icon',
+                'content' => $this->render('_icon', [
+                    'model' => $model,
+                    'form' => $form,
+                ]),
+//                'options' => ['id' => 'myveryownID'],
+            ],
             [
                 'label' => 'Additional fields',
                 'content' => $this->render('_dynamic_content', [

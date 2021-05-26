@@ -16,9 +16,9 @@ use yii\helpers\Html;
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti nulla cumque rem a atque tempora, eveniet architecto harum, neque mollitia vel temporibus ducimus ad, ea dolorum inventore accusamus possimus dolore.</p>
                         <div class="btn_black_div">
                           <?php 
-$category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'magazin'])->one();
+$category_products = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'magazin'])->one();
                            ?>
-                            <a href="<?=$category->url?>" class="about_us_view_button" role="button"><?= Yii::t('app', 'Products') ?> </a>
+                            <a href="<?=$category_products->url?>" class="about_us_view_button" role="button"><?= Yii::t('app', 'Products') ?> </a>
                         </div>
                         
  			</div>
@@ -41,7 +41,8 @@ $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' 
  <?php foreach ($advantages as $key => $advantage): ?>
                 <div class="row" style="margin-bottom: 30px;">
                 	<div class="box-body-img col-4 d-flex align-self-center">
-                        <?=html::img($advantage->getThumbPath(),['class' => '']) ?>
+                    <i class="fa <?=$advantage->icon;?>" style="color: #fff"></i>
+                  
                     </div>
                     <div class="col-8">
                         <h3 class=""><?=$advantage->title?></h3>

@@ -87,6 +87,8 @@ class ItemController extends CommonController
     public function actionCreate()
     {
         $model = new ItemWrapper();
+        // Yii::$app->cache->flush();
+     
         $model->type = ItemWrapper::TYPE_TEXT;
 
         if (Yii::$app->request->post()) {
