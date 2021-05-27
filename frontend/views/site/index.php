@@ -92,8 +92,16 @@ $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' 
 ?>
   <section class="about_us">
     <div class="container">
+      <?php 
+
+       ?>
       <div class="row justify-content-between">
         <?php foreach ($advantages as $key => $advantage): ?>
+          <?php 
+          $icon = json_decode($advantage->icon , true);
+       
+
+           ?>
                       <div class="col-lg-4 col-sm-12 bg-white function_box">
                 <div class="overlay_function_box">
                     <div class="overlay_function_box_top"></div>
@@ -101,7 +109,8 @@ $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' 
                 </div>
                 <div class="box-body">
                 	<div class="box-body-img">
-                        <?=html::img($advantage->getThumbPath(),['class' => '']) ?>
+              
+                        <i class="<?=$icon['class']?>"> </i>
                         <h3 class=""><?=$advantage->title?></h3>
                     </div>
                  

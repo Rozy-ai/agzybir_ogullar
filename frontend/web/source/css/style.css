@@ -1751,3 +1751,7 @@ color: #fff!important;
 border-color: #fff!important;
 }
     
+
+section.backend_fa div.col-sm-6{
+  cursor: pointer;
+}

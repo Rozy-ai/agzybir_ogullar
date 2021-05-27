@@ -39,9 +39,14 @@ $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' 
 
 			<div class="col-lg-6">
  <?php foreach ($advantages as $key => $advantage): ?>
+   <?php 
+          $icon = json_decode($advantage->icon , true);
+       
+
+           ?>
                 <div class="row" style="margin-bottom: 30px;">
                 	<div class="box-body-img col-4 d-flex align-self-center">
-                    <i class="fa <?=$advantage->icon;?>" style="color: #fff"></i>
+                    <i class="<?=$icon['class']?>" style="color: #fff"> </i>
                   
                     </div>
                     <div class="col-8">
