@@ -1755,3 +1755,29 @@ border-color: #fff!important;
 section.backend_fa div.col-sm-6{
   cursor: pointer;
 }
+.search-box-container {
+    position: relative;
+    width: 100%;
+    margin: 1rem 0;
+    display: flex;
+}
+.input-group-append {
+    margin-left: -1px;
+}
+.input-group-append, .input-group-prepend {
+    display: flex;
+}
+.input-group-append .btn, .input-group-prepend .btn {
+    position: relative;
+    z-index: 2;
+}
+.alert-success button.close{
+  color: #fff;
+    border: none;
+    background: #0f5132;
+}
+.alert-danger button.close{
+  color: #fff;
+    border: none;
+    background: #842029;
+}

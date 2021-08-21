@@ -44,7 +44,6 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
     </div>
 
-
 <?php
 $script = <<< JS
     var visible = $('.fancybox');

@@ -3,6 +3,7 @@
  
 ?>
 
+
     <div class="container">
         <div class="row">
 
@@ -21,8 +22,10 @@
                         'viewParams' => [],
                         'itemOptions' => ['class' => 'col-md-4 col-sm-6 col-12 clear3BoxItem'],
                         'layout' => "{items}" . $layoutPager,
+
                         'pager' => [
                             'options' => [
+
     'class' => 'pagination justify-content-center',
 ],
                             'nextPageLabel' => '<i class="fa fa-arrow-right"></i>',

@@ -24,9 +24,7 @@ $this->title = Yii::t('app', 'Home');
 
   <section class="container-fluid corusel_top p-0">
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-    <?php
-    $sliders = \common\models\wrappers\ImageWrapper::find()->all();
-    ?>
+
   <div class="carousel-indicators">
 
     <?php
@@ -84,19 +82,14 @@ $this->title = Yii::t('app', 'Home');
   <!-- end carusel -->
 
   <!-- Start advantages -->
-   <?php
-$category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'advantage'])->one();
-$catId = $category->id;
-$advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' => $catId, 'status' => '1'])->orderBy('id')->all();
 
-?>
   <section class="about_us">
     <div class="container">
       <?php 
 
        ?>
       <div class="row justify-content-between">
-        <?php foreach ($advantages as $key => $advantage): ?>
+        <?php foreach ($advantages as $advantage): ?>
           <?php 
           $icon = json_decode($advantage->icon , true);
        
@@ -140,13 +133,7 @@ $advantages = \common\models\wrappers\ItemWrapper::find()->where(['category_id' 
   </li>
 
 </ul>
-   <?php
-$category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'magazin'])->one();
-$catId = $category->id;
-$new_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_category_id' => $catId, 'status' => '1'])->orderBy('id desc')->all();
-$hit_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_category_id' => $catId, 'status' => '1'])->orderBy('raiting desc')->all();
 
-?>
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
     <div class="row">
@@ -155,6 +142,7 @@ $hit_products = \common\models\wrappers\ItemWrapper::find()->where(['parent_cate
           <div class="card" style="width: 18rem;">
             <a href="<?= '/item/'.$product->id; ?>" class="hover14">
               <figure>
+             
               <?=html::img($product->getThumbPath(),['class' => 'card-img-top']) ?>
                 </figure>
               </a>
@@ -220,10 +208,7 @@ $liked = $product->liked;
     </div>
   </section>
   <section class="about">
-       <?php
-$ownInfo = \common\models\OwnerContact::find()->one();
 
-?>
 
     <div class="parallax">
     <div class="container">
@@ -239,11 +224,7 @@ $ownInfo = \common\models\OwnerContact::find()->one();
   </section>
   <section class="blog">
     <div class="container">
-         <?php
-$category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'blog'])->one();
-$catId = $category->id;
-$blogs = \common\models\wrappers\ItemWrapper::find()->where(['category_id' => $catId, 'status' => '1'])->orderBy('id desc')->all();
-?>
+
       <h2><?= yii::t('app' , 'News') ?></h2>
       <div class="row">
         <div class="regular slider">
@@ -268,7 +249,7 @@ $blogs = \common\models\wrappers\ItemWrapper::find()->where(['category_id' => $c
         </div>
 
         <div class="col-12 d-flex justify-content-center">
-          <a href="<?=$category->url?>"><button type="button" class="btn btn-light" style="border:2px solid black"><?= yii::t('app', 'Show all') ?></button></a>
+          <a href="<?=$category_blog->url?>"><button type="button" class="btn btn-light" style="border:2px solid black"><?= yii::t('app', 'Show all') ?></button></a>
         </div>
       </div>
     </div>
@@ -306,15 +287,10 @@ $blogs = \common\models\wrappers\ItemWrapper::find()->where(['category_id' => $c
     </div>
   </section>
   <section class="partners">
-            <?php
-$category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'partners'])->one();
-$catId = $category->id;
-$partners = \common\models\wrappers\ItemWrapper::find()->where(['category_id' => $catId, 'status' => '1'])->orderBy('Rand()')->limit(8)->all();
-$categoryLink = [$category->code => $category->url];
-?>
+
 
     <div class="center slider">
- <?php foreach ($partners as $key => $partner): ?>
+ <?php foreach ($partners as $partner): ?>
 
         <?=html::img($partner->getThumbPath(),['class' => 'my_img', 'style' => 'height : 150px'])?>
       <?php endforeach; ?>

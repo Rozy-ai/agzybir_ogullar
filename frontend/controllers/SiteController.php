@@ -27,6 +27,7 @@ use frontend\models\SignupForm;
 use frontend\models\ContactForm;
 use common\components\Common;
 use yii\web\ViewAction;
+use yii\helpers\ArrayHelper;
 
 ini_set('max_execution_time', 6000);
 
@@ -126,9 +127,9 @@ class SiteController extends CommonController
         // $this->layout = 'fullpage';
 //        $aboutCategory = CategoryWrapper::find()->where(['code' => 'about'])->one();
 //        $mainAboutItem = ItemWrapper::find()
-//            ->leftJoin('tbl_category cat', 'cat.id= tbl_item.category_id')
+//            >leftJoin('tbl_category cat', 'cat.id= tbl_item.category_id')
 //            ->where(['tbl_item.is_main' => 1, 'cat.code' => 'about'])
-//            ->orderBy('date_modified desc')->one();
+//            ->orderBy('date_modified desc')->one();-
 //
 //
 //        $itemCategory = CategoryWrapper::find()->where(['code' => 'item'])->one();
@@ -147,10 +148,34 @@ class SiteController extends CommonController
 //            ->one();
 //
 //        $sliderImages = ImageWrapper::find()->where(['type' => ImageWrapper::IMAGE_SLIDER])->all();
+    $sliders = ImageWrapper::find()->with(['translations','documents'])->where(['type' => ImageWrapper::IMAGE_SLIDER])->all();
+    $category_advantages = CategoryWrapper::find()->where(['code' => 'advantage'])->one();
+$catId = $category_advantages->id;
+$advantages = ItemWrapper::find()->where(['category_id' => $catId, 'status' => '1'])->with(['documents','translations'])->orderBy('id')->all();
+$category = CategoryWrapper::find()->where(['code' => 'magazin'])->one();
+$catId = $category->id;
+$new_products = ItemWrapper::find()->where(['parent_category_id' => $catId, 'status' => '1'])->with(['documents','translations'])->orderBy('id desc')->all();
+$hit_products = ItemWrapper::find()->where(['parent_category_id' => $catId, 'status' => '1'])->with(['documents','translations'])->orderBy('raiting desc')->all();
+$ownInfo = \common\models\OwnerContact::find()->one();
+$category_blog = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'blog'])->one();
+$catId = $category_blog->id;
+$blogs = \common\models\wrappers\ItemWrapper::find()->where(['category_id' => $catId, 'status' => '1'])->with(['documents','translations'])->orderBy('id desc')->all();
+$category_partners = CategoryWrapper::find()->where(['code' => 'partners'])->one();
+$catId = $category_partners->id;
+$partners = ItemWrapper::find()->where(['category_id' => $catId, 'status' => '1'])->with(['documents','translations'])->orderBy('Rand()')->limit(8)->all();
+
 
 
         return $this->render('index', [
             'model' => $model,
+            'sliders' => $sliders,
+            'advantages' => $advantages,
+            'new_products' => $new_products,
+            'hit_products' => $hit_products,
+            'ownInfo' => $ownInfo,
+            'blogs' => $blogs,
+            'category_blog' => $category_blog,
+            'partners' => $partners,
 //            'aboutCategory' => $aboutCategory,
 //            'itemCategory' => $itemCategory,
 //            'eventCategory' => $eventCategory,

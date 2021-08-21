@@ -108,6 +108,8 @@ class ItemController extends CommonController
         };
       
         $dataProvider = $searchModel->search([]);
+       
+
 
         return $this->render($viewpath, [
             'dataProvider' => $dataProvider,

@@ -22,15 +22,15 @@ class AppAsset extends AssetBundle
         'source/css/media.css',
     ];
     public $js = [
+       'source/js/jquery.min.js',
        'source/js/bootstrap.bundle.min.js',
        // 'source/js/bootstrap.bundle.min.js.map',
-       // 'source/js/jquery.min.js',
         'source/js/wow.min.js',
         'source/js/slick.min.js',
         'source/js/scripts.js',
     ];
     public $depends = [
-        'yii\web\JqueryAsset',
+        // 'yii\web\JqueryAsset',
         // 'yii\web\YiiAsset',
         // 'frontend\assets\MainAsset',
         // 'yii\bootstrap\BootstrapPluginAsset',

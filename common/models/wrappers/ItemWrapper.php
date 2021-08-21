@@ -155,9 +155,9 @@ class ItemWrapper extends Item
     {
         $categoryFields = [];
         if (isset($this->category_id)) {
-            $categoryFields = CategoryFieldWrapper::find()->where(['category_id' => $this->category_id, 'target_model' => (new \ReflectionClass($this))->getShortName()])->all();
+            $categoryFields = CategoryFieldWrapper::find()->with(['translations'])->where(['category_id' => $this->category_id, 'target_model' => (new \ReflectionClass($this))->getShortName()])->all();
         } elseif (!$onlyRelated)
-            $categoryFields = CategoryFieldWrapper::find()->where(['target_model' => (new \ReflectionClass($this))->getShortName()])->all();
+            $categoryFields = CategoryFieldWrapper::find()->with(['translations'])->where(['target_model' => (new \ReflectionClass($this))->getShortName()])->all();
         return $categoryFields;
     }
 

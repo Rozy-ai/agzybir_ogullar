@@ -723,7 +723,7 @@ $form->field($model, 'icon')->hiddenInput()->label('') ?>
 //  $(".col-md-4").on("click", function(){
 //    // $(this).toggleClass("selected");
 //    var a = $(this).text();
-//    $("input.select_icon").val(a);
+//    $("input.select_icon").val(a); 
 //  });
         
      $(".col-sm-6").on("click", function(){
