@@ -52,7 +52,7 @@
                        if (!empty($model->price) || !empty($model->skidka)) {
                           echo "<div class='product_price'>";
                     if(!empty($model->price)){
-                        echo "Bahasy : ".$model->price." manat";
+                        echo  yii::t('app', 'Value') . " : ".$model->price." manat";
                     } 
                       if (!empty($model->skidka)) {
                         echo "<span class='skidka'>".$model->skidka."</span>";

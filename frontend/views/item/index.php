@@ -31,11 +31,11 @@ if (!isset($view)){
         $view = 'blog-list';
     } elseif ($catCode == 'our_works'){
         $view = 'portfolio-list';
-
     } elseif ($catCode == 'partners'){
         $view = 'partners-list';
     } elseif ($catCode == 'magazin'){
         $view = 'category-list';
+        $cat = 'magazin';
     }
     elseif ($catCode == 'about'){
         $view = 'about';
@@ -43,7 +43,13 @@ if (!isset($view)){
     elseif ($catCode == 'categorytest'){
         $view = 'products-list';
     } else {
-         $view = 'products-list';
+        if(empty($modelCategory->children)){
+            $view = 'products-list';
+        } else {
+        $view = 'category-list';
+         $cat = $catCode;
+        }
+      
     }
 }
 // if ($category->getThumbPath()){
@@ -102,9 +108,18 @@ if (!isset($view)){
 
 
 <?php
-   echo $this->render($view,[
+if(!isset($cat)){
+       echo $this->render($view,[
             'dataProvider' => $dataProvider,
             'modelCategory' => $modelCategory,
-    ])
+    ]);
+   } else {
+           echo $this->render($view,[
+            'cat' => $cat,
+            'dataProvider' => $dataProvider,
+            'modelCategory' => $modelCategory,
+    ]);
+   };
+
 
 ?>

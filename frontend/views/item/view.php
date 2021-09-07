@@ -5,6 +5,7 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\widgets\Breadcrumbs;
 
+
 /* @var $this yii\web\View */
 /* @var $model common\models\wrappers\ItemWrapper */
 
@@ -67,7 +68,7 @@ if ($catCode == 'products'){
                 echo Breadcrumbs::widget([
                     'homeLink' => [
                         'label' => Yii::t('app', 'Home'),
-                        'url' => Yii::$app->homeUrl,
+                        'url' => '/',
                     ],
                     'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
                     'options' => [

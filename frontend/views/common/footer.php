@@ -1,4 +1,5 @@
 <?php
+use yii\widgets\Menu;
 // use common\models\wrappers\ItemWrapper;
 // use yii\bootstrap\ActiveForm;
 // use yii\helpers\Html;
@@ -37,12 +38,20 @@ $ownInfo = \common\models\OwnerContact::find()->one();
           <div class="center_footer">
             <h3><?= yii::t('app', 'Useful') ?></h3><br>
             <ul>
-              <a href="/item/about"> <li><?= yii::t('app', 'About Us') ?></li></a>
-              <a href="/item/magazin"> <li><?= yii::t('app', 'Shop') ?> </li></a>
-              <!-- <a href="/item/about/products"> <li><?= yii::t('app', 'Production') ?></li></a> -->
-              <a href="/item/about/partners"> <li><?= yii::t('app', 'Partners') ?></li></a>
-              <a href="/item/blog"> <li><?= yii::t('app', 'Blog') ?></li></a>
-              <a href="/site/a/privacy"> <li><?= yii::t('app', 'Privacy Policy') ?></li></a>
+                              <?php
+                            $menuItems == array_pop($menuItems);
+
+                echo Menu::widget([
+                    'items' => $menuItems,
+                    'options' => [
+                        'class' => '',
+                    ],
+                    'linkTemplate' => "<a href=\"{url}\"  role=\"button\"  aria-expanded=\"false\"><li>{label}</li></a>",
+                    'submenuTemplate' => "\n<a href=\"{url}\"  role=\"button\"  aria-expanded=\"false\"><li>{items}</li></a>\n"
+                ]);
+                ?>
+                    <a href="/site/a/privacy"> <li><?= yii::t('app', 'Privacy Policy') ?></li></a>
+              
             </ul>
           </div>
         </div>

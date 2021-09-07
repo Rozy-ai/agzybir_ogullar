@@ -55,11 +55,12 @@ if ($data->id == $unset_id):
                         </div>
                     </div>
                 </div>
+                <hr style="margin-bottom: 10%">
             <?php endif; ?>
 
 
 
-        <hr style="margin-bottom: 10%">
+        
 
                             <?php } ?>
 
