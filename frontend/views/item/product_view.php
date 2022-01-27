@@ -66,10 +66,10 @@
                 <p class="product_desc"> <b><?= yii::t('app', 'Product Category') ?>:</b> <?= $model->category->name ?></p>
 <!-- <div class="view_select">
     <a class="like-Unlike" href=" -->
-    <? 
+    <?php 
     // echo Url::to(['site/like', 'id' => $product->id]) ?>
     <!-- " data-id=" -->
-    <? 
+    <?php 
     // echo $product->id;
     ?>
     <!-- "><i class="fa fa-heart-o"></i></a>
@@ -77,7 +77,7 @@
 </div>
 <div class="view_select"> -->
     <!-- <a href=" -->
-    <? 
+    <?php 
     // echo $document->getThumb();
     ?>
     <!-- " -->

@@ -197,6 +197,7 @@ return array(
     'Privacy Policy' => 'Политика конфиденциальности',
     'Overview' => 'Обзор',
     'About the goods' => 'O товарах',
+    'Read more' => 'Подробнее',
 
 
 );
