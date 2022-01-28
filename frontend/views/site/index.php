@@ -23,7 +23,7 @@ $this->title = Yii::t('app', 'Home');
   <!-- Carusel -->
 
   <section class="container-fluid corusel_top p-0">
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 
   <div class="carousel-indicators">
 
