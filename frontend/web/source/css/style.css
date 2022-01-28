@@ -1781,3 +1781,11 @@ section.backend_fa div.col-sm-6{
     border: none;
     background: #842029;
 }
+.fixed_header{
+   text-align: center;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    top: 0px;
+    z-index: 99;
+    box-shadow: rgb(0 0 0 / 6%) 0px 12px 6px;
+}

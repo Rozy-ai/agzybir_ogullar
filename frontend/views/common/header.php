@@ -50,11 +50,11 @@ switch ($language){
     </div>
 
   </header>
-  <div class="container bottom_header">
+  <div class="container-fluid bottom_header">
     <div class="row">
 
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
+        <div class="container">
             <div class="col-4 logo">
             <a class="navbar-brand" href="<?= Url::to(['/']) ?>"><img src="/source/img/europlastic-logo.jpg" alt="Logo"></a>
           </div>

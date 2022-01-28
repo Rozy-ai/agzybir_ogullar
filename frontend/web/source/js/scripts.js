@@ -1,7 +1,14 @@
 $(function() {
     var path = location.pathname;
     $("a[href='" + path + "']").addClass('active');
-})
+});
+
+
+$(window).scroll(function() {
+                var top = $(document).scrollTop();
+                if (top < 300) $(".bottom_header").removeClass('fixed_header');
+                else $(".bottom_header").addClass('fixed_header');
+            });
 
     //     $('#show').click(function(){
     //   $(this).css('display','none');
