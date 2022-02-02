@@ -29,7 +29,7 @@ return array (
     'Read all materials' => 'Ähli maglumatlary okamak',
 
 
-    'Search' => 'Gözle',
+    'Search...' => 'Gözle...',
     'Send us your advices' => 'Bize teklibiňizi ýollaň',
     'Email address' => 'Email adresiňiz',
     'Our address' => 'Biziň salgymyz',

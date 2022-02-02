@@ -55,7 +55,7 @@ switch ($language){
 
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <div class="col-4 logo">
+            <div class="col-2 logo" style="margin-right: 2%">
             <a class="navbar-brand" href="<?= Url::to(['/']) ?>"><img src="/source/img/europlastic-logo.jpg" alt="Logo"></a>
           </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -76,28 +76,27 @@ switch ($language){
                 ]);
                 ?>
             </div>
-          <div class="col-1 icon d-flex justify-content-end">
+          <div class="col-3 icon d-flex justify-content-end">
             <!-- BEGIN TOP SEARCH -->
-            
-            <!-- END TOP SEARCH -->
-                   
+<?php $form = ActiveForm::begin([
+  'options' => ['class' => 'd-flex search_form'],
+  'action'=>['site/search'],
+  'method'=>'get']); ?>
+
+        <input style="padding: 4px 10px;" class="form-control me-2" type="search" placeholder="<?=Yii::t('app','Search...')?>" aria-label="Search" class="search"  name="query">
+                  <div class="search_icon">
                     <div class="input-group">             
-  <button type="button" id="show" class="call_btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      <span class="fa fa-search"></span>
+  <button type="submit" class="call_btn">
+      <span class="fa fa-search" style="color: #EE3897"></span>
     </button>
 
-
-
-<!--     <button type="button" id="hide" class="call_btn">
-      <span class="fa fa-search"></span>
-    </button> -->
-
-
- 
-     
-   <!--    <input type="submit" class="search_submit"> -->
       
       </div>
+
+          </div>        
+     <?php ActiveForm::end(); ?>
+            <!-- END TOP SEARCH -->
+
 
     <!--         <a href=""><i class="fa fa-user"></i></a>
             <a href=""><i class="fa fa-shopping-cart"></i></a> -->

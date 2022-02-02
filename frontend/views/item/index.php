@@ -36,6 +36,8 @@ if (!isset($view)){
     } elseif ($catCode == 'magazin'){
         $view = 'category-list';
         $cat = 'magazin';
+    } elseif ($catCode == 'bags'){
+        $view = 'bags';
     }
     elseif ($catCode == 'about'){
         $view = 'about';

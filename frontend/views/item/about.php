@@ -2,7 +2,7 @@
 use yii\helpers\Html;
  ?>
  <section class="about_us_view" style="margin-bottom: 10%">
- 	<div class="container">
+ 	<div class="container-fluid">
  		<div class="row">
  						<?php 
 			//$category = \common\models\wrappers\CategoryWrapper::find()->where(['code' => 'about'])->one();

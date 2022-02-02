@@ -120,7 +120,7 @@ return array(
     'Products' => 'Продукты',
     'RU' => '',
     'Rules and regulations' => 'Правила и положения',
-    'Search' => 'Поиск',
+    'Search...' => 'Поиск на сайте...',
     'Search results' => 'Результаты поиска',
     'Select language: ' => 'Выбрать язык:',
     'Send message' => 'Отправить сообщение',
