@@ -214,8 +214,8 @@ $liked = $product->liked;
     <div class="container">
       <div class="row">
         <div class="col-md-5 about_data">
-          <h3> <?= $ownInfo->my_title ?></h3>
-          <p><?= $ownInfo->my_description ?></p>
+          <h3> <?= yii::t('app', 'about_title') ?></h3>
+          <p><?= yii::t('app', 'about_content') ?></p>
         </div>
 
       </div>
@@ -287,8 +287,9 @@ $liked = $product->liked;
     </div>
   </section>
   <section class="partners">
-
-
+    <div class="container text-center">
+      <h2><?= yii::t('app' , 'Partners') ?></h2>
+    </div>
     <div class="center slider">
  <?php foreach ($partners as $partner): ?>
 

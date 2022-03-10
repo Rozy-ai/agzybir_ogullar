@@ -72,7 +72,7 @@ use yii\helpers\Html;
 			<p class="NormalWeb" style="margin-top:0pt; margin-bottom:7.5pt; font-size:14pt; background-color:#ffffff">
 				<span style="font-family:Arial; color:#333333">ХО «Агзыбир огуллар» адекватно отвечает на требования покупателей и предлагает недорогую, долговечную и действительно качественную продукцию. Производство изделий из пластмассы на нашем предприятии ведется с 2015 года. Покупатели успели оценить наш ассортимент, дизайн продукции, ее прочность, широкий функционал. Сегодня мы готовы предложить потребителям свыше 100 товарных позиций, разрабатываем и внедряем в производство новые образцы, чтобы опередить спрос и удовлетворить растущие потребности в недорогих хозяйственных изделиях.</span>
 				<img src="/uploads/images/Aspose.Words.64148ef5-877c-45e7-b1ad-2c42d36d6356.004.jpeg" width="534" height="164" alt="" style="margin-right:9pt; margin-left:9pt; margin-top:19pt;-aw-left-pos:0pt; -aw-rel-hpos:margin; -aw-rel-vpos:paragraph; -aw-top-pos:83.6pt; -aw-wrap-type:tight; float:left" />
-				 <span>Конструкторский отдел постоянно предлагает к запуску новые эстетичные и функциональные образцы с повышенной устойчивостью к внешнему воздействию.
+				 <span style="font-family: Arial;color:#333333">Конструкторский отдел постоянно предлагает к запуску новые эстетичные и функциональные образцы с повышенной устойчивостью к внешнему воздействию.
 				</span>
 			</p>
 			<p class="NormalWeb" style="margin-top:0pt; margin-bottom:7.5pt; font-size:14pt; background-color:#ffffff">
@@ -94,8 +94,11 @@ use yii\helpers\Html;
 						<span style="font-family:Arial; font-size:12.5pt; color:#141414">• проектирование и производство товаров в соответствии с предпочтениями потребителя;
 						</span>
 					</p>
-					<p class="NormalWeb" style="margin-top:10pt; margin-bottom:10pt; line-height:15pt; background-color:#ffffff">
-						<span style="font-family:Arial; font-size:10.5pt; color:#141414">• применение передовых технологий и систем управления производством;
+					<p class="NormalWeb" style="margin-top:10pt; margin-bottom:10pt; text-align:justify; line-height:15pt; background-color:#ffffff">
+						<!-- <span style="font-family:Arial; font-size:10.5pt; -aw-import:spaces">&#xa0; -->
+						<!-- </span> -->
+						<!-- /*<span style="font-family:Arial; font-size:10.5pt">&#xa0;</span>*/ -->
+						<span style="font-family:Arial; font-size:12.5pt; color:#141414">• применение передовых технологий и систем управления производством;
 						</span>
 					</p>
 					<p class="NormalWeb" style="margin-top:10pt; margin-bottom:10pt; line-height:15pt; background-color:#ffffff">

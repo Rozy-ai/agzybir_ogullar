@@ -136,7 +136,7 @@ class ItemController extends CommonController
     {
         $modelCategory = CategoryWrapper::findByPath($path);
         $model = $this->findModel($id);
-        $model->updateCounters(['visited_count' => 1]);
+        // $model->updateCounters(['visited_count' => 1]);
         $modelCategory = $model->category;
         $viewpath = 'view';
         if (isset($modelCategory) && $modelCategory->code == 'location')
