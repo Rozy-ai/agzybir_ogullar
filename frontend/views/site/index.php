@@ -104,7 +104,7 @@ $this->title = Yii::t('app', 'Home');
                 	<div class="box-body-img">
               
                         <i class="<?=$icon['class']?>"> </i>
-                        <h3 class=""><?=$advantage->title?></h3>
+                        <h4 style="display: inline-block;"><?=$advantage->title?></h4>
                     </div>
                  
                     <div class="box-body-content">
